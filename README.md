@@ -1,36 +1,17 @@
-# Supplementary Material for Bundle Recommendation for Agentic Skills
+# CAST Anonymous Release
 
-This directory combines the reviewer-facing supplementary `code/` and `data/` folders into a single package candidate.
+This repository provides anonymized supplementary code and data for the NeurIPS 2026 submission **Bundle Recommendation for Agentic Skills**.
 
-Contents:
+## Contents
 
-- `code/`
-  Compact supplementary code release.
-- `data/`
-  Benchmark, graph, embedding, and split data used by the released code.
+- `mainline_pipeline/`: code for bundle construction, scoring, and evaluation.
+- `hypergraph_pipeline/`: code for task-local hypergraph reranking.
+- `artifacts/cast_main/`: released model checkpoints and reranker configuration.
+- `data/benchmark_data/`: benchmark annotations, train/test splits, skill library, embeddings, and evaluation utilities.
+- `data/cast_graph_data/`: graph-structured data used by the CAST hypergraph pipeline.
 
-## Current Size Status
+Large embedding files are stored with Git LFS. Please run:
 
-The current combined directory is substantially larger than the NeurIPS supplementary upload limit of 100 MB.
-
-Main size contributors include:
-
-- `data/benchmark_data/bundle_input/skills_embedding.npy`
-- `data/benchmark_data/benchmark_merged_skill_embeddings.npy`
-- `data/cast_graph_data/skill_nodes.json`
-- `data/benchmark_data/benchmark_merged_skills.json`
-- `data/benchmark_data/bundle_input/skills_with_risk_cost.json`
-- `data/cast_graph_data/bundle_skill_interactions.jsonl`
-
-In its current form, this directory is suitable for local organization and auditing, but it is too large for direct conference submission without further pruning.
-
-## Practical Submission Note
-
-If a strict 100 MB limit must be satisfied, the most likely pruning targets are:
-
-1. duplicated embedding files
-2. duplicated full-library JSON exports
-3. train/val/test graph expansions that can be regenerated from smaller canonical files
-4. files preserved only for convenience rather than minimal reproducibility
-
-The `code/README.md` and `data/README.md` files describe the contents of each subfolder in detail.
+```bash
+git lfs install
+git lfs pull
