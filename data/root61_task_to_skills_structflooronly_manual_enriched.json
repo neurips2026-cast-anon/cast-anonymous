@@ -1,0 +1,2182 @@
+{
+  "count": 61,
+  "note": "Enriched from benchmark_merged_skills.json by exact skill name matching first, index fallback second.",
+  "items": [
+    {
+      "task_index": 0,
+      "task_id": "adaptive-cruise-control",
+      "recommended_skills": [
+        {
+          "skill_name": "csv-processing",
+          "match_status": "name_exact",
+          "skill_index_merged": 16814,
+          "description": "Read, write, and transform CSV files with proper handling of encoding and formatting. Use when loading CSV data files, exporting results to CSV, handling large CSV files, or converting between CSV and other data formats.",
+          "author": "benchflow-ai",
+          "url": "https://github.com/benchflow-ai/skillsbench/tree/main/shared_workspace/erp-data-pipeline/environment/skills/csv-processing",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 4
+        },
+        {
+          "skill_name": "yaml-config",
+          "match_status": "name_exact",
+          "skill_index_merged": 62715,
+          "description": "Use this skill when reading or writing YAML configuration files, loading vehicle parameters, or handling config file parsing with proper error handling.",
+          "author": "benchmark_local_skill",
+          "url": "yaml-config",
+          "source": "benchmark::adaptive-cruise-control",
+          "candidate_name_match_count": 1
+        },
+        {
+          "skill_name": "imc-tuning-rules",
+          "match_status": "name_exact",
+          "skill_index_merged": 44647,
+          "description": "Calculate PI/PID controller gains using Internal Model Control (IMC) tuning rules for first-order systems.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 1,
+      "task_id": "civ6-adjacency-optimizer",
+      "recommended_skills": [
+        {
+          "skill_name": "civ6lib",
+          "match_status": "name_exact",
+          "skill_index_merged": 62716,
+          "description": "Civilization 6 district mechanics library. Use when working with district placement validation, adjacency bonus calculations, or understanding Civ6 game rules.",
+          "author": "benchmark_local_skill",
+          "url": "civ6lib",
+          "source": "benchmark::civ6-adjacency-optimizer",
+          "candidate_name_match_count": 1
+        },
+        {
+          "skill_name": "hex-grid-spatial",
+          "match_status": "name_exact",
+          "skill_index_merged": 62717,
+          "description": "Hex grid spatial utilities for offset coordinate systems. Use when working with hexagonal grids, calculating distances, finding neighbors, or spatial queries on hex maps.",
+          "author": "benchmark_local_skill",
+          "url": "hex-grid-spatial",
+          "source": "benchmark::civ6-adjacency-optimizer",
+          "candidate_name_match_count": 1
+        },
+        {
+          "skill_name": "map-optimization-strategy",
+          "match_status": "name_exact",
+          "skill_index_merged": 62718,
+          "description": "Strategy for solving constraint optimization problems on spatial maps. Use when you need to place items on a grid/map to maximize some objective while satisfying constraints.",
+          "author": "benchmark_local_skill",
+          "url": "map-optimization-strategy",
+          "source": "benchmark::civ6-adjacency-optimizer",
+          "candidate_name_match_count": 1
+        }
+      ]
+    },
+    {
+      "task_index": 2,
+      "task_id": "crystallographic-wyckoff-position-analysis",
+      "recommended_skills": [
+        {
+          "skill_name": "pymatgen",
+          "match_status": "name_exact",
+          "skill_index_merged": 10875,
+          "description": "Materials science toolkit. Crystal structures (CIF, POSCAR), phase diagrams, band structure, DOS, Materials Project integration, format conversion, for computational materials science.",
+          "author": "davila7",
+          "url": "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/pymatgen",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 6
+        },
+        {
+          "skill_name": "sympy",
+          "match_status": "name_exact",
+          "skill_index_merged": 10906,
+          "description": "Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebraically, performing calculus operations (derivatives, integrals, limits), manipulating algebraic expressions, working with matrices symbolically, physics calculations, number theory problems, geometry computations, and generating executable code from mathematical expressions. Apply this skill when the user needs exact symbolic results rather than numerical approximations, or when working with mathematical formulas that contain variables and parameters.",
+          "author": "davila7",
+          "url": "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/sympy",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        }
+      ]
+    },
+    {
+      "task_index": 3,
+      "task_id": "dapt-intrusion-detection",
+      "recommended_skills": [
+        {
+          "skill_name": "pcap-analysis",
+          "match_status": "name_exact",
+          "skill_index_merged": 58682,
+          "description": "Guidance for analyzing network packet captures (PCAP files) and computing network statistics using Python, with tested utility functions.",
+          "author": "benchflow-ai",
+          "url": "https://github.com/benchflow-ai/skillsbench/tree/main/tasks/dapt-intrusion-detection/environment/skills/pcap-analysis",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "threat-detection",
+          "match_status": "name_exact",
+          "skill_index_merged": 61828,
+          "description": "Exact detection thresholds for identifying malicious network patterns including port scans, DoS attacks, and beaconing behavior.",
+          "author": "benchflow-ai",
+          "url": "https://github.com/benchflow-ai/skillsbench/tree/main/tasks/dapt-intrusion-detection/environment/skills/threat-detection",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 4,
+      "task_id": "dynamic-object-aware-egomotion",
+      "recommended_skills": [
+        {
+          "skill_name": "dyn-object-masks",
+          "match_status": "name_exact",
+          "skill_index_merged": 44623,
+          "description": "Generate dynamic-object binary masks after global motion compensation, output CSR sparse format.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "egomotion-estimation",
+          "match_status": "name_exact",
+          "skill_index_merged": 44620,
+          "description": "Estimate camera motion with optical flow + affine/homography, allow multi-label per frame.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 5,
+      "task_id": "earthquake-phase-association",
+      "recommended_skills": [
+        {
+          "skill_name": "gamma-phase-associator",
+          "match_status": "name_exact",
+          "skill_index_merged": 44616,
+          "description": "An overview of the python package for running the GaMMA earthquake phase association algorithm. The algorithm expects phase picks data and station data as input and produces (through unsupervised clustering) earthquake events with source information like earthquake location, origin time and magnitude. The skill explains commonly used functions and the expected input/output format.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "obspy-data-api",
+          "match_status": "name_exact",
+          "skill_index_merged": 44613,
+          "description": "An overview of the core data API of ObsPy, a Python framework for processing seismological data. It is useful for parsing common seismological file formats, or manipulating custom data into standard objects for downstream use cases such as ObsPy's signal processing routines or SeisBench's modeling API.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 4
+        }
+      ]
+    },
+    {
+      "task_index": 6,
+      "task_id": "energy-ac-optimal-power-flow",
+      "recommended_skills": [
+        {
+          "skill_name": "ac-branch-pi-model",
+          "match_status": "name_exact",
+          "skill_index_merged": 44617,
+          "description": "AC branch pi-model power flow equations (P/Q and |S|) with transformer tap ratio and phase shift, matching `acopf-math-model.md` and MATPOWER branch fields. Use when computing branch flows in either direction, aggregating bus injections for nodal balance, checking MVA (rateA) limits, computing branch loading %, or debugging sign/units issues in AC power flow.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "dc-power-flow",
+          "match_status": "name_exact",
+          "skill_index_merged": 44625,
+          "description": "DC power flow analysis for power systems. Use when computing power flows using DC approximation, building susceptance matrices, calculating line flows and loading percentages, or performing sensitivity analysis on transmission networks.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        }
+      ]
+    },
+    {
+      "task_index": 7,
+      "task_id": "energy-market-pricing",
+      "recommended_skills": [
+        {
+          "skill_name": "dc-power-flow",
+          "match_status": "name_exact",
+          "skill_index_merged": 44625,
+          "description": "DC power flow analysis for power systems. Use when computing power flows using DC approximation, building susceptance matrices, calculating line flows and loading percentages, or performing sensitivity analysis on transmission networks.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "locational-marginal-prices",
+          "match_status": "name_exact",
+          "skill_index_merged": 44627,
+          "description": "Extract locational marginal prices (LMPs) from DC-OPF solutions using dual values. Use when computing nodal electricity prices, reserve clearing prices, or performing price impact analysis.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "power-flow-data",
+          "match_status": "name_exact",
+          "skill_index_merged": 44619,
+          "description": "Power system network data formats and topology. Use when parsing bus, generator, and branch data for power flow analysis.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 4
+        }
+      ]
+    },
+    {
+      "task_index": 8,
+      "task_id": "exceltable-in-ppt",
+      "recommended_skills": [
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        }
+      ]
+    },
+    {
+      "task_index": 9,
+      "task_id": "exoplanet-detection-period",
+      "recommended_skills": [
+        {
+          "skill_name": "box-least-squares",
+          "match_status": "name_exact",
+          "skill_index_merged": 44635,
+          "description": "Box Least Squares (BLS) periodogram for detecting transiting exoplanets and eclipsing binaries. Use when searching for periodic box-shaped dips in light curves. Alternative to Transit Least Squares, available in astropy.timeseries. Based on Kovács et al. (2002).",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "exoplanet-workflows",
+          "match_status": "name_exact",
+          "skill_index_merged": 44637,
+          "description": "General workflows and best practices for exoplanet detection and characterization from light curve data. Use when planning an exoplanet analysis pipeline, understanding when to use different methods, or troubleshooting detection issues.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "light-curve-preprocessing",
+          "match_status": "name_exact",
+          "skill_index_merged": 44638,
+          "description": "Preprocessing and cleaning techniques for astronomical light curves. Use when preparing light curve data for period analysis, including outlier removal, trend removal, flattening, and handling data quality flags. Works with lightkurve and general time series data.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "lomb-scargle-periodogram",
+          "match_status": "name_exact",
+          "skill_index_merged": 44636,
+          "description": "Lomb-Scargle periodogram for finding periodic signals in unevenly sampled time series data. Use when analyzing light curves, radial velocity data, or any astronomical time series to detect periodic variations. Works for stellar rotation, pulsation, eclipsing binaries, and general periodic phenomena. Based on lightkurve library.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "transit-least-squares",
+          "match_status": "name_exact",
+          "skill_index_merged": 44639,
+          "description": "Transit Least Squares (TLS) algorithm for detecting exoplanet transits in light curves. Use when searching for transiting exoplanets specifically, as TLS is more sensitive than Lomb-Scargle for transit-shaped signals. Based on the transitleastsquares Python package.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 10,
+      "task_id": "financial-modeling-qa",
+      "recommended_skills": [
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        }
+      ]
+    },
+    {
+      "task_index": 11,
+      "task_id": "find-topk-similiar-chemicals",
+      "recommended_skills": [
+        {
+          "skill_name": "pdf",
+          "match_status": "name_exact",
+          "skill_index_merged": 769,
+          "description": "How to read, manipulate, and generate PDFs using CLI tools and Python libraries.",
+          "author": "sanand0",
+          "url": "https://github.com/sanand0/scripts/tree/main/agents/pdf",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 71
+        },
+        {
+          "skill_name": "pubchem-database",
+          "match_status": "name_exact",
+          "skill_index_merged": 10868,
+          "description": "Query PubChem via PUG-REST API/PubChemPy (110M+ compounds). Search by name/CID/SMILES, retrieve properties, similarity/substructure searches, bioactivity, for cheminformatics.",
+          "author": "davila7",
+          "url": "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/pubchem-database",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "rdkit",
+          "match_status": "name_exact",
+          "skill_index_merged": 10884,
+          "description": "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized algorithms.",
+          "author": "davila7",
+          "url": "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/rdkit",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 4
+        }
+      ]
+    },
+    {
+      "task_index": 12,
+      "task_id": "fix-build-agentops",
+      "recommended_skills": [
+        {
+          "skill_name": "analyze-ci",
+          "match_status": "name_exact",
+          "skill_index_merged": 44640,
+          "description": "Analyze failed GitHub Action jobs for a pull request.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "testing-python",
+          "match_status": "name_exact",
+          "skill_index_merged": 3079,
+          "description": "Python testing best practices with pytest. Covers unit, integration, async tests, mocking, fixtures.Triggers: \"напиши тесты\", \"write tests\", \"add tests\", \"test coverage\", \"pytest\"",
+          "author": "majiayu000",
+          "url": "https://github.com/majiayu000/claude-skill-registry/tree/main/skills/testing/testing-python",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 8
+        }
+      ]
+    },
+    {
+      "task_index": 13,
+      "task_id": "fix-build-google-auto",
+      "recommended_skills": [
+        {
+          "skill_name": "analyze-ci",
+          "match_status": "name_exact",
+          "skill_index_merged": 44640,
+          "description": "Analyze failed GitHub Action jobs for a pull request.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "maven-build-lifecycle",
+          "match_status": "name_exact",
+          "skill_index_merged": 19082,
+          "description": "Use when working with Maven build phases, goals, profiles, or customizing the build process for Java projects.",
+          "author": "TheBushidoCollective",
+          "url": "https://github.com/TheBushidoCollective/han/tree/main/jutsu/jutsu-maven/skills/maven-build-lifecycle",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "maven-plugin-configuration",
+          "match_status": "name_exact",
+          "skill_index_merged": 19084,
+          "description": "Use when configuring Maven plugins, setting up common plugins like compiler, surefire, jar, or creating custom plugin executions.",
+          "author": "TheBushidoCollective",
+          "url": "https://github.com/TheBushidoCollective/han/tree/main/jutsu/jutsu-maven/skills/maven-plugin-configuration",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 14,
+      "task_id": "fix-druid-loophole-cve",
+      "recommended_skills": [
+        {
+          "skill_name": "analyze-ci",
+          "match_status": "name_exact",
+          "skill_index_merged": 44640,
+          "description": "Analyze failed GitHub Action jobs for a pull request.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "jackson-security",
+          "match_status": "name_exact",
+          "skill_index_merged": 44629,
+          "description": "Security considerations for Jackson JSON deserialization in Java applications. Covers timing of validation, raw input interception, and common deserialization attack patterns.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        }
+      ]
+    },
+    {
+      "task_index": 15,
+      "task_id": "fix-erlang-ssh-cve",
+      "recommended_skills": [
+        {
+          "skill_name": "erlang-concurrency",
+          "match_status": "name_exact",
+          "skill_index_merged": 19012,
+          "description": "Use when erlang's concurrency model including lightweight processes, message passing, process links and monitors, error handling patterns, selective receive, and building massively concurrent systems on the BEAM VM.",
+          "author": "TheBushidoCollective",
+          "url": "https://github.com/TheBushidoCollective/han/tree/main/jutsu/jutsu-erlang/skills/erlang-concurrency",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "erlang-distribution",
+          "match_status": "name_exact",
+          "skill_index_merged": 19013,
+          "description": "Use when erlang distributed systems including node connectivity, distributed processes, global name registration, distributed supervision, network partitions, and building fault-tolerant multi-node applications on the BEAM VM.",
+          "author": "TheBushidoCollective",
+          "url": "https://github.com/TheBushidoCollective/han/tree/main/jutsu/jutsu-erlang/skills/erlang-distribution",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "erlang-otp-behaviors",
+          "match_status": "name_exact",
+          "skill_index_merged": 19014,
+          "description": "Use when oTP behaviors including gen_server for stateful processes, gen_statem for state machines, supervisors for fault tolerance, gen_event for event handling, and building robust, production-ready Erlang applications with proven patterns.",
+          "author": "TheBushidoCollective",
+          "url": "https://github.com/TheBushidoCollective/han/tree/main/jutsu/jutsu-erlang/skills/erlang-otp-behaviors",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "find-bugs",
+          "match_status": "name_exact",
+          "skill_index_merged": 79,
+          "description": "Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.",
+          "author": "getsentry",
+          "url": "https://github.com/getsentry/sentry-skills/tree/main/plugins/sentry-skills/skills/find-bugs",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 4
+        },
+        {
+          "skill_name": "senior-security",
+          "match_status": "name_exact",
+          "skill_index_merged": 10748,
+          "description": "Comprehensive security engineering skill for application security, penetration testing, security architecture, and compliance auditing. Includes security assessment tools, threat modeling, crypto implementation, and security automation. Use when designing security architecture, conducting penetration tests, implementing cryptography, or performing security audits.",
+          "author": "davila7",
+          "url": "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/senior-security",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 5
+        }
+      ]
+    },
+    {
+      "task_index": 16,
+      "task_id": "fix-visual-stability",
+      "recommended_skills": [
+        {
+          "skill_name": "browser-testing",
+          "match_status": "name_exact",
+          "skill_index_merged": 2633,
+          "description": "Browser automation, testing, and debugging using Chrome DevTools. Use when users want to take screenshots, test websites, debug UI, inspect network requests, check console errors, or automate browser interactions.",
+          "author": "majiayu000",
+          "url": "https://github.com/majiayu000/claude-skill-registry/tree/main/skills/development/browser-testing",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 5
+        },
+        {
+          "skill_name": "react-best-practices",
+          "match_status": "name_exact",
+          "skill_index_merged": 704,
+          "description": "React + TypeScript development best practices",
+          "author": "buildworksai",
+          "url": "https://github.com/buildworksai/EUCORA/tree/main/.agents/skills/react-best-practices",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 11
+        },
+        {
+          "skill_name": "web-interface-guidelines",
+          "match_status": "name_exact",
+          "skill_index_merged": 44628,
+          "description": "Vercel's comprehensive UI guidelines for building accessible, performant web interfaces. Use this skill when reviewing or building UI components for compliance with best practices around accessibility, performance, animations, and visual stability.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 17,
+      "task_id": "flink-query",
+      "recommended_skills": [
+        {
+          "skill_name": "sampling-and-indexing",
+          "match_status": "name_exact",
+          "skill_index_merged": 44622,
+          "description": "Standardize video sampling and frame indexing so interval instructions and mask frames stay aligned with a valid key/index scheme.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "pdf",
+          "match_status": "name_exact",
+          "skill_index_merged": 769,
+          "description": "How to read, manipulate, and generate PDFs using CLI tools and Python libraries.",
+          "author": "sanand0",
+          "url": "https://github.com/sanand0/scripts/tree/main/agents/pdf",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 71
+        },
+        {
+          "skill_name": "senior-data-engineer",
+          "match_status": "name_exact",
+          "skill_index_merged": 10740,
+          "description": "World-class data engineering skill for building scalable data pipelines, ETL/ELT systems, and data infrastructure. Expertise in Python, SQL, Spark, Airflow, dbt, Kafka, and modern data stack. Includes data modeling, pipeline orchestration, data quality, and DataOps. Use when designing data architectures, building data pipelines, optimizing data workflows, or implementing data governance.",
+          "author": "davila7",
+          "url": "https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/senior-data-engineer",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 10
+        },
+        {
+          "skill_name": "pdf",
+          "match_status": "name_exact",
+          "skill_index_merged": 769,
+          "description": "How to read, manipulate, and generate PDFs using CLI tools and Python libraries.",
+          "author": "sanand0",
+          "url": "https://github.com/sanand0/scripts/tree/main/agents/pdf",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 71
+        },
+        {
+          "skill_name": "marker",
+          "match_status": "name_exact",
+          "skill_index_merged": 26839,
+          "description": "Convert documents (PDF, EPUB, PPTX, DOCX, XLSX, HTML, images) to Markdown/JSON/HTML using marker-pdf with Claude Haiku LLM enhancement for accurate table, math, and form extraction. Use when user needs to extract content from documents, convert PDFs to markdown, or process document files.",
+          "author": "xdanger",
+          "url": "https://github.com/xdanger/claude-plugins/tree/main/plugins/marker/skills/marker",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        }
+      ]
+    },
+    {
+      "task_index": 18,
+      "task_id": "flood-risk-analysis",
+      "recommended_skills": [
+        {
+          "skill_name": "flood-detection",
+          "match_status": "name_exact",
+          "skill_index_merged": 44641,
+          "description": "Detect flood events by comparing water levels to thresholds. Use when determining if flooding occurred, counting flood days, aggregating instantaneous data to daily values, or classifying flood severity.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "nws-flood-thresholds",
+          "match_status": "name_exact",
+          "skill_index_merged": 44642,
+          "description": "Download flood stage thresholds from NWS (National Weather Service). Use when determining flood levels for USGS stations, accessing action/minor/moderate/major flood stages, or matching stations to their flood thresholds.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "usgs-data-download",
+          "match_status": "name_exact",
+          "skill_index_merged": 44643,
+          "description": "Download water level data from USGS using the dataretrieval package. Use when accessing real-time or historical streamflow data, downloading gage height or discharge measurements, or working with USGS station IDs.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 19,
+      "task_id": "glm-lake-mendota",
+      "recommended_skills": [
+        {
+          "skill_name": "glm-basics",
+          "match_status": "name_exact",
+          "skill_index_merged": 44632,
+          "description": "Basic usage of the General Lake Model (GLM) for lake temperature simulation. Use when you need to run GLM, understand input files, or modify configuration parameters.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "glm-calibration",
+          "match_status": "name_exact",
+          "skill_index_merged": 44630,
+          "description": "Calibrate GLM parameters for water temperature simulation. Use when you need to adjust model parameters to minimize RMSE between simulated and observed temperatures.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "glm-output",
+          "match_status": "name_exact",
+          "skill_index_merged": 44631,
+          "description": "Read and process GLM output files. Use when you need to extract temperature data from NetCDF output, convert depth coordinates, or calculate RMSE against observations.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 20,
+      "task_id": "gravitational-wave-detection",
+      "recommended_skills": [
+        {
+          "skill_name": "conditioning",
+          "match_status": "name_exact",
+          "skill_index_merged": 44650,
+          "description": "Data conditioning techniques for gravitational wave detector data. Use when preprocessing raw detector strain data before matched filtering, including high-pass filtering, resampling, removing filter wraparound artifacts, and estimating power spectral density (PSD). Works with PyCBC TimeSeries data.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "matched-filtering",
+          "match_status": "name_exact",
+          "skill_index_merged": 44649,
+          "description": "Matched filtering techniques for gravitational wave detection. Use when searching for signals in detector data using template waveforms, including both time-domain and frequency-domain approaches. Works with PyCBC for generating templates and performing matched filtering.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 21,
+      "task_id": "grid-dispatch-operator",
+      "recommended_skills": [
+        {
+          "skill_name": "dc-power-flow",
+          "match_status": "name_exact",
+          "skill_index_merged": 44625,
+          "description": "DC power flow analysis for power systems. Use when computing power flows using DC approximation, building susceptance matrices, calculating line flows and loading percentages, or performing sensitivity analysis on transmission networks.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "economic-dispatch",
+          "match_status": "name_exact",
+          "skill_index_merged": 44626,
+          "description": "Generator economic dispatch and cost optimization for power systems. Use when minimizing generation costs, computing optimal generator setpoints, calculating operating margins, or working with generator cost functions.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "dc-power-flow",
+          "match_status": "name_exact",
+          "skill_index_merged": 44625,
+          "description": "DC power flow analysis for power systems. Use when computing power flows using DC approximation, building susceptance matrices, calculating line flows and loading percentages, or performing sensitivity analysis on transmission networks.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "economic-dispatch",
+          "match_status": "name_exact",
+          "skill_index_merged": 44626,
+          "description": "Generator economic dispatch and cost optimization for power systems. Use when minimizing generation costs, computing optimal generator setpoints, calculating operating margins, or working with generator cost functions.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "power-flow-data",
+          "match_status": "name_exact",
+          "skill_index_merged": 44619,
+          "description": "Power system network data formats and topology. Use when parsing bus, generator, and branch data for power flow analysis.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 4
+        }
+      ]
+    },
+    {
+      "task_index": 22,
+      "task_id": "hvac-control",
+      "recommended_skills": [
+        {
+          "skill_name": "first-order-model-fitting",
+          "match_status": "name_exact",
+          "skill_index_merged": 44646,
+          "description": "Fit first-order dynamic models to experimental step response data and extract K (gain) and tau (time constant) parameters.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "imc-tuning-rules",
+          "match_status": "name_exact",
+          "skill_index_merged": 44647,
+          "description": "Calculate PI/PID controller gains using Internal Model Control (IMC) tuning rules for first-order systems.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "scipy-curve-fit",
+          "match_status": "name_exact",
+          "skill_index_merged": 44644,
+          "description": "Use scipy.optimize.curve_fit for nonlinear least squares parameter estimation from experimental data.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 23,
+      "task_id": "invoice-fraud-detection",
+      "recommended_skills": [
+        {
+          "skill_name": "fuzzy-match",
+          "match_status": "name_exact",
+          "skill_index_merged": 44651,
+          "description": "A toolkit for fuzzy string matching and data reconciliation. Useful for matching entity names (companies, people) across different datasets where spelling variations, typos, or formatting differences exist.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "pdf",
+          "match_status": "name_exact",
+          "skill_index_merged": 769,
+          "description": "How to read, manipulate, and generate PDFs using CLI tools and Python libraries.",
+          "author": "sanand0",
+          "url": "https://github.com/sanand0/scripts/tree/main/agents/pdf",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 71
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        }
+      ]
+    },
+    {
+      "task_index": 24,
+      "task_id": "jpg-ocr-stat",
+      "recommended_skills": [
+        {
+          "skill_name": "image-ocr",
+          "match_status": "name_exact",
+          "skill_index_merged": 44661,
+          "description": "Extract text content from images using Tesseract OCR via Python",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        }
+      ]
+    },
+    {
+      "task_index": 25,
+      "task_id": "lake-warming-attribution",
+      "recommended_skills": [
+        {
+          "skill_name": "contribution-analysis",
+          "match_status": "name_exact",
+          "skill_index_merged": 44674,
+          "description": "Calculate the relative contribution of different factors to a response variable using R² decomposition. Use when you need to quantify how much each factor explains the variance of an outcome.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "pca-decomposition",
+          "match_status": "name_exact",
+          "skill_index_merged": 44676,
+          "description": "Reduce dimensionality of multivariate data using PCA with varimax rotation. Use when you have many correlated variables and need to identify underlying factors or reduce collinearity.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "trend-analysis",
+          "match_status": "name_exact",
+          "skill_index_merged": 44677,
+          "description": "Detect long-term trends in time series data using parametric and non-parametric methods. Use when determining if a variable shows statistically significant increase or decrease over time.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        }
+      ]
+    },
+    {
+      "task_index": 26,
+      "task_id": "latex-formula-extraction",
+      "recommended_skills": [
+        {
+          "skill_name": "marker",
+          "match_status": "name_exact",
+          "skill_index_merged": 26839,
+          "description": "Convert documents (PDF, EPUB, PPTX, DOCX, XLSX, HTML, images) to Markdown/JSON/HTML using marker-pdf with Claude Haiku LLM enhancement for accurate table, math, and form extraction. Use when user needs to extract content from documents, convert PDFs to markdown, or process document files.",
+          "author": "xdanger",
+          "url": "https://github.com/xdanger/claude-plugins/tree/main/plugins/marker/skills/marker",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "pdf",
+          "match_status": "name_exact",
+          "skill_index_merged": 769,
+          "description": "How to read, manipulate, and generate PDFs using CLI tools and Python libraries.",
+          "author": "sanand0",
+          "url": "https://github.com/sanand0/scripts/tree/main/agents/pdf",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 71
+        }
+      ]
+    },
+    {
+      "task_index": 27,
+      "task_id": "lean4-proof",
+      "recommended_skills": [
+        {
+          "skill_name": "lean4-memories",
+          "match_status": "name_exact",
+          "skill_index_merged": 42388,
+          "description": "This skill should be used when working on Lean 4 formalization projects to maintain persistent memory of successful proof patterns, failed approaches, project conventions, and user preferences across sessions using MCP memory server integration",
+          "author": "cameronfreer",
+          "url": "https://github.com/cameronfreer/lean4-skills/tree/main/plugins/lean4-memories/skills/lean4-memories",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "lean4-theorem-proving",
+          "match_status": "name_exact",
+          "skill_index_merged": 42389,
+          "description": "Use when developing Lean 4 proofs, facing type class synthesis errors, managing sorries/axioms, or searching mathlib - provides build-first workflow, instance management patterns (haveI/letI), and domain-specific tactics",
+          "author": "cameronfreer",
+          "url": "https://github.com/cameronfreer/lean4-skills/tree/main/plugins/lean4-theorem-proving/skills/lean4-theorem-proving",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 28,
+      "task_id": "manufacturing-equipment-maintenance",
+      "recommended_skills": [
+        {
+          "skill_name": "reflow-profile-compliance-toolkit",
+          "match_status": "name_exact",
+          "skill_index_merged": 44703,
+          "description": "Deterministic handbook-grounded retrieval and thermocouple computations for reflow profile compliance outputs such as ramp, TAL, peak, feasibility, and selection.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "reflow_machine_maintenance_guidance",
+          "match_status": "name_exact",
+          "skill_index_merged": 44704,
+          "description": "This skill should be considered when you need to answer reflow machine maintenance questions or provide detailed guidance based on thermocouple data, MES data or defect data and reflow technical handbooks. This skill covers how to obtain important concepts, calculations, definitions, thresholds, and others from the handbook and how to do cross validations between handbook and datasets.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 29,
+      "task_id": "mario-coin-counting",
+      "recommended_skills": [
+        {
+          "skill_name": "ffmpeg-keyframe-extraction",
+          "match_status": "name_exact",
+          "skill_index_merged": 44716,
+          "description": "Extract key frames (I-frames) from video files using FFmpeg command line tool. Use this skill when the user needs to pull out keyframes, thumbnails, or important frames from MP4, MKV, AVI, or other video formats for analysis, previews, or processing.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "object_counter",
+          "match_status": "name_exact",
+          "skill_index_merged": 44715,
+          "description": "Count occurrences of an object in the image using computer vision algorithm.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 30,
+      "task_id": "mars-clouds-clustering",
+      "recommended_skills": [
+        {
+          "skill_name": "custom-distance-metrics",
+          "match_status": "name_exact",
+          "skill_index_merged": 44656,
+          "description": "Define custom distance/similarity metrics for clustering and ML algorithms. Use when working with DBSCAN, sklearn, or scipy distance functions with application-specific metrics.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "parallel-processing",
+          "match_status": "name_exact",
+          "skill_index_merged": 44654,
+          "description": "Parallel processing with joblib for grid search and batch computations. Use when speeding up computationally intensive tasks across multiple CPU cores.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 31,
+      "task_id": "mhc-layer-impl",
+      "recommended_skills": [
+        {
+          "skill_name": "mhc-algorithm",
+          "match_status": "name_exact",
+          "skill_index_merged": 44671,
+          "description": "Implement mHC (Manifold-Constrained Hyper-Connections) for stabilizing deep network training. Use when implementing residual connection improvements with doubly stochastic matrices via Sinkhorn-Knopp algorithm. Based on DeepSeek's 2025 paper (arXiv:2512.24880).",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "nanogpt-training",
+          "match_status": "name_exact",
+          "skill_index_merged": 44672,
+          "description": "Train GPT-2 scale models (~124M parameters) efficiently on a single GPU. Covers GPT-124M architecture, tokenized dataset loading (e.g., HuggingFace Hub shards), modern optimizers (Muon, AdamW), mixed precision training, and training loop implementation.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 32,
+      "task_id": "multilingual-video-dubbing",
+      "recommended_skills": [
+        {
+          "skill_name": "FFmpeg Video Filters",
+          "match_status": "name_exact",
+          "skill_index_merged": 44668,
+          "description": "Apply video filters - scale, crop, watermark, speed, blur, and visual effects",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "TTS Audio Mastering",
+          "match_status": "name_exact",
+          "skill_index_merged": 44670,
+          "description": "Practical mastering steps for TTS audio: cleanup, loudness normalization, alignment, and delivery specs.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "audio-extractor",
+          "match_status": "name_exact",
+          "skill_index_merged": 44744,
+          "description": "Extract audio from video files to WAV format. Use when you need to analyze audio from video, prepare audio for energy calculation, or convert video audio to standard format for processing.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 33,
+      "task_id": "organize-messy-files",
+      "recommended_skills": [
+        {
+          "skill_name": "docx",
+          "match_status": "name_exact",
+          "skill_index_merged": 776,
+          "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
+          "author": "timoxue",
+          "url": "https://github.com/timoxue/LingNexus/tree/main/skills/internal/docx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 33
+        },
+        {
+          "skill_name": "file-organizer",
+          "match_status": "name_exact",
+          "skill_index_merged": 2992,
+          "description": "Organises files and folders by understanding context, finding duplicates, suggesting structures, and automating cleanup. Use when user mentions messy Downloads, can't find files, duplicate files, folder structure problems, cleanup tasks, or asks to organise/sort/tidy files and directories.",
+          "author": "majiayu000",
+          "url": "https://github.com/majiayu000/claude-skill-registry/tree/main/skills/productivity/file-organizer",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 11
+        },
+        {
+          "skill_name": "pdf",
+          "match_status": "name_exact",
+          "skill_index_merged": 769,
+          "description": "How to read, manipulate, and generate PDFs using CLI tools and Python libraries.",
+          "author": "sanand0",
+          "url": "https://github.com/sanand0/scripts/tree/main/agents/pdf",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 71
+        }
+      ]
+    },
+    {
+      "task_index": 34,
+      "task_id": "paper-anonymizer",
+      "recommended_skills": [
+        {
+          "skill_name": "pdf",
+          "match_status": "name_exact",
+          "skill_index_merged": 769,
+          "description": "How to read, manipulate, and generate PDFs using CLI tools and Python libraries.",
+          "author": "sanand0",
+          "url": "https://github.com/sanand0/scripts/tree/main/agents/pdf",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 71
+        },
+        {
+          "skill_name": "pdf",
+          "match_status": "name_exact",
+          "skill_index_merged": 769,
+          "description": "How to read, manipulate, and generate PDFs using CLI tools and Python libraries.",
+          "author": "sanand0",
+          "url": "https://github.com/sanand0/scripts/tree/main/agents/pdf",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 71
+        },
+        {
+          "skill_name": "pdf",
+          "match_status": "name_exact",
+          "skill_index_merged": 769,
+          "description": "How to read, manipulate, and generate PDFs using CLI tools and Python libraries.",
+          "author": "sanand0",
+          "url": "https://github.com/sanand0/scripts/tree/main/agents/pdf",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 71
+        },
+        {
+          "skill_name": "pdf",
+          "match_status": "name_exact",
+          "skill_index_merged": 769,
+          "description": "How to read, manipulate, and generate PDFs using CLI tools and Python libraries.",
+          "author": "sanand0",
+          "url": "https://github.com/sanand0/scripts/tree/main/agents/pdf",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 71
+        },
+        {
+          "skill_name": "pdf",
+          "match_status": "name_exact",
+          "skill_index_merged": 769,
+          "description": "How to read, manipulate, and generate PDFs using CLI tools and Python libraries.",
+          "author": "sanand0",
+          "url": "https://github.com/sanand0/scripts/tree/main/agents/pdf",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 71
+        }
+      ]
+    },
+    {
+      "task_index": 35,
+      "task_id": "parallel-tfidf-search",
+      "recommended_skills": [
+        {
+          "skill_name": "python-parallelization",
+          "match_status": "name_exact",
+          "skill_index_merged": 44663,
+          "description": "Transform sequential Python code into parallel/concurrent implementations. Use when asked to parallelize Python code, improve code performance through concurrency, convert loops to parallel execution, or identify parallelization opportunities. Handles CPU-bound (multiprocessing), I/O-bound (asyncio, threading), and data-parallel (vectorization) scenarios.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "workload-balancing",
+          "match_status": "name_exact",
+          "skill_index_merged": 44664,
+          "description": "Optimize workload distribution across workers, processes, or nodes for efficient parallel execution. Use when asked to balance work distribution, improve parallel efficiency, reduce stragglers, implement load balancing, or optimize task scheduling. Covers static/dynamic partitioning, work stealing, and adaptive load balancing strategies.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 36,
+      "task_id": "pdf-excel-diff",
+      "recommended_skills": [
+        {
+          "skill_name": "pdf",
+          "match_status": "name_exact",
+          "skill_index_merged": 769,
+          "description": "How to read, manipulate, and generate PDFs using CLI tools and Python libraries.",
+          "author": "sanand0",
+          "url": "https://github.com/sanand0/scripts/tree/main/agents/pdf",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 71
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        }
+      ]
+    },
+    {
+      "task_index": 37,
+      "task_id": "pedestrian-traffic-counting",
+      "recommended_skills": [
+        {
+          "skill_name": "gemini-count-in-video",
+          "match_status": "name_exact",
+          "skill_index_merged": 44659,
+          "description": "Analyze and count objects in videos using Google Gemini API (object counting, pedestrian detection, vehicle tracking, and surveillance video analysis).",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "video-frame-extraction",
+          "match_status": "name_exact",
+          "skill_index_merged": 44658,
+          "description": "Extract frames from video files and save them as images using OpenCV",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        }
+      ]
+    },
+    {
+      "task_index": 38,
+      "task_id": "pg-essay-to-audiobook",
+      "recommended_skills": [
+        {
+          "skill_name": "audiobook",
+          "match_status": "name_exact",
+          "skill_index_merged": 44686,
+          "description": "Create audiobooks from web content or text files. Handles content fetching, text processing, and TTS conversion with automatic fallback between ElevenLabs, OpenAI TTS, and gTTS.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "elevenlabs-tts",
+          "match_status": "name_exact",
+          "skill_index_merged": 24242,
+          "description": "This skill converts text to high-quality audio files using ElevenLabs API. Use this skill when users request text-to-speech generation, audio narration, or voice synthesis with customizable voice parameters (stability, similarity boost) and voice presets (rachel, adam, bella, elli, josh, arnold, ava).",
+          "author": "glebis",
+          "url": "https://github.com/glebis/claude-skills/tree/main/elevenlabs-tts",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 4
+        },
+        {
+          "skill_name": "gtts",
+          "match_status": "name_exact",
+          "skill_index_merged": 44687,
+          "description": "Google Text-to-Speech (gTTS) for converting text to audio. Use when creating audiobooks, podcasts, or speech synthesis from text. Handles long text by chunking at sentence boundaries and concatenating audio segments with pydub.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "openai-tts",
+          "match_status": "name_exact",
+          "skill_index_merged": 44688,
+          "description": "OpenAI Text-to-Speech API for high-quality speech synthesis. Use for generating natural-sounding audio from text with customizable voices and tones.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 39,
+      "task_id": "powerlifting-coef-calc",
+      "recommended_skills": [
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        }
+      ]
+    },
+    {
+      "task_index": 40,
+      "task_id": "python-scala-translation",
+      "recommended_skills": [
+        {
+          "skill_name": "python-scala-collections",
+          "match_status": "name_exact",
+          "skill_index_merged": 44693,
+          "description": "Guide for translating Python collection operations to idiomatic Scala. Use when converting Python code that uses lists, dictionaries, sets, or involves collection transformations like map, filter, reduce, sorting, and aggregations.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "python-scala-functional",
+          "match_status": "name_exact",
+          "skill_index_merged": 44694,
+          "description": "Guide for translating Python code to functional Scala style. Use when converting Python code involving higher-order functions, decorators, closures, generators, or when aiming for idiomatic functional Scala with pattern matching, Option handling, and monadic operations.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "python-scala-idioms",
+          "match_status": "name_exact",
+          "skill_index_merged": 44697,
+          "description": "Guide for writing idiomatic Scala when translating from Python. Use when the goal is not just syntactic translation but producing clean, idiomatic Scala code. Covers immutability, expression-based style, sealed hierarchies, and common Scala conventions.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "python-scala-libraries",
+          "match_status": "name_exact",
+          "skill_index_merged": 44698,
+          "description": "Guide for mapping common Python libraries and idioms to Scala equivalents. Use when converting Python code that uses standard library modules (json, datetime, os, re, logging) or needs equivalent Scala libraries for HTTP, testing, or async operations.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "python-scala-oop",
+          "match_status": "name_exact",
+          "skill_index_merged": 44695,
+          "description": "Guide for translating Python classes, inheritance, and object-oriented patterns to Scala. Use when converting Python code with classes, dataclasses, abstract classes, inheritance, properties, static methods, class methods, or design patterns.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 41,
+      "task_id": "r2r-mpc-control",
+      "recommended_skills": [
+        {
+          "skill_name": "finite-horizon-lqr",
+          "match_status": "name_exact",
+          "skill_index_merged": 44700,
+          "description": "Solving finite-horizon LQR via dynamic programming for MPC.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "mpc-horizon-tuning",
+          "match_status": "name_exact",
+          "skill_index_merged": 44699,
+          "description": "Selecting MPC prediction horizon and cost matrices for web handling.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 42,
+      "task_id": "react-performance-debugging",
+      "recommended_skills": [
+        {
+          "skill_name": "browser-testing",
+          "match_status": "name_exact",
+          "skill_index_merged": 2633,
+          "description": "Browser automation, testing, and debugging using Chrome DevTools. Use when users want to take screenshots, test websites, debug UI, inspect network requests, check console errors, or automate browser interactions.",
+          "author": "majiayu000",
+          "url": "https://github.com/majiayu000/claude-skill-registry/tree/main/skills/development/browser-testing",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 5
+        },
+        {
+          "skill_name": "react-best-practices",
+          "match_status": "name_exact",
+          "skill_index_merged": 704,
+          "description": "React + TypeScript development best practices",
+          "author": "buildworksai",
+          "url": "https://github.com/buildworksai/EUCORA/tree/main/.agents/skills/react-best-practices",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 11
+        }
+      ]
+    },
+    {
+      "task_index": 43,
+      "task_id": "sales-pivot-analysis",
+      "recommended_skills": [
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        }
+      ]
+    },
+    {
+      "task_index": 44,
+      "task_id": "scheduling-email-assistant",
+      "recommended_skills": [
+        {
+          "skill_name": "constraint-parser",
+          "match_status": "name_exact",
+          "skill_index_merged": 44731,
+          "description": "Parse scheduling constraints from a email text.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "gmail-skill",
+          "match_status": "name_exact",
+          "skill_index_merged": 44730,
+          "description": "Manage Gmail - send, read, search emails, manage labels and drafts. Use when user wants to interact with their Gmail account for email operations.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 45,
+      "task_id": "sec-financial-report",
+      "recommended_skills": [
+        {
+          "skill_name": "13f-analyzer",
+          "match_status": "name_exact",
+          "skill_index_merged": 44736,
+          "description": "Perform various data analysis on SEC 13-F and obtain some insights of fund activities such as number of holdings, AUM, and change of holdings between two quarters.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "fuzzy-name-search",
+          "match_status": "name_exact",
+          "skill_index_merged": 44737,
+          "description": "This skill includes search capability in 13F, such as fuzzy search a fund information using possibly inaccurate name, or fuzzy search a stock cusip info using its name.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 46,
+      "task_id": "seismic-phase-picking",
+      "recommended_skills": [
+        {
+          "skill_name": "gamma-phase-associator",
+          "match_status": "name_exact",
+          "skill_index_merged": 44616,
+          "description": "An overview of the python package for running the GaMMA earthquake phase association algorithm. The algorithm expects phase picks data and station data as input and produces (through unsupervised clustering) earthquake events with source information like earthquake location, origin time and magnitude. The skill explains commonly used functions and the expected input/output format.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "obspy-data-api",
+          "match_status": "name_exact",
+          "skill_index_merged": 44613,
+          "description": "An overview of the core data API of ObsPy, a Python framework for processing seismological data. It is useful for parsing common seismological file formats, or manipulating custom data into standard objects for downstream use cases such as ObsPy's signal processing routines or SeisBench's modeling API.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 4
+        },
+        {
+          "skill_name": "seisbench-model-api",
+          "match_status": "name_exact",
+          "skill_index_merged": 44614,
+          "description": "An overview of the core model API of SeisBench, a Python framework for training and applying machine learning algorithms to seismic data. It is useful for annotating waveforms using pretrained SOTA ML models, for tasks like phase picking, earthquake detection, waveform denoising and depth estimation. For any waveform, you can manipulate it into an obspy stream object and it will work seamlessly with seisbench models.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "seisbench-model-api",
+          "match_status": "name_exact",
+          "skill_index_merged": 44614,
+          "description": "An overview of the core model API of SeisBench, a Python framework for training and applying machine learning algorithms to seismic data. It is useful for annotating waveforms using pretrained SOTA ML models, for tasks like phase picking, earthquake detection, waveform denoising and depth estimation. For any waveform, you can manipulate it into an obspy stream object and it will work seamlessly with seisbench models.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        }
+      ]
+    },
+    {
+      "task_index": 47,
+      "task_id": "setup-fuzzing-py",
+      "recommended_skills": [
+        {
+          "skill_name": "discover-important-function",
+          "match_status": "name_exact",
+          "skill_index_merged": 44718,
+          "description": "When given a project codebase, this skill observes the important functions in the codebase for future action.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "setup-env",
+          "match_status": "name_exact",
+          "skill_index_merged": 44717,
+          "description": "When given a Python project codebase, this skill helps the agent to set up virtual environments, install dependencies, and run scripts.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 48,
+      "task_id": "simpo-code-reproduction",
+      "recommended_skills": [
+        {
+          "skill_name": "python-scala-syntax-mapping",
+          "match_status": "name_exact",
+          "skill_index_merged": 44696,
+          "description": "Reference guide for translating Python syntax constructs to Scala equivalents. Use when converting Python code to Scala and need mappings for basic syntax elements like variable declarations, control flow, comprehensions, string formatting, and common operators.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "nlp-research-repo-package-installment",
+          "match_status": "name_exact",
+          "skill_index_merged": 44691,
+          "description": "Align Python version and repo-declared dependencies (requirements.txt / environment.yml) before installing packages for NLP research code reproduction.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 49,
+      "task_id": "software-dependency-audit",
+      "recommended_skills": [
+        {
+          "skill_name": "cvss-score-extraction",
+          "match_status": "name_exact",
+          "skill_index_merged": 44722,
+          "description": "Extract CVSS (Common Vulnerability Scoring System) scores from vulnerability data sources with proper fallback handling. This skill covers understanding CVSS v3, handling multiple score sources (NVD, GHSA, RedHat), implementing source priority logic, and dealing with missing scores in security reporting.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "trivy-offline-vulnerability-scanning",
+          "match_status": "name_exact",
+          "skill_index_merged": 44721,
+          "description": "Use Trivy vulnerability scanner in offline mode to discover security vulnerabilities in dependency files. This skill covers setting up offline scanning, executing Trivy against package lock files, and generating JSON vulnerability reports without requiring internet access.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "vulnerability-csv-reporting",
+          "match_status": "name_exact",
+          "skill_index_merged": 44723,
+          "description": "Generate structured CSV security audit reports from vulnerability data with proper filtering and formatting. This skill covers CSV schema design for security reports, using Python csv.DictWriter, severity-based filtering, and field mapping from JSON to tabular format.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 50,
+      "task_id": "speaker-diarization-subtitles",
+      "recommended_skills": [
+        {
+          "skill_name": "Multimodal Fusion for Speaker Diarization",
+          "match_status": "name_exact",
+          "skill_index_merged": 44705,
+          "description": "Combine visual features (face detection, lip movement analysis) with audio features to improve speaker diarization accuracy in video files. Use OpenCV for face detection and lip movement tracking, then fuse visual cues with audio-based speaker embeddings. Essential when processing video files with multiple visible speakers or when audio-only diarization needs visual validation.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "Speaker Clustering Methods",
+          "match_status": "name_exact",
+          "skill_index_merged": 44708,
+          "description": "Choose and implement clustering algorithms for grouping speaker embeddings after VAD and embedding extraction. Compare Hierarchical clustering (auto-tunes speaker count), KMeans (fast, requires known count), and Agglomerative clustering (fixed clusters). Use Hierarchical clustering when speaker count is unknown, KMeans when count is known, and always normalize embeddings before clustering.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "Voice Activity Detection (VAD)",
+          "match_status": "name_exact",
+          "skill_index_merged": 44707,
+          "description": "Detect speech segments in audio using VAD tools like Silero VAD, SpeechBrain VAD, or WebRTC VAD. Use when preprocessing audio for speaker diarization, filtering silence, or segmenting audio into speech chunks. Choose Silero VAD for short segments, SpeechBrain VAD for general purpose, or WebRTC VAD for lightweight applications.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "pause-detector",
+          "match_status": "name_exact",
+          "skill_index_merged": 44745,
+          "description": "Detect pauses and silence in audio using local dynamic thresholds. Use when you need to find natural pauses in lectures, board-writing silences, or breaks between sections. Uses local context comparison to avoid false positives from volume variation.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "silence-detector",
+          "match_status": "name_exact",
+          "skill_index_merged": 44742,
+          "description": "Detect initial silence segments in audio/video using energy-based analysis. Use when you need to find low-energy periods at the start of recordings (title slides, setup time, pre-roll silence).",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 51,
+      "task_id": "spring-boot-jakarta-migration",
+      "recommended_skills": [
+        {
+          "skill_name": "jakarta-namespace",
+          "match_status": "name_exact",
+          "skill_index_merged": 44713,
+          "description": "Migrate Java EE javax.* imports to Jakarta EE jakarta.* namespace. Use when upgrading to Spring Boot 3.x, migrating javax.persistence, javax.validation, javax.servlet imports, or fixing compilation errors after Jakarta EE transition. Covers package mappings, batch sed commands, and verification steps.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "spring-boot-migration",
+          "match_status": "name_exact",
+          "skill_index_merged": 44711,
+          "description": "Migrate Spring Boot 2.x applications to Spring Boot 3.x. Use when updating pom.xml versions, removing deprecated JAXB dependencies, upgrading Java to 17/21, or using OpenRewrite for automated migration. Covers dependency updates, version changes, and migration checklist.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 52,
+      "task_id": "suricata-custom-exfil",
+      "recommended_skills": [
+        {
+          "skill_name": "pcap-triage-tshark",
+          "match_status": "name_exact",
+          "skill_index_merged": 44726,
+          "description": "Fast workflow to inspect PCAPs and extract protocol-level details using tshark",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "suricata-offline-evejson",
+          "match_status": "name_exact",
+          "skill_index_merged": 44724,
+          "description": "Running Suricata against PCAPs offline and validating results via eve.json",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "suricata-rules-basics",
+          "match_status": "name_exact",
+          "skill_index_merged": 44725,
+          "description": "Core building blocks of Suricata signatures and multi-condition DPI logic",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 53,
+      "task_id": "syzkaller-ppdev-syzlang",
+      "recommended_skills": [
+        {
+          "skill_name": "syz-extract-constants",
+          "match_status": "name_exact",
+          "skill_index_merged": 44739,
+          "description": "Defining and extracting kernel constants for syzkaller syzlang descriptions",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "syzkaller-build-loop",
+          "match_status": "name_exact",
+          "skill_index_merged": 44740,
+          "description": "Full build workflow for adding new syscall descriptions to syzkaller",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 54,
+      "task_id": "threejs-structure-parser",
+      "recommended_skills": [
+        {
+          "skill_name": "obj-exporter",
+          "match_status": "name_exact",
+          "skill_index_merged": 44738,
+          "description": "Three.js OBJExporter utility for exporting 3D geometry to Wavefront OBJ format. Use when converting Three.js scenes, meshes, or geometries to OBJ files for use in other 3D software like Blender, Maya, or MeshLab.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "threejs",
+          "match_status": "name_exact",
+          "skill_index_merged": 18705,
+          "description": "Build 3D scenes, animations, and interactive experiences with Three.js. Use for product viewers, backgrounds, data visualization, or creative experiments.",
+          "author": "cerico",
+          "url": "https://github.com/cerico/macfair/tree/main/files/claude/skills/threejs",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 7
+        },
+        {
+          "skill_name": "obj-exporter",
+          "match_status": "name_exact",
+          "skill_index_merged": 44738,
+          "description": "Three.js OBJExporter utility for exporting 3D geometry to Wavefront OBJ format. Use when converting Three.js scenes, meshes, or geometries to OBJ files for use in other 3D software like Blender, Maya, or MeshLab.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "threejs",
+          "match_status": "name_exact",
+          "skill_index_merged": 18705,
+          "description": "Build 3D scenes, animations, and interactive experiences with Three.js. Use for product viewers, backgrounds, data visualization, or creative experiments.",
+          "author": "cerico",
+          "url": "https://github.com/cerico/macfair/tree/main/files/claude/skills/threejs",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 7
+        }
+      ]
+    },
+    {
+      "task_index": 55,
+      "task_id": "threejs-to-obj",
+      "recommended_skills": [
+        {
+          "skill_name": "obj-exporter",
+          "match_status": "name_exact",
+          "skill_index_merged": 44738,
+          "description": "Three.js OBJExporter utility for exporting 3D geometry to Wavefront OBJ format. Use when converting Three.js scenes, meshes, or geometries to OBJ files for use in other 3D software like Blender, Maya, or MeshLab.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "obj-exporter",
+          "match_status": "name_exact",
+          "skill_index_merged": 44738,
+          "description": "Three.js OBJExporter utility for exporting 3D geometry to Wavefront OBJ format. Use when converting Three.js scenes, meshes, or geometries to OBJ files for use in other 3D software like Blender, Maya, or MeshLab.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 3
+        },
+        {
+          "skill_name": "threejs",
+          "match_status": "name_exact",
+          "skill_index_merged": 18705,
+          "description": "Build 3D scenes, animations, and interactive experiences with Three.js. Use for product viewers, backgrounds, data visualization, or creative experiments.",
+          "author": "cerico",
+          "url": "https://github.com/cerico/macfair/tree/main/files/claude/skills/threejs",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 7
+        }
+      ]
+    },
+    {
+      "task_index": 56,
+      "task_id": "travel-planning",
+      "recommended_skills": [
+        {
+          "skill_name": "search-accommodations",
+          "match_status": "name_exact",
+          "skill_index_merged": 44680,
+          "description": "Lookup accommodations by city from the bundled dataset. Use this skill when you need to recommend places to stay in a given city or filter lodging options before building an itinerary.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "search-cities",
+          "match_status": "name_exact",
+          "skill_index_merged": 44684,
+          "description": "List cities for a given state using the bundled background data. Use this skill to validate state inputs or expand destination choices before flight/restaurant/attraction/driving/accommodation lookups.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "search-flights",
+          "match_status": "name_exact",
+          "skill_index_merged": 44683,
+          "description": "Search flights by origin, destination, and departure date using the bundled flights dataset. Use this skill when proposing flight options or checking whether a route/date combination exists.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 57,
+      "task_id": "trend-anomaly-causal-inference",
+      "recommended_skills": [
+        {
+          "skill_name": "data_cleaning",
+          "match_status": "name_exact",
+          "skill_index_merged": 44732,
+          "description": "Clean messy tabular datasets with deduplication, missing value imputation, outlier handling, and text processing. Use when dealing with dirty data that has duplicates, nulls, or inconsistent formatting.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "time_series_anomaly_detection",
+          "match_status": "name_exact",
+          "skill_index_merged": 44734,
+          "description": "Detect anomalies in time series data using Prophet Framework (Meta), which frames the seasonality, trend holiday effect and other needed regressors into its model, to identify unusual surges or slumps in trends. This is a general methodology analyst can use for understanding what changes of their tracking metrics are manifesting anomalies pattern.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 58,
+      "task_id": "video-filler-word-remover",
+      "recommended_skills": [
+        {
+          "skill_name": "ffmpeg-video-editing",
+          "match_status": "name_exact",
+          "skill_index_merged": 44727,
+          "description": "Video editing with ffmpeg including cutting, trimming, concatenating segments, and re-encoding. Use when working with video files (.mp4, .mkv, .avi) for: removing segments, joining clips, extracting portions, or any video manipulation task.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "filler-word-processing",
+          "match_status": "name_exact",
+          "skill_index_merged": 44728,
+          "description": "Process filler word annotations to generate video edit lists. Use when working with timestamp annotations for removing speech disfluencies (um, uh, like, you know) from audio/video content.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 59,
+      "task_id": "video-silence-remover",
+      "recommended_skills": [
+        {
+          "skill_name": "audio-extractor",
+          "match_status": "name_exact",
+          "skill_index_merged": 44744,
+          "description": "Extract audio from video files to WAV format. Use when you need to analyze audio from video, prepare audio for energy calculation, or convert video audio to standard format for processing.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "energy-calculator",
+          "match_status": "name_exact",
+          "skill_index_merged": 44743,
+          "description": "Calculate per-second RMS energy from audio files. Use when you need to analyze audio volume patterns, prepare data for silence/pause detection, or create an energy profile for audio analysis tasks.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "pause-detector",
+          "match_status": "name_exact",
+          "skill_index_merged": 44745,
+          "description": "Detect pauses and silence in audio using local dynamic thresholds. Use when you need to find natural pauses in lectures, board-writing silences, or breaks between sections. Uses local context comparison to avoid false positives from volume variation.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "segment-combiner",
+          "match_status": "name_exact",
+          "skill_index_merged": 44746,
+          "description": "Combine multiple segment detection results into a unified list. Use when you need to merge segments from different detectors, prepare removal lists for video processing, or consolidate detection outputs.",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        },
+        {
+          "skill_name": "silence-detector",
+          "match_status": "name_exact",
+          "skill_index_merged": 44742,
+          "description": "Detect initial silence segments in audio/video using energy-based analysis. Use when you need to find low-energy periods at the start of recordings (title slides, setup time, pre-roll silence).",
+          "author": "",
+          "url": "",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 2
+        }
+      ]
+    },
+    {
+      "task_index": 60,
+      "task_id": "xlsx-recover-data",
+      "recommended_skills": [
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        },
+        {
+          "skill_name": "xlsx",
+          "match_status": "name_exact",
+          "skill_index_merged": 9008,
+          "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for creating new spreadsheets, reading/analyzing data, modifying existing spreadsheets, or recalculating formulas.",
+          "author": "skillcreatorai",
+          "url": "https://github.com/skillcreatorai/Ai-Agent-Skills/tree/main/skills/xlsx",
+          "source": "skillsmp.com",
+          "candidate_name_match_count": 50
+        }
+      ]
+    }
+  ]
+}

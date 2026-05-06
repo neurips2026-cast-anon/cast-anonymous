@@ -1,0 +1,14 @@
+{
+  "task_count": 225,
+  "skill_count": 62914,
+  "gold_bundle_count": 225,
+  "negative_bundle_count": 20398,
+  "bundle_catalog_count": 20623,
+  "task_bundle_edge_count": 20623,
+  "task_skill_edge_count": 22745,
+  "bundle_skill_edge_count": 83956,
+  "positive_task_bundle_edges": 225,
+  "negative_task_bundle_edges": 20398,
+  "positive_task_skill_edges": 793,
+  "negative_task_skill_edges": 21952
+}

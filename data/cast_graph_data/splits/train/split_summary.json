@@ -1,0 +1,12 @@
+{
+  "split": "train",
+  "task_count": 180,
+  "bundle_count": 13098,
+  "task_bundle_edge_count": 13098,
+  "task_skill_edge_count": 10320,
+  "bundle_skill_edge_count": 55522,
+  "skill_node_count": 4602,
+  "positive_task_bundle_edges": 180,
+  "soft_negative_task_bundle_edges": 1041,
+  "hard_negative_task_bundle_edges": 11877
+}

@@ -1,0 +1,10 @@
+{
+  "task_node_count": 225,
+  "bundle_node_count": 16096,
+  "skill_node_count_full_universe": 62914,
+  "skill_with_any_graph_edge": 5515,
+  "cold_start_skill_count": 57399,
+  "gold_skill_count": 203,
+  "top20_candidate_skill_count": 1304,
+  "negative_changed_skill_count": 5344
+}

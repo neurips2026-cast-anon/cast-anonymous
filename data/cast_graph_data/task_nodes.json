@@ -1,0 +1,1352 @@
+[
+  {
+    "task_index": 0,
+    "task_id": "adaptive-cruise-control",
+    "domain": "control-systems",
+    "id": 1
+  },
+  {
+    "task_index": 1,
+    "task_id": "civ6-adjacency-optimizer",
+    "domain": "games",
+    "id": 2
+  },
+  {
+    "task_index": 2,
+    "task_id": "crystallographic-wyckoff-position-analysis",
+    "domain": "materials_science",
+    "id": 3
+  },
+  {
+    "task_index": 3,
+    "task_id": "dapt-intrusion-detection",
+    "domain": "security",
+    "id": 4
+  },
+  {
+    "task_index": 4,
+    "task_id": "dynamic-object-aware-egomotion",
+    "domain": "video-analysis",
+    "id": 5
+  },
+  {
+    "task_index": 5,
+    "task_id": "earthquake-phase-association",
+    "domain": "seismology",
+    "id": 6
+  },
+  {
+    "task_index": 6,
+    "task_id": "energy-ac-optimal-power-flow",
+    "domain": "energy",
+    "id": 7
+  },
+  {
+    "task_index": 7,
+    "task_id": "energy-market-pricing",
+    "domain": "energy",
+    "id": 8
+  },
+  {
+    "task_index": 8,
+    "task_id": "exceltable-in-ppt",
+    "domain": "office-operation",
+    "id": 9
+  },
+  {
+    "task_index": 9,
+    "task_id": "exoplanet-detection-period",
+    "domain": "astronomy",
+    "id": 10
+  },
+  {
+    "task_index": 10,
+    "task_id": "financial-modeling-qa",
+    "domain": "financial-modeling",
+    "id": 11
+  },
+  {
+    "task_index": 11,
+    "task_id": "find-topk-similiar-chemicals",
+    "domain": "chemistry",
+    "id": 12
+  },
+  {
+    "task_index": 12,
+    "task_id": "fix-build-agentops",
+    "domain": "compilation-&-build",
+    "id": 13
+  },
+  {
+    "task_index": 13,
+    "task_id": "fix-build-google-auto",
+    "domain": "compilation-&-build",
+    "id": 14
+  },
+  {
+    "task_index": 14,
+    "task_id": "fix-druid-loophole-cve",
+    "domain": "security",
+    "id": 15
+  },
+  {
+    "task_index": 15,
+    "task_id": "fix-erlang-ssh-cve",
+    "domain": "erlang-bugfix",
+    "id": 16
+  },
+  {
+    "task_index": 16,
+    "task_id": "fix-visual-stability",
+    "domain": "web-performance",
+    "id": 17
+  },
+  {
+    "task_index": 17,
+    "task_id": "flink-query",
+    "domain": "flink",
+    "id": 18
+  },
+  {
+    "task_index": 18,
+    "task_id": "flood-risk-analysis",
+    "domain": "data-processing",
+    "id": 19
+  },
+  {
+    "task_index": 19,
+    "task_id": "glm-lake-mendota",
+    "domain": "environmental-modeling",
+    "id": 20
+  },
+  {
+    "task_index": 20,
+    "task_id": "gravitational-wave-detection",
+    "domain": "astronomy",
+    "id": 21
+  },
+  {
+    "task_index": 21,
+    "task_id": "grid-dispatch-operator",
+    "domain": "energy",
+    "id": 22
+  },
+  {
+    "task_index": 22,
+    "task_id": "hvac-control",
+    "domain": "control-systems",
+    "id": 23
+  },
+  {
+    "task_index": 23,
+    "task_id": "invoice-fraud-detection",
+    "domain": "data-validation",
+    "id": 24
+  },
+  {
+    "task_index": 24,
+    "task_id": "jpg-ocr-stat",
+    "domain": "data-statistics",
+    "id": 25
+  },
+  {
+    "task_index": 25,
+    "task_id": "lake-warming-attribution",
+    "domain": "data-processing",
+    "id": 26
+  },
+  {
+    "task_index": 26,
+    "task_id": "latex-formula-extraction",
+    "domain": "latex-extraction",
+    "id": 27
+  },
+  {
+    "task_index": 27,
+    "task_id": "lean4-proof",
+    "domain": "formal-method",
+    "id": 28
+  },
+  {
+    "task_index": 28,
+    "task_id": "manufacturing-equipment-maintenance",
+    "domain": "manufacturing",
+    "id": 29
+  },
+  {
+    "task_index": 29,
+    "task_id": "mario-coin-counting",
+    "domain": "image-processing",
+    "id": 30
+  },
+  {
+    "task_index": 30,
+    "task_id": "mars-clouds-clustering",
+    "domain": "data-science",
+    "id": 31
+  },
+  {
+    "task_index": 31,
+    "task_id": "mhc-layer-impl",
+    "domain": "ml-implementation",
+    "id": 32
+  },
+  {
+    "task_index": 32,
+    "task_id": "multilingual-video-dubbing",
+    "domain": "multimodal-video-dubbing",
+    "id": 33
+  },
+  {
+    "task_index": 33,
+    "task_id": "organize-messy-files",
+    "domain": "file-management",
+    "id": 34
+  },
+  {
+    "task_index": 34,
+    "task_id": "paper-anonymizer",
+    "domain": "document-editing",
+    "id": 35
+  },
+  {
+    "task_index": 35,
+    "task_id": "parallel-tfidf-search",
+    "domain": "parallelization",
+    "id": 36
+  },
+  {
+    "task_index": 36,
+    "task_id": "pdf-excel-diff",
+    "domain": "data-comparison",
+    "id": 37
+  },
+  {
+    "task_index": 37,
+    "task_id": "pedestrian-traffic-counting",
+    "domain": "pedestrian-traffic-counting",
+    "id": 38
+  },
+  {
+    "task_index": 38,
+    "task_id": "pg-essay-to-audiobook",
+    "domain": "speech-synthesis",
+    "id": 39
+  },
+  {
+    "task_index": 39,
+    "task_id": "powerlifting-coef-calc",
+    "domain": "data-analysis",
+    "id": 40
+  },
+  {
+    "task_index": 40,
+    "task_id": "python-scala-translation",
+    "domain": "code-translation",
+    "id": 41
+  },
+  {
+    "task_index": 41,
+    "task_id": "r2r-mpc-control",
+    "domain": "control-systems",
+    "id": 42
+  },
+  {
+    "task_index": 42,
+    "task_id": "react-performance-debugging",
+    "domain": "web-performance",
+    "id": 43
+  },
+  {
+    "task_index": 43,
+    "task_id": "sales-pivot-analysis",
+    "domain": "data-analysis",
+    "id": 44
+  },
+  {
+    "task_index": 44,
+    "task_id": "scheduling-email-assistant",
+    "domain": "scheduling",
+    "id": 45
+  },
+  {
+    "task_index": 45,
+    "task_id": "sec-financial-report",
+    "domain": "finance",
+    "id": 46
+  },
+  {
+    "task_index": 46,
+    "task_id": "seismic-phase-picking",
+    "domain": "seismology",
+    "id": 47
+  },
+  {
+    "task_index": 47,
+    "task_id": "setup-fuzzing-py",
+    "domain": "security",
+    "id": 48
+  },
+  {
+    "task_index": 48,
+    "task_id": "simpo-code-reproduction",
+    "domain": "code-reproduction",
+    "id": 49
+  },
+  {
+    "task_index": 49,
+    "task_id": "software-dependency-audit",
+    "domain": "security",
+    "id": 50
+  },
+  {
+    "task_index": 50,
+    "task_id": "speaker-diarization-subtitles",
+    "domain": "audio-visual",
+    "id": 51
+  },
+  {
+    "task_index": 51,
+    "task_id": "spring-boot-jakarta-migration",
+    "domain": "legacy-systems",
+    "id": 52
+  },
+  {
+    "task_index": 52,
+    "task_id": "suricata-custom-exfil",
+    "domain": "security-&-ctf",
+    "id": 53
+  },
+  {
+    "task_index": 53,
+    "task_id": "syzkaller-ppdev-syzlang",
+    "domain": "security",
+    "id": 54
+  },
+  {
+    "task_index": 54,
+    "task_id": "threejs-structure-parser",
+    "domain": "3d-graphics",
+    "id": 55
+  },
+  {
+    "task_index": 55,
+    "task_id": "threejs-to-obj",
+    "domain": "3d-graphics",
+    "id": 56
+  },
+  {
+    "task_index": 56,
+    "task_id": "travel-planning",
+    "domain": "travel-planning",
+    "id": 57
+  },
+  {
+    "task_index": 57,
+    "task_id": "trend-anomaly-causal-inference",
+    "domain": "data-science",
+    "id": 58
+  },
+  {
+    "task_index": 58,
+    "task_id": "video-filler-word-remover",
+    "domain": "media-processing",
+    "id": 59
+  },
+  {
+    "task_index": 59,
+    "task_id": "video-silence-remover",
+    "domain": "media-processing",
+    "id": 60
+  },
+  {
+    "task_index": 60,
+    "task_id": "xlsx-recover-data",
+    "domain": "spreadsheet",
+    "id": 61
+  },
+  {
+    "task_index": 61,
+    "task_id": "adaptive-cruise-control@split_control-pipeline_1_plant-and-control",
+    "domain": "control-systems",
+    "id": 62
+  },
+  {
+    "task_index": 62,
+    "task_id": "adaptive-cruise-control@split_control-pipeline_2_simulation-setup-evaluation",
+    "domain": "control-systems",
+    "id": 63
+  },
+  {
+    "task_index": 63,
+    "task_id": "civ6-adjacency-optimizer@split_civ6-planning_1_map-parsing-modeling",
+    "domain": "games",
+    "id": 64
+  },
+  {
+    "task_index": 64,
+    "task_id": "civ6-adjacency-optimizer@split_civ6-planning_2_placement-optimization",
+    "domain": "games",
+    "id": 65
+  },
+  {
+    "task_index": 65,
+    "task_id": "dynamic-object-aware-egomotion@split_vision-motion_1_dynamic-segmentation",
+    "domain": "video-analysis",
+    "id": 66
+  },
+  {
+    "task_index": 66,
+    "task_id": "dynamic-object-aware-egomotion@split_vision-motion_2_motion-estimation-validation",
+    "domain": "video-analysis",
+    "id": 67
+  },
+  {
+    "task_index": 67,
+    "task_id": "earthquake-phase-association@split_seismic-association_1_signal-ingestion-picker",
+    "domain": "seismology",
+    "id": 68
+  },
+  {
+    "task_index": 68,
+    "task_id": "earthquake-phase-association@split_seismic-association_2_association-modeling",
+    "domain": "seismology",
+    "id": 69
+  },
+  {
+    "task_index": 69,
+    "task_id": "energy-market-pricing@split_grid-pricing_1_powerflow-dispatch",
+    "domain": "energy",
+    "id": 70
+  },
+  {
+    "task_index": 70,
+    "task_id": "energy-market-pricing@split_grid-pricing_2_market-pricing",
+    "domain": "energy",
+    "id": 71
+  },
+  {
+    "task_index": 71,
+    "task_id": "exoplanet-detection-period@split_exoplanet-period_1_preprocess-workflow",
+    "domain": "astronomy",
+    "id": 72
+  },
+  {
+    "task_index": 72,
+    "task_id": "exoplanet-detection-period@split_exoplanet-period_2_period-search",
+    "domain": "astronomy",
+    "id": 73
+  },
+  {
+    "task_index": 73,
+    "task_id": "fix-build-agentops@split_ci-fuzz_1_build-test-loop",
+    "domain": "compilation-&-build",
+    "id": 74
+  },
+  {
+    "task_index": 74,
+    "task_id": "fix-build-agentops@split_ci-fuzz_2_ci-analysis",
+    "domain": "compilation-&-build",
+    "id": 75
+  },
+  {
+    "task_index": 75,
+    "task_id": "fix-erlang-ssh-cve@split_erlang-security_1_runtime-protocol-core",
+    "domain": "erlang-bugfix",
+    "id": 76
+  },
+  {
+    "task_index": 76,
+    "task_id": "fix-erlang-ssh-cve@split_erlang-security_2_security-hardening",
+    "domain": "erlang-bugfix",
+    "id": 77
+  },
+  {
+    "task_index": 77,
+    "task_id": "multilingual-video-dubbing@split_video-dubbing_1_video-edit-render",
+    "domain": "multimodal-video-dubbing",
+    "id": 78
+  },
+  {
+    "task_index": 78,
+    "task_id": "multilingual-video-dubbing@split_video-dubbing_2_audio-localization-master",
+    "domain": "multimodal-video-dubbing",
+    "id": 79
+  },
+  {
+    "task_index": 79,
+    "task_id": "organize-messy-files@split_document-organization_1_content-ingestion",
+    "domain": "file-management",
+    "id": 80
+  },
+  {
+    "task_index": 80,
+    "task_id": "organize-messy-files@split_document-organization_2_planning-and-execution",
+    "domain": "file-management",
+    "id": 81
+  },
+  {
+    "task_index": 81,
+    "task_id": "pedestrian-traffic-counting@split_pedestrian-counting_1_video-understanding",
+    "domain": "pedestrian-traffic-counting",
+    "id": 82
+  },
+  {
+    "task_index": 82,
+    "task_id": "pedestrian-traffic-counting@split_pedestrian-counting_2_counting-and-multimodal-check",
+    "domain": "pedestrian-traffic-counting",
+    "id": 83
+  },
+  {
+    "task_index": 83,
+    "task_id": "python-scala-translation@split_code-translation_1_syntax-structure-mapping",
+    "domain": "code-translation",
+    "id": 84
+  },
+  {
+    "task_index": 84,
+    "task_id": "python-scala-translation@split_code-translation_2_idioms-functional-library",
+    "domain": "code-translation",
+    "id": 85
+  },
+  {
+    "task_index": 85,
+    "task_id": "seismic-phase-picking@split_seismic-picking_1_data-access-prep",
+    "domain": "seismology",
+    "id": 86
+  },
+  {
+    "task_index": 86,
+    "task_id": "seismic-phase-picking@split_seismic-picking_2_model-picking-validation",
+    "domain": "seismology",
+    "id": 87
+  },
+  {
+    "task_index": 87,
+    "task_id": "spring-boot-jakarta-migration@split_spring-migration_1_namespace-framework",
+    "domain": "legacy-systems",
+    "id": 88
+  },
+  {
+    "task_index": 88,
+    "task_id": "spring-boot-jakarta-migration@split_spring-migration_2_client-security",
+    "domain": "legacy-systems",
+    "id": 89
+  },
+  {
+    "task_index": 89,
+    "task_id": "travel-planning@split_travel-orchestration_1_destination-activity",
+    "domain": "travel-planning",
+    "id": 90
+  },
+  {
+    "task_index": 90,
+    "task_id": "travel-planning@split_travel-orchestration_2_booking-routing",
+    "domain": "travel-planning",
+    "id": 91
+  },
+  {
+    "task_index": 91,
+    "task_id": "trend-anomaly-causal-inference@split_trend-causal_1_data-feature-engineering",
+    "domain": "data-science",
+    "id": 92
+  },
+  {
+    "task_index": 92,
+    "task_id": "trend-anomaly-causal-inference@split_trend-causal_2_anomaly-causal-inference",
+    "domain": "data-science",
+    "id": 93
+  },
+  {
+    "task_index": 93,
+    "task_id": "video-silence-remover@split_speech-cleanup_1_silence-analysis",
+    "domain": "media-processing",
+    "id": 94
+  },
+  {
+    "task_index": 94,
+    "task_id": "video-silence-remover@split_speech-cleanup_2_timeline-render-report",
+    "domain": "media-processing",
+    "id": 95
+  },
+  {
+    "task_index": 95,
+    "task_id": "seismic-event-detection-pipeline@merge_v1",
+    "domain": "seismology",
+    "id": 96
+  },
+  {
+    "task_index": 96,
+    "task_id": "urban-video-motion-and-counting@merge_v1",
+    "domain": "video-analysis+pedestrian-traffic-counting",
+    "id": 97
+  },
+  {
+    "task_index": 97,
+    "task_id": "grid-operation-and-pricing-optimization@merge_v1",
+    "domain": "energy",
+    "id": 98
+  },
+  {
+    "task_index": 98,
+    "task_id": "multilingual-speaker-aware-localization@merge_v1",
+    "domain": "multimodal-video-dubbing+audio-visual",
+    "id": 99
+  },
+  {
+    "task_index": 99,
+    "task_id": "spoken-video-cleanup-pipeline@merge_v1",
+    "domain": "media-processing",
+    "id": 100
+  },
+  {
+    "task_index": 100,
+    "task_id": "network-exfiltration-detection-workflow@merge_v1",
+    "domain": "security-&-ctf+security",
+    "id": 101
+  },
+  {
+    "task_index": 101,
+    "task_id": "tabular-data-reconciliation-recovery@merge_v1",
+    "domain": "data-comparison+spreadsheet",
+    "id": 102
+  },
+  {
+    "task_index": 102,
+    "task_id": "financial-document-analysis-and-qa@merge_v1",
+    "domain": "financial-modeling+finance",
+    "id": 103
+  },
+  {
+    "task_index": 103,
+    "task_id": "frontend-performance-and-stability-hardening@merge_v1",
+    "domain": "web-performance",
+    "id": 104
+  },
+  {
+    "task_index": 104,
+    "task_id": "threejs-structure-export-pipeline@merge_v1",
+    "domain": "3d-graphics",
+    "id": 105
+  },
+  {
+    "task_index": 105,
+    "task_id": "python-ci-and-fuzzing-hardening@merge_v1",
+    "domain": "compilation-&-build+security",
+    "id": 106
+  },
+  {
+    "task_index": 106,
+    "task_id": "travel-scheduling-assistant@merge_v1",
+    "domain": "travel-planning+scheduling",
+    "id": 107
+  },
+  {
+    "task_index": 107,
+    "task_id": "adaptive-cruise-control@rewrite_sem1",
+    "domain": "control-systems",
+    "id": 108
+  },
+  {
+    "task_index": 108,
+    "task_id": "adaptive-cruise-control@rewrite_sem2",
+    "domain": "control-systems",
+    "id": 109
+  },
+  {
+    "task_index": 109,
+    "task_id": "civ6-adjacency-optimizer@rewrite_sem1",
+    "domain": "games",
+    "id": 110
+  },
+  {
+    "task_index": 110,
+    "task_id": "crystallographic-wyckoff-position-analysis@rewrite_sem1",
+    "domain": "materials_science",
+    "id": 111
+  },
+  {
+    "task_index": 111,
+    "task_id": "dapt-intrusion-detection@rewrite_sem1",
+    "domain": "security",
+    "id": 112
+  },
+  {
+    "task_index": 112,
+    "task_id": "dynamic-object-aware-egomotion@rewrite_sem1",
+    "domain": "video-analysis",
+    "id": 113
+  },
+  {
+    "task_index": 113,
+    "task_id": "earthquake-phase-association@rewrite_sem1",
+    "domain": "seismology",
+    "id": 114
+  },
+  {
+    "task_index": 114,
+    "task_id": "energy-ac-optimal-power-flow@rewrite_sem1",
+    "domain": "energy",
+    "id": 115
+  },
+  {
+    "task_index": 115,
+    "task_id": "energy-market-pricing@rewrite_sem1",
+    "domain": "energy",
+    "id": 116
+  },
+  {
+    "task_index": 116,
+    "task_id": "exceltable-in-ppt@rewrite_sem1",
+    "domain": "office-operation",
+    "id": 117
+  },
+  {
+    "task_index": 117,
+    "task_id": "exoplanet-detection-period@rewrite_sem1",
+    "domain": "astronomy",
+    "id": 118
+  },
+  {
+    "task_index": 118,
+    "task_id": "exoplanet-detection-period@rewrite_sem2",
+    "domain": "astronomy",
+    "id": 119
+  },
+  {
+    "task_index": 119,
+    "task_id": "financial-modeling-qa@rewrite_sem1",
+    "domain": "financial-modeling",
+    "id": 120
+  },
+  {
+    "task_index": 120,
+    "task_id": "find-topk-similiar-chemicals@rewrite_sem1",
+    "domain": "chemistry",
+    "id": 121
+  },
+  {
+    "task_index": 121,
+    "task_id": "fix-build-agentops@rewrite_sem1",
+    "domain": "compilation-&-build",
+    "id": 122
+  },
+  {
+    "task_index": 122,
+    "task_id": "fix-build-google-auto@rewrite_sem1",
+    "domain": "compilation-&-build",
+    "id": 123
+  },
+  {
+    "task_index": 123,
+    "task_id": "fix-druid-loophole-cve@rewrite_sem1",
+    "domain": "security",
+    "id": 124
+  },
+  {
+    "task_index": 124,
+    "task_id": "fix-erlang-ssh-cve@rewrite_sem1",
+    "domain": "erlang-bugfix",
+    "id": 125
+  },
+  {
+    "task_index": 125,
+    "task_id": "fix-erlang-ssh-cve@rewrite_sem2",
+    "domain": "erlang-bugfix",
+    "id": 126
+  },
+  {
+    "task_index": 126,
+    "task_id": "fix-visual-stability@rewrite_sem1",
+    "domain": "web-performance",
+    "id": 127
+  },
+  {
+    "task_index": 127,
+    "task_id": "flink-query@rewrite_sem1",
+    "domain": "flink",
+    "id": 128
+  },
+  {
+    "task_index": 128,
+    "task_id": "flood-risk-analysis@rewrite_sem1",
+    "domain": "data-processing",
+    "id": 129
+  },
+  {
+    "task_index": 129,
+    "task_id": "glm-lake-mendota@rewrite_sem1",
+    "domain": "environmental-modeling",
+    "id": 130
+  },
+  {
+    "task_index": 130,
+    "task_id": "gravitational-wave-detection@rewrite_sem1",
+    "domain": "astronomy",
+    "id": 131
+  },
+  {
+    "task_index": 131,
+    "task_id": "grid-dispatch-operator@rewrite_sem1",
+    "domain": "energy",
+    "id": 132
+  },
+  {
+    "task_index": 132,
+    "task_id": "hvac-control@rewrite_sem1",
+    "domain": "control-systems",
+    "id": 133
+  },
+  {
+    "task_index": 133,
+    "task_id": "hvac-control@rewrite_sem2",
+    "domain": "control-systems",
+    "id": 134
+  },
+  {
+    "task_index": 134,
+    "task_id": "invoice-fraud-detection@rewrite_sem1",
+    "domain": "data-validation",
+    "id": 135
+  },
+  {
+    "task_index": 135,
+    "task_id": "jpg-ocr-stat@rewrite_sem1",
+    "domain": "data-statistics",
+    "id": 136
+  },
+  {
+    "task_index": 136,
+    "task_id": "jpg-ocr-stat@rewrite_sem2",
+    "domain": "data-statistics",
+    "id": 137
+  },
+  {
+    "task_index": 137,
+    "task_id": "lake-warming-attribution@rewrite_sem1",
+    "domain": "data-processing",
+    "id": 138
+  },
+  {
+    "task_index": 138,
+    "task_id": "latex-formula-extraction@rewrite_sem1",
+    "domain": "latex-extraction",
+    "id": 139
+  },
+  {
+    "task_index": 139,
+    "task_id": "lean4-proof@rewrite_sem1",
+    "domain": "formal-method",
+    "id": 140
+  },
+  {
+    "task_index": 140,
+    "task_id": "manufacturing-equipment-maintenance@rewrite_sem1",
+    "domain": "manufacturing",
+    "id": 141
+  },
+  {
+    "task_index": 141,
+    "task_id": "mario-coin-counting@rewrite_sem1",
+    "domain": "image-processing",
+    "id": 142
+  },
+  {
+    "task_index": 142,
+    "task_id": "mars-clouds-clustering@rewrite_sem1",
+    "domain": "data-science",
+    "id": 143
+  },
+  {
+    "task_index": 143,
+    "task_id": "mhc-layer-impl@rewrite_sem1",
+    "domain": "ml-implementation",
+    "id": 144
+  },
+  {
+    "task_index": 144,
+    "task_id": "multilingual-video-dubbing@rewrite_sem1",
+    "domain": "multimodal-video-dubbing",
+    "id": 145
+  },
+  {
+    "task_index": 145,
+    "task_id": "multilingual-video-dubbing@rewrite_sem2",
+    "domain": "multimodal-video-dubbing",
+    "id": 146
+  },
+  {
+    "task_index": 146,
+    "task_id": "organize-messy-files@rewrite_sem1",
+    "domain": "file-management",
+    "id": 147
+  },
+  {
+    "task_index": 147,
+    "task_id": "organize-messy-files@rewrite_sem2",
+    "domain": "file-management",
+    "id": 148
+  },
+  {
+    "task_index": 148,
+    "task_id": "paper-anonymizer@rewrite_sem1",
+    "domain": "document-editing",
+    "id": 149
+  },
+  {
+    "task_index": 149,
+    "task_id": "parallel-tfidf-search@rewrite_sem1",
+    "domain": "parallelization",
+    "id": 150
+  },
+  {
+    "task_index": 150,
+    "task_id": "pdf-excel-diff@rewrite_sem1",
+    "domain": "data-comparison",
+    "id": 151
+  },
+  {
+    "task_index": 151,
+    "task_id": "pedestrian-traffic-counting@rewrite_sem1",
+    "domain": "pedestrian-traffic-counting",
+    "id": 152
+  },
+  {
+    "task_index": 152,
+    "task_id": "pg-essay-to-audiobook@rewrite_sem1",
+    "domain": "speech-synthesis",
+    "id": 153
+  },
+  {
+    "task_index": 153,
+    "task_id": "powerlifting-coef-calc@rewrite_sem1",
+    "domain": "data-analysis",
+    "id": 154
+  },
+  {
+    "task_index": 154,
+    "task_id": "python-scala-translation@rewrite_sem1",
+    "domain": "code-translation",
+    "id": 155
+  },
+  {
+    "task_index": 155,
+    "task_id": "python-scala-translation@rewrite_sem2",
+    "domain": "code-translation",
+    "id": 156
+  },
+  {
+    "task_index": 156,
+    "task_id": "r2r-mpc-control@rewrite_sem1",
+    "domain": "control-systems",
+    "id": 157
+  },
+  {
+    "task_index": 157,
+    "task_id": "react-performance-debugging@rewrite_sem1",
+    "domain": "web-performance",
+    "id": 158
+  },
+  {
+    "task_index": 158,
+    "task_id": "sales-pivot-analysis@rewrite_sem1",
+    "domain": "data-analysis",
+    "id": 159
+  },
+  {
+    "task_index": 159,
+    "task_id": "scheduling-email-assistant@rewrite_sem1",
+    "domain": "scheduling",
+    "id": 160
+  },
+  {
+    "task_index": 160,
+    "task_id": "sec-financial-report@rewrite_sem1",
+    "domain": "finance",
+    "id": 161
+  },
+  {
+    "task_index": 161,
+    "task_id": "seismic-phase-picking@rewrite_sem1",
+    "domain": "seismology",
+    "id": 162
+  },
+  {
+    "task_index": 162,
+    "task_id": "setup-fuzzing-py@rewrite_sem1",
+    "domain": "security",
+    "id": 163
+  },
+  {
+    "task_index": 163,
+    "task_id": "simpo-code-reproduction@rewrite_sem1",
+    "domain": "code-reproduction",
+    "id": 164
+  },
+  {
+    "task_index": 164,
+    "task_id": "software-dependency-audit@rewrite_sem1",
+    "domain": "security",
+    "id": 165
+  },
+  {
+    "task_index": 165,
+    "task_id": "speaker-diarization-subtitles@rewrite_sem1",
+    "domain": "audio-visual",
+    "id": 166
+  },
+  {
+    "task_index": 166,
+    "task_id": "spring-boot-jakarta-migration@rewrite_sem1",
+    "domain": "legacy-systems",
+    "id": 167
+  },
+  {
+    "task_index": 167,
+    "task_id": "spring-boot-jakarta-migration@rewrite_sem2",
+    "domain": "legacy-systems",
+    "id": 168
+  },
+  {
+    "task_index": 168,
+    "task_id": "suricata-custom-exfil@rewrite_sem1",
+    "domain": "security-&-ctf",
+    "id": 169
+  },
+  {
+    "task_index": 169,
+    "task_id": "syzkaller-ppdev-syzlang@rewrite_sem1",
+    "domain": "security",
+    "id": 170
+  },
+  {
+    "task_index": 170,
+    "task_id": "threejs-structure-parser@rewrite_sem1",
+    "domain": "3d-graphics",
+    "id": 171
+  },
+  {
+    "task_index": 171,
+    "task_id": "threejs-to-obj@rewrite_sem1",
+    "domain": "3d-graphics",
+    "id": 172
+  },
+  {
+    "task_index": 172,
+    "task_id": "travel-planning@rewrite_sem1",
+    "domain": "travel-planning",
+    "id": 173
+  },
+  {
+    "task_index": 173,
+    "task_id": "travel-planning@rewrite_sem2",
+    "domain": "travel-planning",
+    "id": 174
+  },
+  {
+    "task_index": 174,
+    "task_id": "trend-anomaly-causal-inference@rewrite_sem1",
+    "domain": "data-science",
+    "id": 175
+  },
+  {
+    "task_index": 175,
+    "task_id": "video-filler-word-remover@rewrite_sem1",
+    "domain": "media-processing",
+    "id": 176
+  },
+  {
+    "task_index": 176,
+    "task_id": "video-silence-remover@rewrite_sem1",
+    "domain": "media-processing",
+    "id": 177
+  },
+  {
+    "task_index": 177,
+    "task_id": "video-silence-remover@rewrite_sem2",
+    "domain": "media-processing",
+    "id": 178
+  },
+  {
+    "task_index": 178,
+    "task_id": "xlsx-recover-data@rewrite_sem1",
+    "domain": "spreadsheet",
+    "id": 179
+  },
+  {
+    "task_index": 179,
+    "task_id": "adaptive-cruise-control@split_control-pipeline_1_plant-and-control@rewrite_sem1",
+    "domain": "control-systems",
+    "id": 180
+  },
+  {
+    "task_index": 180,
+    "task_id": "adaptive-cruise-control@split_control-pipeline_2_simulation-setup-evaluation@rewrite_sem1",
+    "domain": "control-systems",
+    "id": 181
+  },
+  {
+    "task_index": 181,
+    "task_id": "civ6-adjacency-optimizer@split_civ6-planning_1_map-parsing-modeling@rewrite_sem1",
+    "domain": "games",
+    "id": 182
+  },
+  {
+    "task_index": 182,
+    "task_id": "civ6-adjacency-optimizer@split_civ6-planning_2_placement-optimization@rewrite_sem1",
+    "domain": "games",
+    "id": 183
+  },
+  {
+    "task_index": 183,
+    "task_id": "dynamic-object-aware-egomotion@split_vision-motion_1_dynamic-segmentation@rewrite_sem1",
+    "domain": "video-analysis",
+    "id": 184
+  },
+  {
+    "task_index": 184,
+    "task_id": "dynamic-object-aware-egomotion@split_vision-motion_2_motion-estimation-validation@rewrite_sem1",
+    "domain": "video-analysis",
+    "id": 185
+  },
+  {
+    "task_index": 185,
+    "task_id": "earthquake-phase-association@split_seismic-association_1_signal-ingestion-picker@rewrite_sem1",
+    "domain": "seismology",
+    "id": 186
+  },
+  {
+    "task_index": 186,
+    "task_id": "earthquake-phase-association@split_seismic-association_2_association-modeling@rewrite_sem1",
+    "domain": "seismology",
+    "id": 187
+  },
+  {
+    "task_index": 187,
+    "task_id": "energy-market-pricing@split_grid-pricing_1_powerflow-dispatch@rewrite_sem1",
+    "domain": "energy",
+    "id": 188
+  },
+  {
+    "task_index": 188,
+    "task_id": "energy-market-pricing@split_grid-pricing_2_market-pricing@rewrite_sem1",
+    "domain": "energy",
+    "id": 189
+  },
+  {
+    "task_index": 189,
+    "task_id": "exoplanet-detection-period@split_exoplanet-period_1_preprocess-workflow@rewrite_sem1",
+    "domain": "astronomy",
+    "id": 190
+  },
+  {
+    "task_index": 190,
+    "task_id": "exoplanet-detection-period@split_exoplanet-period_2_period-search@rewrite_sem1",
+    "domain": "astronomy",
+    "id": 191
+  },
+  {
+    "task_index": 191,
+    "task_id": "fix-build-agentops@split_ci-fuzz_1_build-test-loop@rewrite_sem1",
+    "domain": "compilation-&-build",
+    "id": 192
+  },
+  {
+    "task_index": 192,
+    "task_id": "fix-build-agentops@split_ci-fuzz_2_ci-analysis@rewrite_sem1",
+    "domain": "compilation-&-build",
+    "id": 193
+  },
+  {
+    "task_index": 193,
+    "task_id": "fix-erlang-ssh-cve@split_erlang-security_1_runtime-protocol-core@rewrite_sem1",
+    "domain": "erlang-bugfix",
+    "id": 194
+  },
+  {
+    "task_index": 194,
+    "task_id": "fix-erlang-ssh-cve@split_erlang-security_2_security-hardening@rewrite_sem1",
+    "domain": "erlang-bugfix",
+    "id": 195
+  },
+  {
+    "task_index": 195,
+    "task_id": "multilingual-video-dubbing@split_video-dubbing_1_video-edit-render@rewrite_sem1",
+    "domain": "multimodal-video-dubbing",
+    "id": 196
+  },
+  {
+    "task_index": 196,
+    "task_id": "multilingual-video-dubbing@split_video-dubbing_2_audio-localization-master@rewrite_sem1",
+    "domain": "multimodal-video-dubbing",
+    "id": 197
+  },
+  {
+    "task_index": 197,
+    "task_id": "organize-messy-files@split_document-organization_1_content-ingestion@rewrite_sem1",
+    "domain": "file-management",
+    "id": 198
+  },
+  {
+    "task_index": 198,
+    "task_id": "organize-messy-files@split_document-organization_2_planning-and-execution@rewrite_sem1",
+    "domain": "file-management",
+    "id": 199
+  },
+  {
+    "task_index": 199,
+    "task_id": "pedestrian-traffic-counting@split_pedestrian-counting_1_video-understanding@rewrite_sem1",
+    "domain": "pedestrian-traffic-counting",
+    "id": 200
+  },
+  {
+    "task_index": 200,
+    "task_id": "pedestrian-traffic-counting@split_pedestrian-counting_2_counting-and-multimodal-check@rewrite_sem1",
+    "domain": "pedestrian-traffic-counting",
+    "id": 201
+  },
+  {
+    "task_index": 201,
+    "task_id": "python-scala-translation@split_code-translation_1_syntax-structure-mapping@rewrite_sem1",
+    "domain": "code-translation",
+    "id": 202
+  },
+  {
+    "task_index": 202,
+    "task_id": "python-scala-translation@split_code-translation_2_idioms-functional-library@rewrite_sem1",
+    "domain": "code-translation",
+    "id": 203
+  },
+  {
+    "task_index": 203,
+    "task_id": "seismic-phase-picking@split_seismic-picking_1_data-access-prep@rewrite_sem1",
+    "domain": "seismology",
+    "id": 204
+  },
+  {
+    "task_index": 204,
+    "task_id": "seismic-phase-picking@split_seismic-picking_2_model-picking-validation@rewrite_sem1",
+    "domain": "seismology",
+    "id": 205
+  },
+  {
+    "task_index": 205,
+    "task_id": "spring-boot-jakarta-migration@split_spring-migration_1_namespace-framework@rewrite_sem1",
+    "domain": "legacy-systems",
+    "id": 206
+  },
+  {
+    "task_index": 206,
+    "task_id": "spring-boot-jakarta-migration@split_spring-migration_2_client-security@rewrite_sem1",
+    "domain": "legacy-systems",
+    "id": 207
+  },
+  {
+    "task_index": 207,
+    "task_id": "travel-planning@split_travel-orchestration_1_destination-activity@rewrite_sem1",
+    "domain": "travel-planning",
+    "id": 208
+  },
+  {
+    "task_index": 208,
+    "task_id": "travel-planning@split_travel-orchestration_2_booking-routing@rewrite_sem1",
+    "domain": "travel-planning",
+    "id": 209
+  },
+  {
+    "task_index": 209,
+    "task_id": "trend-anomaly-causal-inference@split_trend-causal_1_data-feature-engineering@rewrite_sem1",
+    "domain": "data-science",
+    "id": 210
+  },
+  {
+    "task_index": 210,
+    "task_id": "trend-anomaly-causal-inference@split_trend-causal_2_anomaly-causal-inference@rewrite_sem1",
+    "domain": "data-science",
+    "id": 211
+  },
+  {
+    "task_index": 211,
+    "task_id": "video-silence-remover@split_speech-cleanup_1_silence-analysis@rewrite_sem1",
+    "domain": "media-processing",
+    "id": 212
+  },
+  {
+    "task_index": 212,
+    "task_id": "video-silence-remover@split_speech-cleanup_2_timeline-render-report@rewrite_sem1",
+    "domain": "media-processing",
+    "id": 213
+  },
+  {
+    "task_index": 213,
+    "task_id": "seismic-event-detection-pipeline@merge_v1@rewrite_sem1",
+    "domain": "seismology",
+    "id": 214
+  },
+  {
+    "task_index": 214,
+    "task_id": "urban-video-motion-and-counting@merge_v1@rewrite_sem1",
+    "domain": "video-analysis+pedestrian-traffic-counting",
+    "id": 215
+  },
+  {
+    "task_index": 215,
+    "task_id": "grid-operation-and-pricing-optimization@merge_v1@rewrite_sem1",
+    "domain": "energy",
+    "id": 216
+  },
+  {
+    "task_index": 216,
+    "task_id": "multilingual-speaker-aware-localization@merge_v1@rewrite_sem1",
+    "domain": "multimodal-video-dubbing+audio-visual",
+    "id": 217
+  },
+  {
+    "task_index": 217,
+    "task_id": "spoken-video-cleanup-pipeline@merge_v1@rewrite_sem1",
+    "domain": "media-processing",
+    "id": 218
+  },
+  {
+    "task_index": 218,
+    "task_id": "network-exfiltration-detection-workflow@merge_v1@rewrite_sem1",
+    "domain": "security-&-ctf+security",
+    "id": 219
+  },
+  {
+    "task_index": 219,
+    "task_id": "tabular-data-reconciliation-recovery@merge_v1@rewrite_sem1",
+    "domain": "data-comparison+spreadsheet",
+    "id": 220
+  },
+  {
+    "task_index": 220,
+    "task_id": "financial-document-analysis-and-qa@merge_v1@rewrite_sem1",
+    "domain": "financial-modeling+finance",
+    "id": 221
+  },
+  {
+    "task_index": 221,
+    "task_id": "frontend-performance-and-stability-hardening@merge_v1@rewrite_sem1",
+    "domain": "web-performance",
+    "id": 222
+  },
+  {
+    "task_index": 222,
+    "task_id": "threejs-structure-export-pipeline@merge_v1@rewrite_sem1",
+    "domain": "3d-graphics",
+    "id": 223
+  },
+  {
+    "task_index": 223,
+    "task_id": "python-ci-and-fuzzing-hardening@merge_v1@rewrite_sem1",
+    "domain": "compilation-&-build+security",
+    "id": 224
+  },
+  {
+    "task_index": 224,
+    "task_id": "travel-scheduling-assistant@merge_v1@rewrite_sem1",
+    "domain": "travel-planning+scheduling",
+    "id": 225
+  }
+]

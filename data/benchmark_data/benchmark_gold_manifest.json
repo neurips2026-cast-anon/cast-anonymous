@@ -1,0 +1,4856 @@
+[
+  {
+    "task_index": 0,
+    "task_id": "adaptive-cruise-control",
+    "goal": "You need to implement an Adaptive Cruise Control (ACC) simulation that maintains the set speed (30m/s) when no vehicles are detected ahead",
+    "gold_local_skill_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "gold_local_skill_names": [
+      "csv-processing",
+      "pid-controller",
+      "simulation-metrics",
+      "vehicle-dynamics",
+      "yaml-config"
+    ],
+    "gold_merged_skill_indices": [
+      62711,
+      62712,
+      62713,
+      62714,
+      62715
+    ]
+  },
+  {
+    "task_index": 1,
+    "task_id": "civ6-adjacency-optimizer",
+    "goal": "# Sid Meier's Civilization 6 District Adjacency Bonus Optimizer",
+    "gold_local_skill_indices": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "gold_local_skill_names": [
+      "civ6lib",
+      "hex-grid-spatial",
+      "map-optimization-strategy",
+      "sqlite-map-parser"
+    ],
+    "gold_merged_skill_indices": [
+      62716,
+      62717,
+      62718,
+      62719
+    ]
+  },
+  {
+    "task_index": 2,
+    "task_id": "crystallographic-wyckoff-position-analysis",
+    "goal": "You are a materials science researcher.",
+    "gold_local_skill_indices": [
+      9,
+      10
+    ],
+    "gold_local_skill_names": [
+      "pymatgen",
+      "sympy"
+    ],
+    "gold_merged_skill_indices": [
+      62720,
+      62721
+    ]
+  },
+  {
+    "task_index": 3,
+    "task_id": "dapt-intrusion-detection",
+    "goal": "You’re given `packets.pcap` (subset of DAPT2020 traffic).",
+    "gold_local_skill_indices": [
+      11,
+      12
+    ],
+    "gold_local_skill_names": [
+      "pcap-analysis",
+      "threat-detection"
+    ],
+    "gold_merged_skill_indices": [
+      62722,
+      62723
+    ]
+  },
+  {
+    "task_index": 4,
+    "task_id": "dynamic-object-aware-egomotion",
+    "goal": "Given a video file /root/input.mp4, help me to analyze the camera motion (egomotion) and detect dynamic objects in this video.",
+    "gold_local_skill_indices": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "gold_local_skill_names": [
+      "dyn-object-masks",
+      "egomotion-estimation",
+      "output-validation",
+      "sampling-and-indexing"
+    ],
+    "gold_merged_skill_indices": [
+      62724,
+      62725,
+      62726,
+      62727
+    ]
+  },
+  {
+    "task_index": 5,
+    "task_id": "earthquake-phase-association",
+    "goal": "You have some earthquake traces stored at `/root/data/wave.mseed`, and station information stored at `/root/data/stations.csv`.",
+    "gold_local_skill_indices": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "gold_local_skill_names": [
+      "gamma-phase-associator",
+      "obspy-data-api",
+      "seisbench-model-api",
+      "seismic-picker-selection"
+    ],
+    "gold_merged_skill_indices": [
+      62728,
+      62729,
+      62730,
+      62731
+    ]
+  },
+  {
+    "task_index": 6,
+    "task_id": "energy-ac-optimal-power-flow",
+    "goal": "As an operator-planner in an Independent System Operator",
+    "gold_local_skill_indices": [
+      21,
+      22,
+      23
+    ],
+    "gold_local_skill_names": [
+      "ac-branch-pi-model",
+      "casadi-ipopt-nlp",
+      "power-flow-data"
+    ],
+    "gold_merged_skill_indices": [
+      62732,
+      62733,
+      62734
+    ]
+  },
+  {
+    "task_index": 7,
+    "task_id": "energy-market-pricing",
+    "goal": "You’re a market analyst at a regional transmission organization.",
+    "gold_local_skill_indices": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "gold_local_skill_names": [
+      "dc-power-flow",
+      "economic-dispatch",
+      "locational-marginal-prices",
+      "power-flow-data"
+    ],
+    "gold_merged_skill_indices": [
+      62735,
+      62736,
+      62737,
+      62738
+    ]
+  },
+  {
+    "task_index": 8,
+    "task_id": "exceltable-in-ppt",
+    "goal": "You are working on a pptx file `/root/input.pptx` for financial reporting.",
+    "gold_local_skill_indices": [
+      28,
+      29
+    ],
+    "gold_local_skill_names": [
+      "pptx",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62739,
+      62740
+    ]
+  },
+  {
+    "task_index": 9,
+    "task_id": "exoplanet-detection-period",
+    "goal": "You are provided with a lightcurve obtained with the TESS space telescope at `/root/data/tess_lc.txt`, with the columns: Time (MJD), Normalized flux, Quality flag (0 means good data), Flux uncertainty.",
+    "gold_local_skill_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "gold_local_skill_names": [
+      "box-least-squares",
+      "exoplanet-workflows",
+      "light-curve-preprocessing",
+      "lomb-scargle-periodogram",
+      "transit-least-squares"
+    ],
+    "gold_merged_skill_indices": [
+      62741,
+      62742,
+      62743,
+      62744,
+      62745
+    ]
+  },
+  {
+    "task_index": 10,
+    "task_id": "financial-modeling-qa",
+    "goal": "Please analysis large-scale data file and give me answer for a financial data analysis question.",
+    "gold_local_skill_indices": [
+      35,
+      36
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62746,
+      62747
+    ]
+  },
+  {
+    "task_index": 11,
+    "task_id": "find-topk-similiar-chemicals",
+    "goal": "Find the top k similar chemicals in `molecules.pdf` to any chemicals you are given.",
+    "gold_local_skill_indices": [
+      37,
+      38,
+      39
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "pubchem-database",
+      "rdkit"
+    ],
+    "gold_merged_skill_indices": [
+      62748,
+      62749,
+      62750
+    ]
+  },
+  {
+    "task_index": 12,
+    "task_id": "fix-build-agentops",
+    "goal": "You need to fix errors in a Python codebase.",
+    "gold_local_skill_indices": [
+      40,
+      41,
+      42,
+      43
+    ],
+    "gold_local_skill_names": [
+      "analyze-ci",
+      "temporal-python-testing",
+      "testing-python",
+      "uv-package-manager"
+    ],
+    "gold_merged_skill_indices": [
+      62751,
+      62752,
+      62753,
+      62754
+    ]
+  },
+  {
+    "task_index": 13,
+    "task_id": "fix-build-google-auto",
+    "goal": "You need to fix build errors in a Java codebase.",
+    "gold_local_skill_indices": [
+      44,
+      45,
+      46
+    ],
+    "gold_local_skill_names": [
+      "maven-build-lifecycle",
+      "maven-dependency-management",
+      "maven-plugin-configuration"
+    ],
+    "gold_merged_skill_indices": [
+      62755,
+      62756,
+      62757
+    ]
+  },
+  {
+    "task_index": 14,
+    "task_id": "fix-druid-loophole-cve",
+    "goal": "A vulnerability has been found in Apache Druid version 0.20.0: authenticated attackers can execute arbitrary code on the server through malicious JavaScript payloads, for example",
+    "gold_local_skill_indices": [
+      47,
+      48
+    ],
+    "gold_local_skill_names": [
+      "jackson-security",
+      "senior-java"
+    ],
+    "gold_merged_skill_indices": [
+      62758,
+      62759
+    ]
+  },
+  {
+    "task_index": 15,
+    "task_id": "fix-erlang-ssh-cve",
+    "goal": "Erlang/OTP SSH is the built-in SSH server component of the Erlang/OTP platform.",
+    "gold_local_skill_indices": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "gold_local_skill_names": [
+      "erlang-concurrency",
+      "erlang-distribution",
+      "erlang-otp-behaviors",
+      "find-bugs",
+      "senior-security",
+      "ssh-penetration-testing"
+    ],
+    "gold_merged_skill_indices": [
+      62760,
+      62761,
+      62762,
+      62763,
+      62764,
+      62765
+    ]
+  },
+  {
+    "task_index": 16,
+    "task_id": "fix-visual-stability",
+    "goal": "There's a Next.js e-commerce app at `/app`.",
+    "gold_local_skill_indices": [
+      55,
+      56,
+      57
+    ],
+    "gold_local_skill_names": [
+      "browser-testing",
+      "react-best-practices",
+      "web-interface-guidelines"
+    ],
+    "gold_merged_skill_indices": [
+      62766,
+      62767,
+      62768
+    ]
+  },
+  {
+    "task_index": 17,
+    "task_id": "flink-query",
+    "goal": "In `/app/workspace/` I provided a skeleton code of a flink job and a dataset.",
+    "gold_local_skill_indices": [
+      58,
+      59
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "senior-data-engineer"
+    ],
+    "gold_merged_skill_indices": [
+      62769,
+      62770
+    ]
+  },
+  {
+    "task_index": 18,
+    "task_id": "flood-risk-analysis",
+    "goal": "Find stations experienced flooding during April 1-7, 2025.",
+    "gold_local_skill_indices": [
+      60,
+      61,
+      62
+    ],
+    "gold_local_skill_names": [
+      "flood-detection",
+      "nws-flood-thresholds",
+      "usgs-data-download"
+    ],
+    "gold_merged_skill_indices": [
+      62771,
+      62772,
+      62773
+    ]
+  },
+  {
+    "task_index": 19,
+    "task_id": "glm-lake-mendota",
+    "goal": "Please run the General Lake Model to simulate the vertical water temperature for Lake Mendota.",
+    "gold_local_skill_indices": [
+      63,
+      64,
+      65
+    ],
+    "gold_local_skill_names": [
+      "glm-basics",
+      "glm-calibration",
+      "glm-output"
+    ],
+    "gold_merged_skill_indices": [
+      62774,
+      62775,
+      62776
+    ]
+  },
+  {
+    "task_index": 20,
+    "task_id": "gravitational-wave-detection",
+    "goal": "You are asked to detect a potential gravitational wave signal from a binary black hole merger in noisy data from a gravitational wave detector with the help of the matched filtering technique.",
+    "gold_local_skill_indices": [
+      66,
+      67
+    ],
+    "gold_local_skill_names": [
+      "conditioning",
+      "matched-filtering"
+    ],
+    "gold_merged_skill_indices": [
+      62777,
+      62778
+    ]
+  },
+  {
+    "task_index": 21,
+    "task_id": "grid-dispatch-operator",
+    "goal": "You are a Grid Dispatch Operator.",
+    "gold_local_skill_indices": [
+      68,
+      69,
+      70
+    ],
+    "gold_local_skill_names": [
+      "dc-power-flow",
+      "economic-dispatch",
+      "power-flow-data"
+    ],
+    "gold_merged_skill_indices": [
+      62779,
+      62780,
+      62781
+    ]
+  },
+  {
+    "task_index": 22,
+    "task_id": "hvac-control",
+    "goal": "You need to implement a temperature controller to maintain a temperature of 22.0C.",
+    "gold_local_skill_indices": [
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "gold_local_skill_names": [
+      "excitation-signal-design",
+      "first-order-model-fitting",
+      "imc-tuning-rules",
+      "safety-interlocks",
+      "scipy-curve-fit"
+    ],
+    "gold_merged_skill_indices": [
+      62782,
+      62783,
+      62784,
+      62785,
+      62786
+    ]
+  },
+  {
+    "task_index": 23,
+    "task_id": "invoice-fraud-detection",
+    "goal": "You need to analyze the following files to find any potential invoice fraud",
+    "gold_local_skill_indices": [
+      76,
+      77,
+      78
+    ],
+    "gold_local_skill_names": [
+      "fuzzy-match",
+      "pdf",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62787,
+      62788,
+      62789
+    ]
+  },
+  {
+    "task_index": 24,
+    "task_id": "jpg-ocr-stat",
+    "goal": "## Task description",
+    "gold_local_skill_indices": [
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "gold_local_skill_names": [
+      "image-ocr",
+      "openai-vision",
+      "pdf",
+      "video-frame-extraction",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62790,
+      62791,
+      62792,
+      62793,
+      62794
+    ]
+  },
+  {
+    "task_index": 25,
+    "task_id": "lake-warming-attribution",
+    "goal": "My data is in `/root/data/`, which includes",
+    "gold_local_skill_indices": [
+      84,
+      85,
+      86,
+      87
+    ],
+    "gold_local_skill_names": [
+      "contribution-analysis",
+      "meteorology-driver-classification",
+      "pca-decomposition",
+      "trend-analysis"
+    ],
+    "gold_merged_skill_indices": [
+      62795,
+      62796,
+      62797,
+      62798
+    ]
+  },
+  {
+    "task_index": 26,
+    "task_id": "latex-formula-extraction",
+    "goal": "You are helping to extract all latex formulas in its own line from a research paper.",
+    "gold_local_skill_indices": [
+      88,
+      89
+    ],
+    "gold_local_skill_names": [
+      "marker",
+      "pdf"
+    ],
+    "gold_merged_skill_indices": [
+      62799,
+      62800
+    ]
+  },
+  {
+    "task_index": 27,
+    "task_id": "lean4-proof",
+    "goal": "In `/app/workspace/solution.lean`, I provide a template of lean4 proof for the following problem.",
+    "gold_local_skill_indices": [
+      90,
+      91
+    ],
+    "gold_local_skill_names": [
+      "lean4-memories",
+      "lean4-theorem-proving"
+    ],
+    "gold_merged_skill_indices": [
+      62801,
+      62802
+    ]
+  },
+  {
+    "task_index": 28,
+    "task_id": "manufacturing-equipment-maintenance",
+    "goal": "Automation engineers in manufacturing rely on the instructions and guidance provided by the reflow machine handbook to maintain reflow machines and solve error issues.",
+    "gold_local_skill_indices": [
+      92,
+      93
+    ],
+    "gold_local_skill_names": [
+      "reflow-profile-compliance-toolkit",
+      "reflow_machine_maintenance_guidance"
+    ],
+    "gold_merged_skill_indices": [
+      62803,
+      62804
+    ]
+  },
+  {
+    "task_index": 29,
+    "task_id": "mario-coin-counting",
+    "goal": "In this task, you are given a clip of screen recording of a player playing the game Super Mario.",
+    "gold_local_skill_indices": [
+      94,
+      95,
+      96
+    ],
+    "gold_local_skill_names": [
+      "ffmpeg-keyframe-extraction",
+      "image_editing",
+      "object_counter"
+    ],
+    "gold_merged_skill_indices": [
+      62805,
+      62806,
+      62807
+    ]
+  },
+  {
+    "task_index": 30,
+    "task_id": "mars-clouds-clustering",
+    "goal": "# Mars Cloud Clustering Optimization",
+    "gold_local_skill_indices": [
+      97,
+      98,
+      99
+    ],
+    "gold_local_skill_names": [
+      "custom-distance-metrics",
+      "parallel-processing",
+      "pareto-optimization"
+    ],
+    "gold_merged_skill_indices": [
+      62808,
+      62809,
+      62810
+    ]
+  },
+  {
+    "task_index": 31,
+    "task_id": "mhc-layer-impl",
+    "goal": "I want to improve stability of training nanoGPT (124M) model.",
+    "gold_local_skill_indices": [
+      100,
+      101,
+      102
+    ],
+    "gold_local_skill_names": [
+      "mhc-algorithm",
+      "modal-gpu",
+      "nanogpt-training"
+    ],
+    "gold_merged_skill_indices": [
+      62811,
+      62812,
+      62813
+    ]
+  },
+  {
+    "task_index": 32,
+    "task_id": "multilingual-video-dubbing",
+    "goal": "Give you a video with source audio /root/input.mp4, the precise time window where the speech must occur /root/segments.srt.",
+    "gold_local_skill_indices": [
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ],
+    "gold_local_skill_names": [
+      "FFmpeg Audio Processing",
+      "FFmpeg Format Conversion",
+      "FFmpeg Media Info",
+      "FFmpeg Video Editing",
+      "FFmpeg Video Filters",
+      "TTS Audio Mastering"
+    ],
+    "gold_merged_skill_indices": [
+      62814,
+      62815,
+      62816,
+      62817,
+      62818,
+      62819
+    ]
+  },
+  {
+    "task_index": 33,
+    "task_id": "organize-messy-files",
+    "goal": "You need to organize more than 100 pdf papers and other files including pptx and docx into 5 different folders according to the subjects they belong to.",
+    "gold_local_skill_indices": [
+      109,
+      110,
+      111,
+      112,
+      113
+    ],
+    "gold_local_skill_names": [
+      "docx",
+      "file-organizer",
+      "pdf",
+      "planning-with-files",
+      "pptx"
+    ],
+    "gold_merged_skill_indices": [
+      62820,
+      62821,
+      62822,
+      62823,
+      62824
+    ]
+  },
+  {
+    "task_index": 34,
+    "task_id": "paper-anonymizer",
+    "goal": "Please help me anonymize these papers `/root/paper{1-3}.pdf`.",
+    "gold_local_skill_indices": [
+      114,
+      115
+    ],
+    "gold_local_skill_names": [
+      "academic-pdf-redaction",
+      "pdf"
+    ],
+    "gold_merged_skill_indices": [
+      62825,
+      62826
+    ]
+  },
+  {
+    "task_index": 35,
+    "task_id": "parallel-tfidf-search",
+    "goal": "# Parallel TF-IDF Similarity Search",
+    "gold_local_skill_indices": [
+      116,
+      117,
+      118
+    ],
+    "gold_local_skill_names": [
+      "memory-optimization",
+      "python-parallelization",
+      "workload-balancing"
+    ],
+    "gold_merged_skill_indices": [
+      62827,
+      62828,
+      62829
+    ]
+  },
+  {
+    "task_index": 36,
+    "task_id": "pdf-excel-diff",
+    "goal": "You are helping an HR department identify differences between its old employee records and the current database.",
+    "gold_local_skill_indices": [
+      119,
+      120
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62830,
+      62831
+    ]
+  },
+  {
+    "task_index": 37,
+    "task_id": "pedestrian-traffic-counting",
+    "goal": "## Task description",
+    "gold_local_skill_indices": [
+      121,
+      122,
+      123,
+      124
+    ],
+    "gold_local_skill_names": [
+      "gemini-count-in-video",
+      "gemini-video-understanding",
+      "gpt-multimodal",
+      "video-frame-extraction"
+    ],
+    "gold_merged_skill_indices": [
+      62832,
+      62833,
+      62834,
+      62835
+    ]
+  },
+  {
+    "task_index": 38,
+    "task_id": "pg-essay-to-audiobook",
+    "goal": "Can you help me find some essays from paul graham's website, and turn them into an audio book using TTS?",
+    "gold_local_skill_indices": [
+      125,
+      126,
+      127,
+      128
+    ],
+    "gold_local_skill_names": [
+      "audiobook",
+      "elevenlabs-tts",
+      "gtts",
+      "openai-tts"
+    ],
+    "gold_merged_skill_indices": [
+      62836,
+      62837,
+      62838,
+      62839
+    ]
+  },
+  {
+    "task_index": 39,
+    "task_id": "powerlifting-coef-calc",
+    "goal": "You need to calculate the lifting scores for International Powerlifting Federation competitions in the file `/root/data/openipf.xlsx`.",
+    "gold_local_skill_indices": [
+      129,
+      130,
+      131
+    ],
+    "gold_local_skill_names": [
+      "powerlifting",
+      "senior-data-scientist",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62840,
+      62841,
+      62842
+    ]
+  },
+  {
+    "task_index": 40,
+    "task_id": "python-scala-translation",
+    "goal": "# Python to Scala Code Translation",
+    "gold_local_skill_indices": [
+      132,
+      133,
+      134,
+      135,
+      136,
+      137
+    ],
+    "gold_local_skill_names": [
+      "python-scala-collections",
+      "python-scala-functional",
+      "python-scala-idioms",
+      "python-scala-libraries",
+      "python-scala-oop",
+      "python-scala-syntax-mapping"
+    ],
+    "gold_merged_skill_indices": [
+      62843,
+      62844,
+      62845,
+      62846,
+      62847,
+      62848
+    ]
+  },
+  {
+    "task_index": 41,
+    "task_id": "r2r-mpc-control",
+    "goal": "The task is designed for a 6-section Roll-to-Roll manufacturing line.",
+    "gold_local_skill_indices": [
+      138,
+      139,
+      140,
+      141
+    ],
+    "gold_local_skill_names": [
+      "finite-horizon-lqr",
+      "integral-action-design",
+      "mpc-horizon-tuning",
+      "state-space-linearization"
+    ],
+    "gold_merged_skill_indices": [
+      62849,
+      62850,
+      62851,
+      62852
+    ]
+  },
+  {
+    "task_index": 42,
+    "task_id": "react-performance-debugging",
+    "goal": "There's an e-commerce website implemented in Next.js that is extremely slow and users keep complaining about it.",
+    "gold_local_skill_indices": [
+      142,
+      143
+    ],
+    "gold_local_skill_names": [
+      "browser-testing",
+      "react-best-practices"
+    ],
+    "gold_merged_skill_indices": [
+      62853,
+      62854
+    ]
+  },
+  {
+    "task_index": 43,
+    "task_id": "sales-pivot-analysis",
+    "goal": "read through the population data in `/root/population.pdf` and income daya in `/root/income.xlsx` and create a new report called `/root/demographic_analysis.xlsx`",
+    "gold_local_skill_indices": [
+      144,
+      145
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62855,
+      62856
+    ]
+  },
+  {
+    "task_index": 44,
+    "task_id": "scheduling-email-assistant",
+    "goal": "You need to read meeting schedule request emails from `/root/test_input.json` file and send a reply email with your proposed meeting time.",
+    "gold_local_skill_indices": [
+      146,
+      147
+    ],
+    "gold_local_skill_names": [
+      "constraint-parser",
+      "gmail-skill"
+    ],
+    "gold_merged_skill_indices": [
+      62857,
+      62858
+    ]
+  },
+  {
+    "task_index": 45,
+    "task_id": "sec-financial-report",
+    "goal": "You are a financial analyst in hedge fund, your task is to analyze the activities of hedge funds in q3 2025 by compare it with q2 2025.",
+    "gold_local_skill_indices": [
+      148,
+      149
+    ],
+    "gold_local_skill_names": [
+      "13f-analyzer",
+      "fuzzy-name-search"
+    ],
+    "gold_merged_skill_indices": [
+      62859,
+      62860
+    ]
+  },
+  {
+    "task_index": 46,
+    "task_id": "seismic-phase-picking",
+    "goal": "You have 100 earthquake traces at `/root/data/`.",
+    "gold_local_skill_indices": [
+      150,
+      151,
+      152,
+      153
+    ],
+    "gold_local_skill_names": [
+      "obspy-data-api",
+      "obspy-datacenter-client",
+      "seisbench-model-api",
+      "seismic-picker-selection"
+    ],
+    "gold_merged_skill_indices": [
+      62861,
+      62862,
+      62863,
+      62864
+    ]
+  },
+  {
+    "task_index": 47,
+    "task_id": "setup-fuzzing-py",
+    "goal": "You need to set up continuous fuzzing for some Python libraries.",
+    "gold_local_skill_indices": [
+      154,
+      155,
+      156
+    ],
+    "gold_local_skill_names": [
+      "discover-important-function",
+      "fuzzing-python",
+      "setup-env"
+    ],
+    "gold_merged_skill_indices": [
+      62865,
+      62866,
+      62867
+    ]
+  },
+  {
+    "task_index": 48,
+    "task_id": "simpo-code-reproduction",
+    "goal": "You will reproduce a code repo for NLP papers.",
+    "gold_local_skill_indices": [
+      157,
+      158
+    ],
+    "gold_local_skill_names": [
+      "nlp-research-repo-package-installment",
+      "pdf"
+    ],
+    "gold_merged_skill_indices": [
+      62868,
+      62869
+    ]
+  },
+  {
+    "task_index": 49,
+    "task_id": "software-dependency-audit",
+    "goal": "You are a software security engineer.",
+    "gold_local_skill_indices": [
+      159,
+      160,
+      161
+    ],
+    "gold_local_skill_names": [
+      "cvss-score-extraction",
+      "trivy-offline-vulnerability-scanning",
+      "vulnerability-csv-reporting"
+    ],
+    "gold_merged_skill_indices": [
+      62870,
+      62871,
+      62872
+    ]
+  },
+  {
+    "task_index": 50,
+    "task_id": "speaker-diarization-subtitles",
+    "goal": "Perform diarization on `root/input.mp4` and generate 3 files",
+    "gold_local_skill_indices": [
+      162,
+      163,
+      164,
+      165
+    ],
+    "gold_local_skill_names": [
+      "Automatic Speech Recognition (ASR)",
+      "Multimodal Fusion for Speaker Diarization",
+      "Speaker Clustering Methods",
+      "Voice Activity Detection (VAD)"
+    ],
+    "gold_merged_skill_indices": [
+      62873,
+      62874,
+      62875,
+      62876
+    ]
+  },
+  {
+    "task_index": 51,
+    "task_id": "spring-boot-jakarta-migration",
+    "goal": "Under the `/workspace/` folder, there is a legacy user management microservice that you need to migrate from Java 8/Spring Boot 2.7 to Java 21/Spring Boot 3.2.",
+    "gold_local_skill_indices": [
+      166,
+      167,
+      168,
+      169,
+      170
+    ],
+    "gold_local_skill_names": [
+      "hibernate-upgrade",
+      "jakarta-namespace",
+      "restclient-migration",
+      "spring-boot-migration",
+      "spring-security-6"
+    ],
+    "gold_merged_skill_indices": [
+      62877,
+      62878,
+      62879,
+      62880,
+      62881
+    ]
+  },
+  {
+    "task_index": 52,
+    "task_id": "suricata-custom-exfil",
+    "goal": "You’re investigating suspected data exfiltration hidden inside HTTP telemetry traffic.",
+    "gold_local_skill_indices": [
+      171,
+      172,
+      173
+    ],
+    "gold_local_skill_names": [
+      "pcap-triage-tshark",
+      "suricata-offline-evejson",
+      "suricata-rules-basics"
+    ],
+    "gold_merged_skill_indices": [
+      62882,
+      62883,
+      62884
+    ]
+  },
+  {
+    "task_index": 53,
+    "task_id": "syzkaller-ppdev-syzlang",
+    "goal": "Write syzkaller syzlang support for the Linux parallel port driver (ppdev).",
+    "gold_local_skill_indices": [
+      174,
+      175,
+      176
+    ],
+    "gold_local_skill_names": [
+      "syz-extract-constants",
+      "syzkaller-build-loop",
+      "syzlang-ioctl-basics"
+    ],
+    "gold_merged_skill_indices": [
+      62885,
+      62886,
+      62887
+    ]
+  },
+  {
+    "task_index": 54,
+    "task_id": "threejs-structure-parser",
+    "goal": "You are a nice Three.js specialist.",
+    "gold_local_skill_indices": [
+      177,
+      178
+    ],
+    "gold_local_skill_names": [
+      "obj-exporter",
+      "threejs"
+    ],
+    "gold_merged_skill_indices": [
+      62888,
+      62889
+    ]
+  },
+  {
+    "task_index": 55,
+    "task_id": "threejs-to-obj",
+    "goal": "You are a helpful 3D programmer who can write scripts to convert the Three.js code into simulation-ready 3D assets that can be imported by Blender.",
+    "gold_local_skill_indices": [
+      179,
+      180
+    ],
+    "gold_local_skill_names": [
+      "obj-exporter",
+      "threejs"
+    ],
+    "gold_merged_skill_indices": [
+      62890,
+      62891
+    ]
+  },
+  {
+    "task_index": 56,
+    "task_id": "travel-planning",
+    "goal": "Build an itinerary for the user according to the following requirements",
+    "gold_local_skill_indices": [
+      181,
+      182,
+      183,
+      184,
+      185,
+      186
+    ],
+    "gold_local_skill_names": [
+      "search-accommodations",
+      "search-attractions",
+      "search-cities",
+      "search-driving-distance",
+      "search-flights",
+      "search-restaurants"
+    ],
+    "gold_merged_skill_indices": [
+      62892,
+      62893,
+      62894,
+      62895,
+      62896,
+      62897
+    ]
+  },
+  {
+    "task_index": 57,
+    "task_id": "trend-anomaly-causal-inference",
+    "goal": "I'm doing research on e-commerce data that consists of transaction data and demographic data.",
+    "gold_local_skill_indices": [
+      187,
+      188,
+      189,
+      190
+    ],
+    "gold_local_skill_names": [
+      "data_cleaning",
+      "did_causal_analysis",
+      "feature_engineering",
+      "time_series_anomaly_detection"
+    ],
+    "gold_merged_skill_indices": [
+      62898,
+      62899,
+      62900,
+      62901
+    ]
+  },
+  {
+    "task_index": 58,
+    "task_id": "video-filler-word-remover",
+    "goal": "There is an interview video that's full of filler words.",
+    "gold_local_skill_indices": [
+      191,
+      192,
+      193
+    ],
+    "gold_local_skill_names": [
+      "ffmpeg-video-editing",
+      "filler-word-processing",
+      "whisper-transcription"
+    ],
+    "gold_merged_skill_indices": [
+      62902,
+      62903,
+      62904
+    ]
+  },
+  {
+    "task_index": 59,
+    "task_id": "video-silence-remover",
+    "goal": "# Video Silence Remover Task",
+    "gold_local_skill_indices": [
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ],
+    "gold_local_skill_names": [
+      "audio-extractor",
+      "energy-calculator",
+      "pause-detector",
+      "report-generator",
+      "segment-combiner",
+      "silence-detector",
+      "video-processor"
+    ],
+    "gold_merged_skill_indices": [
+      62905,
+      62906,
+      62907,
+      62908,
+      62909,
+      62910,
+      62911
+    ]
+  },
+  {
+    "task_index": 60,
+    "task_id": "xlsx-recover-data",
+    "goal": "Recover missing values in an Excel file `nasa_budget_incomplete.xlsx`.",
+    "gold_local_skill_indices": [
+      201,
+      202
+    ],
+    "gold_local_skill_names": [
+      "data-reconciliation",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62912,
+      62913
+    ]
+  },
+  {
+    "task_index": 61,
+    "task_id": "adaptive-cruise-control@split_control-pipeline_1_plant-and-control",
+    "goal": "Execute phase 'plant-and-control' of task 'adaptive-cruise-control' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      3,
+      1
+    ],
+    "gold_local_skill_names": [
+      "vehicle-dynamics",
+      "pid-controller"
+    ],
+    "gold_merged_skill_indices": [
+      62714,
+      62712
+    ]
+  },
+  {
+    "task_index": 62,
+    "task_id": "adaptive-cruise-control@split_control-pipeline_2_simulation-setup-evaluation",
+    "goal": "Execute phase 'simulation-setup-evaluation' of task 'adaptive-cruise-control' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      4,
+      0,
+      2
+    ],
+    "gold_local_skill_names": [
+      "yaml-config",
+      "csv-processing",
+      "simulation-metrics"
+    ],
+    "gold_merged_skill_indices": [
+      62715,
+      62711,
+      62713
+    ]
+  },
+  {
+    "task_index": 63,
+    "task_id": "civ6-adjacency-optimizer@split_civ6-planning_1_map-parsing-modeling",
+    "goal": "Execute phase 'map-parsing-modeling' of task 'civ6-adjacency-optimizer' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      8,
+      6
+    ],
+    "gold_local_skill_names": [
+      "sqlite-map-parser",
+      "hex-grid-spatial"
+    ],
+    "gold_merged_skill_indices": [
+      62719,
+      62717
+    ]
+  },
+  {
+    "task_index": 64,
+    "task_id": "civ6-adjacency-optimizer@split_civ6-planning_2_placement-optimization",
+    "goal": "Execute phase 'placement-optimization' of task 'civ6-adjacency-optimizer' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      5,
+      7
+    ],
+    "gold_local_skill_names": [
+      "civ6lib",
+      "map-optimization-strategy"
+    ],
+    "gold_merged_skill_indices": [
+      62716,
+      62718
+    ]
+  },
+  {
+    "task_index": 65,
+    "task_id": "dynamic-object-aware-egomotion@split_vision-motion_1_dynamic-segmentation",
+    "goal": "Execute phase 'dynamic-segmentation' of task 'dynamic-object-aware-egomotion' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      13,
+      16
+    ],
+    "gold_local_skill_names": [
+      "dyn-object-masks",
+      "sampling-and-indexing"
+    ],
+    "gold_merged_skill_indices": [
+      62724,
+      62727
+    ]
+  },
+  {
+    "task_index": 66,
+    "task_id": "dynamic-object-aware-egomotion@split_vision-motion_2_motion-estimation-validation",
+    "goal": "Execute phase 'motion-estimation-validation' of task 'dynamic-object-aware-egomotion' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      14,
+      15
+    ],
+    "gold_local_skill_names": [
+      "egomotion-estimation",
+      "output-validation"
+    ],
+    "gold_merged_skill_indices": [
+      62725,
+      62726
+    ]
+  },
+  {
+    "task_index": 67,
+    "task_id": "earthquake-phase-association@split_seismic-association_1_signal-ingestion-picker",
+    "goal": "Execute phase 'signal-ingestion-picker' of task 'earthquake-phase-association' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      18,
+      20
+    ],
+    "gold_local_skill_names": [
+      "obspy-data-api",
+      "seismic-picker-selection"
+    ],
+    "gold_merged_skill_indices": [
+      62729,
+      62731
+    ]
+  },
+  {
+    "task_index": 68,
+    "task_id": "earthquake-phase-association@split_seismic-association_2_association-modeling",
+    "goal": "Execute phase 'association-modeling' of task 'earthquake-phase-association' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      19,
+      17
+    ],
+    "gold_local_skill_names": [
+      "seisbench-model-api",
+      "gamma-phase-associator"
+    ],
+    "gold_merged_skill_indices": [
+      62730,
+      62728
+    ]
+  },
+  {
+    "task_index": 69,
+    "task_id": "energy-market-pricing@split_grid-pricing_1_powerflow-dispatch",
+    "goal": "Execute phase 'powerflow-dispatch' of task 'energy-market-pricing' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      27,
+      24
+    ],
+    "gold_local_skill_names": [
+      "power-flow-data",
+      "dc-power-flow"
+    ],
+    "gold_merged_skill_indices": [
+      62738,
+      62735
+    ]
+  },
+  {
+    "task_index": 70,
+    "task_id": "energy-market-pricing@split_grid-pricing_2_market-pricing",
+    "goal": "Execute phase 'market-pricing' of task 'energy-market-pricing' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      25,
+      26
+    ],
+    "gold_local_skill_names": [
+      "economic-dispatch",
+      "locational-marginal-prices"
+    ],
+    "gold_merged_skill_indices": [
+      62736,
+      62737
+    ]
+  },
+  {
+    "task_index": 71,
+    "task_id": "exoplanet-detection-period@split_exoplanet-period_1_preprocess-workflow",
+    "goal": "Execute phase 'preprocess-workflow' of task 'exoplanet-detection-period' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      32,
+      31
+    ],
+    "gold_local_skill_names": [
+      "light-curve-preprocessing",
+      "exoplanet-workflows"
+    ],
+    "gold_merged_skill_indices": [
+      62743,
+      62742
+    ]
+  },
+  {
+    "task_index": 72,
+    "task_id": "exoplanet-detection-period@split_exoplanet-period_2_period-search",
+    "goal": "Execute phase 'period-search' of task 'exoplanet-detection-period' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      33,
+      30,
+      34
+    ],
+    "gold_local_skill_names": [
+      "lomb-scargle-periodogram",
+      "box-least-squares",
+      "transit-least-squares"
+    ],
+    "gold_merged_skill_indices": [
+      62744,
+      62741,
+      62745
+    ]
+  },
+  {
+    "task_index": 73,
+    "task_id": "fix-build-agentops@split_ci-fuzz_1_build-test-loop",
+    "goal": "Execute phase 'build-test-loop' of task 'fix-build-agentops' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      43,
+      42
+    ],
+    "gold_local_skill_names": [
+      "uv-package-manager",
+      "testing-python"
+    ],
+    "gold_merged_skill_indices": [
+      62754,
+      62753
+    ]
+  },
+  {
+    "task_index": 74,
+    "task_id": "fix-build-agentops@split_ci-fuzz_2_ci-analysis",
+    "goal": "Execute phase 'ci-analysis' of task 'fix-build-agentops' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      40,
+      41
+    ],
+    "gold_local_skill_names": [
+      "analyze-ci",
+      "temporal-python-testing"
+    ],
+    "gold_merged_skill_indices": [
+      62751,
+      62752
+    ]
+  },
+  {
+    "task_index": 75,
+    "task_id": "fix-erlang-ssh-cve@split_erlang-security_1_runtime-protocol-core",
+    "goal": "Execute phase 'runtime-protocol-core' of task 'fix-erlang-ssh-cve' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      49,
+      50,
+      51
+    ],
+    "gold_local_skill_names": [
+      "erlang-concurrency",
+      "erlang-distribution",
+      "erlang-otp-behaviors"
+    ],
+    "gold_merged_skill_indices": [
+      62760,
+      62761,
+      62762
+    ]
+  },
+  {
+    "task_index": 76,
+    "task_id": "fix-erlang-ssh-cve@split_erlang-security_2_security-hardening",
+    "goal": "Execute phase 'security-hardening' of task 'fix-erlang-ssh-cve' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      52,
+      53,
+      54
+    ],
+    "gold_local_skill_names": [
+      "find-bugs",
+      "senior-security",
+      "ssh-penetration-testing"
+    ],
+    "gold_merged_skill_indices": [
+      62763,
+      62764,
+      62765
+    ]
+  },
+  {
+    "task_index": 77,
+    "task_id": "multilingual-video-dubbing@split_video-dubbing_1_video-edit-render",
+    "goal": "Execute phase 'video-edit-render' of task 'multilingual-video-dubbing' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      105,
+      104,
+      106
+    ],
+    "gold_local_skill_names": [
+      "FFmpeg Media Info",
+      "FFmpeg Format Conversion",
+      "FFmpeg Video Editing"
+    ],
+    "gold_merged_skill_indices": [
+      62816,
+      62815,
+      62817
+    ]
+  },
+  {
+    "task_index": 78,
+    "task_id": "multilingual-video-dubbing@split_video-dubbing_2_audio-localization-master",
+    "goal": "Execute phase 'audio-localization-master' of task 'multilingual-video-dubbing' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      107,
+      108,
+      103
+    ],
+    "gold_local_skill_names": [
+      "FFmpeg Video Filters",
+      "TTS Audio Mastering",
+      "FFmpeg Audio Processing"
+    ],
+    "gold_merged_skill_indices": [
+      62818,
+      62819,
+      62814
+    ]
+  },
+  {
+    "task_index": 79,
+    "task_id": "organize-messy-files@split_document-organization_1_content-ingestion",
+    "goal": "Execute phase 'content-ingestion' of task 'organize-messy-files' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      111,
+      109,
+      113
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "docx",
+      "pptx"
+    ],
+    "gold_merged_skill_indices": [
+      62822,
+      62820,
+      62824
+    ]
+  },
+  {
+    "task_index": 80,
+    "task_id": "organize-messy-files@split_document-organization_2_planning-and-execution",
+    "goal": "Execute phase 'planning-and-execution' of task 'organize-messy-files' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      112,
+      110
+    ],
+    "gold_local_skill_names": [
+      "planning-with-files",
+      "file-organizer"
+    ],
+    "gold_merged_skill_indices": [
+      62823,
+      62821
+    ]
+  },
+  {
+    "task_index": 81,
+    "task_id": "pedestrian-traffic-counting@split_pedestrian-counting_1_video-understanding",
+    "goal": "Execute phase 'video-understanding' of task 'pedestrian-traffic-counting' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      122,
+      124
+    ],
+    "gold_local_skill_names": [
+      "gemini-video-understanding",
+      "video-frame-extraction"
+    ],
+    "gold_merged_skill_indices": [
+      62833,
+      62835
+    ]
+  },
+  {
+    "task_index": 82,
+    "task_id": "pedestrian-traffic-counting@split_pedestrian-counting_2_counting-and-multimodal-check",
+    "goal": "Execute phase 'counting-and-multimodal-check' of task 'pedestrian-traffic-counting' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      121,
+      123
+    ],
+    "gold_local_skill_names": [
+      "gemini-count-in-video",
+      "gpt-multimodal"
+    ],
+    "gold_merged_skill_indices": [
+      62832,
+      62834
+    ]
+  },
+  {
+    "task_index": 83,
+    "task_id": "python-scala-translation@split_code-translation_1_syntax-structure-mapping",
+    "goal": "Execute phase 'syntax-structure-mapping' of task 'python-scala-translation' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      137,
+      132,
+      136
+    ],
+    "gold_local_skill_names": [
+      "python-scala-syntax-mapping",
+      "python-scala-collections",
+      "python-scala-oop"
+    ],
+    "gold_merged_skill_indices": [
+      62848,
+      62843,
+      62847
+    ]
+  },
+  {
+    "task_index": 84,
+    "task_id": "python-scala-translation@split_code-translation_2_idioms-functional-library",
+    "goal": "Execute phase 'idioms-functional-library' of task 'python-scala-translation' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      133,
+      134,
+      135
+    ],
+    "gold_local_skill_names": [
+      "python-scala-functional",
+      "python-scala-idioms",
+      "python-scala-libraries"
+    ],
+    "gold_merged_skill_indices": [
+      62844,
+      62845,
+      62846
+    ]
+  },
+  {
+    "task_index": 85,
+    "task_id": "seismic-phase-picking@split_seismic-picking_1_data-access-prep",
+    "goal": "Execute phase 'data-access-prep' of task 'seismic-phase-picking' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      150,
+      151
+    ],
+    "gold_local_skill_names": [
+      "obspy-data-api",
+      "obspy-datacenter-client"
+    ],
+    "gold_merged_skill_indices": [
+      62861,
+      62862
+    ]
+  },
+  {
+    "task_index": 86,
+    "task_id": "seismic-phase-picking@split_seismic-picking_2_model-picking-validation",
+    "goal": "Execute phase 'model-picking-validation' of task 'seismic-phase-picking' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      152,
+      153
+    ],
+    "gold_local_skill_names": [
+      "seisbench-model-api",
+      "seismic-picker-selection"
+    ],
+    "gold_merged_skill_indices": [
+      62863,
+      62864
+    ]
+  },
+  {
+    "task_index": 87,
+    "task_id": "spring-boot-jakarta-migration@split_spring-migration_1_namespace-framework",
+    "goal": "Execute phase 'namespace-framework' of task 'spring-boot-jakarta-migration' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      167,
+      169,
+      166
+    ],
+    "gold_local_skill_names": [
+      "jakarta-namespace",
+      "spring-boot-migration",
+      "hibernate-upgrade"
+    ],
+    "gold_merged_skill_indices": [
+      62878,
+      62880,
+      62877
+    ]
+  },
+  {
+    "task_index": 88,
+    "task_id": "spring-boot-jakarta-migration@split_spring-migration_2_client-security",
+    "goal": "Execute phase 'client-security' of task 'spring-boot-jakarta-migration' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      168,
+      170
+    ],
+    "gold_local_skill_names": [
+      "restclient-migration",
+      "spring-security-6"
+    ],
+    "gold_merged_skill_indices": [
+      62879,
+      62881
+    ]
+  },
+  {
+    "task_index": 89,
+    "task_id": "travel-planning@split_travel-orchestration_1_destination-activity",
+    "goal": "Execute phase 'destination-activity' of task 'travel-planning' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      183,
+      182,
+      186
+    ],
+    "gold_local_skill_names": [
+      "search-cities",
+      "search-attractions",
+      "search-restaurants"
+    ],
+    "gold_merged_skill_indices": [
+      62894,
+      62893,
+      62897
+    ]
+  },
+  {
+    "task_index": 90,
+    "task_id": "travel-planning@split_travel-orchestration_2_booking-routing",
+    "goal": "Execute phase 'booking-routing' of task 'travel-planning' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      185,
+      181,
+      184
+    ],
+    "gold_local_skill_names": [
+      "search-flights",
+      "search-accommodations",
+      "search-driving-distance"
+    ],
+    "gold_merged_skill_indices": [
+      62896,
+      62892,
+      62895
+    ]
+  },
+  {
+    "task_index": 91,
+    "task_id": "trend-anomaly-causal-inference@split_trend-causal_1_data-feature-engineering",
+    "goal": "Execute phase 'data-feature-engineering' of task 'trend-anomaly-causal-inference' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      187,
+      189
+    ],
+    "gold_local_skill_names": [
+      "data_cleaning",
+      "feature_engineering"
+    ],
+    "gold_merged_skill_indices": [
+      62898,
+      62900
+    ]
+  },
+  {
+    "task_index": 92,
+    "task_id": "trend-anomaly-causal-inference@split_trend-causal_2_anomaly-causal-inference",
+    "goal": "Execute phase 'anomaly-causal-inference' of task 'trend-anomaly-causal-inference' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      190,
+      188
+    ],
+    "gold_local_skill_names": [
+      "time_series_anomaly_detection",
+      "did_causal_analysis"
+    ],
+    "gold_merged_skill_indices": [
+      62901,
+      62899
+    ]
+  },
+  {
+    "task_index": 93,
+    "task_id": "video-silence-remover@split_speech-cleanup_1_silence-analysis",
+    "goal": "Execute phase 'silence-analysis' of task 'video-silence-remover' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      194,
+      195,
+      196,
+      199
+    ],
+    "gold_local_skill_names": [
+      "audio-extractor",
+      "energy-calculator",
+      "pause-detector",
+      "silence-detector"
+    ],
+    "gold_merged_skill_indices": [
+      62905,
+      62906,
+      62907,
+      62910
+    ]
+  },
+  {
+    "task_index": 94,
+    "task_id": "video-silence-remover@split_speech-cleanup_2_timeline-render-report",
+    "goal": "Execute phase 'timeline-render-report' of task 'video-silence-remover' and produce a merge-ready intermediate output.",
+    "gold_local_skill_indices": [
+      198,
+      200,
+      197
+    ],
+    "gold_local_skill_names": [
+      "segment-combiner",
+      "video-processor",
+      "report-generator"
+    ],
+    "gold_merged_skill_indices": [
+      62909,
+      62911,
+      62908
+    ]
+  },
+  {
+    "task_index": 95,
+    "task_id": "seismic-event-detection-pipeline@merge_v1",
+    "goal": "Execute a merged workflow 'seismic-event-detection-pipeline' that jointly satisfies 'earthquake-phase-association' and 'seismic-phase-picking', with one integrated final output.",
+    "gold_local_skill_indices": [
+      17,
+      18,
+      19,
+      20,
+      150,
+      151,
+      152,
+      153
+    ],
+    "gold_local_skill_names": [
+      "gamma-phase-associator",
+      "obspy-data-api",
+      "seisbench-model-api",
+      "seismic-picker-selection",
+      "obspy-data-api",
+      "obspy-datacenter-client",
+      "seisbench-model-api",
+      "seismic-picker-selection"
+    ],
+    "gold_merged_skill_indices": [
+      62728,
+      62729,
+      62730,
+      62731,
+      62861,
+      62862,
+      62863,
+      62864
+    ]
+  },
+  {
+    "task_index": 96,
+    "task_id": "urban-video-motion-and-counting@merge_v1",
+    "goal": "Execute a merged workflow 'urban-video-motion-and-counting' that jointly satisfies 'dynamic-object-aware-egomotion' and 'pedestrian-traffic-counting', with one integrated final output.",
+    "gold_local_skill_indices": [
+      13,
+      14,
+      15,
+      16,
+      121,
+      122,
+      123,
+      124
+    ],
+    "gold_local_skill_names": [
+      "dyn-object-masks",
+      "egomotion-estimation",
+      "output-validation",
+      "sampling-and-indexing",
+      "gemini-count-in-video",
+      "gemini-video-understanding",
+      "gpt-multimodal",
+      "video-frame-extraction"
+    ],
+    "gold_merged_skill_indices": [
+      62724,
+      62725,
+      62726,
+      62727,
+      62832,
+      62833,
+      62834,
+      62835
+    ]
+  },
+  {
+    "task_index": 97,
+    "task_id": "grid-operation-and-pricing-optimization@merge_v1",
+    "goal": "Execute a merged workflow 'grid-operation-and-pricing-optimization' that jointly satisfies 'energy-ac-optimal-power-flow' and 'energy-market-pricing', with one integrated final output.",
+    "gold_local_skill_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "gold_local_skill_names": [
+      "ac-branch-pi-model",
+      "casadi-ipopt-nlp",
+      "power-flow-data",
+      "dc-power-flow",
+      "economic-dispatch",
+      "locational-marginal-prices",
+      "power-flow-data"
+    ],
+    "gold_merged_skill_indices": [
+      62732,
+      62733,
+      62734,
+      62735,
+      62736,
+      62737,
+      62738
+    ]
+  },
+  {
+    "task_index": 98,
+    "task_id": "multilingual-speaker-aware-localization@merge_v1",
+    "goal": "Execute a merged workflow 'multilingual-speaker-aware-localization' that jointly satisfies 'multilingual-video-dubbing' and 'speaker-diarization-subtitles', with one integrated final output.",
+    "gold_local_skill_indices": [
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      162,
+      163,
+      164,
+      165
+    ],
+    "gold_local_skill_names": [
+      "FFmpeg Audio Processing",
+      "FFmpeg Format Conversion",
+      "FFmpeg Media Info",
+      "FFmpeg Video Editing",
+      "FFmpeg Video Filters",
+      "TTS Audio Mastering",
+      "Automatic Speech Recognition (ASR)",
+      "Multimodal Fusion for Speaker Diarization",
+      "Speaker Clustering Methods",
+      "Voice Activity Detection (VAD)"
+    ],
+    "gold_merged_skill_indices": [
+      62814,
+      62815,
+      62816,
+      62817,
+      62818,
+      62819,
+      62873,
+      62874,
+      62875,
+      62876
+    ]
+  },
+  {
+    "task_index": 99,
+    "task_id": "spoken-video-cleanup-pipeline@merge_v1",
+    "goal": "Execute a merged workflow 'spoken-video-cleanup-pipeline' that jointly satisfies 'video-silence-remover' and 'video-filler-word-remover', with one integrated final output.",
+    "gold_local_skill_indices": [
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      191,
+      192,
+      193
+    ],
+    "gold_local_skill_names": [
+      "audio-extractor",
+      "energy-calculator",
+      "pause-detector",
+      "report-generator",
+      "segment-combiner",
+      "silence-detector",
+      "video-processor",
+      "ffmpeg-video-editing",
+      "filler-word-processing",
+      "whisper-transcription"
+    ],
+    "gold_merged_skill_indices": [
+      62905,
+      62906,
+      62907,
+      62908,
+      62909,
+      62910,
+      62911,
+      62902,
+      62903,
+      62904
+    ]
+  },
+  {
+    "task_index": 100,
+    "task_id": "network-exfiltration-detection-workflow@merge_v1",
+    "goal": "Execute a merged workflow 'network-exfiltration-detection-workflow' that jointly satisfies 'suricata-custom-exfil' and 'dapt-intrusion-detection', with one integrated final output.",
+    "gold_local_skill_indices": [
+      171,
+      172,
+      173,
+      11,
+      12
+    ],
+    "gold_local_skill_names": [
+      "pcap-triage-tshark",
+      "suricata-offline-evejson",
+      "suricata-rules-basics",
+      "pcap-analysis",
+      "threat-detection"
+    ],
+    "gold_merged_skill_indices": [
+      62882,
+      62883,
+      62884,
+      62722,
+      62723
+    ]
+  },
+  {
+    "task_index": 101,
+    "task_id": "tabular-data-reconciliation-recovery@merge_v1",
+    "goal": "Execute a merged workflow 'tabular-data-reconciliation-recovery' that jointly satisfies 'pdf-excel-diff' and 'xlsx-recover-data', with one integrated final output.",
+    "gold_local_skill_indices": [
+      119,
+      120,
+      201,
+      202
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "xlsx",
+      "data-reconciliation",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62830,
+      62831,
+      62912,
+      62913
+    ]
+  },
+  {
+    "task_index": 102,
+    "task_id": "financial-document-analysis-and-qa@merge_v1",
+    "goal": "Execute a merged workflow 'financial-document-analysis-and-qa' that jointly satisfies 'financial-modeling-qa' and 'sec-financial-report', with one integrated final output.",
+    "gold_local_skill_indices": [
+      35,
+      36,
+      148,
+      149
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "xlsx",
+      "13f-analyzer",
+      "fuzzy-name-search"
+    ],
+    "gold_merged_skill_indices": [
+      62746,
+      62747,
+      62859,
+      62860
+    ]
+  },
+  {
+    "task_index": 103,
+    "task_id": "frontend-performance-and-stability-hardening@merge_v1",
+    "goal": "Execute a merged workflow 'frontend-performance-and-stability-hardening' that jointly satisfies 'react-performance-debugging' and 'fix-visual-stability', with one integrated final output.",
+    "gold_local_skill_indices": [
+      142,
+      143,
+      55,
+      56,
+      57
+    ],
+    "gold_local_skill_names": [
+      "browser-testing",
+      "react-best-practices",
+      "browser-testing",
+      "react-best-practices",
+      "web-interface-guidelines"
+    ],
+    "gold_merged_skill_indices": [
+      62853,
+      62854,
+      62766,
+      62767,
+      62768
+    ]
+  },
+  {
+    "task_index": 104,
+    "task_id": "threejs-structure-export-pipeline@merge_v1",
+    "goal": "Execute a merged workflow 'threejs-structure-export-pipeline' that jointly satisfies 'threejs-structure-parser' and 'threejs-to-obj', with one integrated final output.",
+    "gold_local_skill_indices": [
+      177,
+      178,
+      179,
+      180
+    ],
+    "gold_local_skill_names": [
+      "obj-exporter",
+      "threejs",
+      "obj-exporter",
+      "threejs"
+    ],
+    "gold_merged_skill_indices": [
+      62888,
+      62889,
+      62890,
+      62891
+    ]
+  },
+  {
+    "task_index": 105,
+    "task_id": "python-ci-and-fuzzing-hardening@merge_v1",
+    "goal": "Execute a merged workflow 'python-ci-and-fuzzing-hardening' that jointly satisfies 'fix-build-agentops' and 'setup-fuzzing-py', with one integrated final output.",
+    "gold_local_skill_indices": [
+      40,
+      41,
+      42,
+      43,
+      154,
+      155,
+      156
+    ],
+    "gold_local_skill_names": [
+      "analyze-ci",
+      "temporal-python-testing",
+      "testing-python",
+      "uv-package-manager",
+      "discover-important-function",
+      "fuzzing-python",
+      "setup-env"
+    ],
+    "gold_merged_skill_indices": [
+      62751,
+      62752,
+      62753,
+      62754,
+      62865,
+      62866,
+      62867
+    ]
+  },
+  {
+    "task_index": 106,
+    "task_id": "travel-scheduling-assistant@merge_v1",
+    "goal": "Execute a merged workflow 'travel-scheduling-assistant' that jointly satisfies 'travel-planning' and 'scheduling-email-assistant', with one integrated final output.",
+    "gold_local_skill_indices": [
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      146,
+      147
+    ],
+    "gold_local_skill_names": [
+      "search-accommodations",
+      "search-attractions",
+      "search-cities",
+      "search-driving-distance",
+      "search-flights",
+      "search-restaurants",
+      "constraint-parser",
+      "gmail-skill"
+    ],
+    "gold_merged_skill_indices": [
+      62892,
+      62893,
+      62894,
+      62895,
+      62896,
+      62897,
+      62857,
+      62858
+    ]
+  },
+  {
+    "task_index": 107,
+    "task_id": "adaptive-cruise-control@rewrite_sem1",
+    "goal": "针对任务 adaptive-cruise-control（域：control-systems）产出流程化等价方案，保持语义目标不变，并以 csv-processing, pid-controller, simulation-metrics 为核心执行能力。",
+    "gold_local_skill_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "gold_local_skill_names": [
+      "csv-processing",
+      "pid-controller",
+      "simulation-metrics",
+      "vehicle-dynamics",
+      "yaml-config"
+    ],
+    "gold_merged_skill_indices": [
+      62711,
+      62712,
+      62713,
+      62714,
+      62715
+    ]
+  },
+  {
+    "task_index": 108,
+    "task_id": "adaptive-cruise-control@rewrite_sem2",
+    "goal": "针对任务 adaptive-cruise-control（域：control-systems）产出约束优先的等价方案，保持语义目标不变，并以 csv-processing, pid-controller, simulation-metrics 为核心执行能力。",
+    "gold_local_skill_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "gold_local_skill_names": [
+      "csv-processing",
+      "pid-controller",
+      "simulation-metrics",
+      "vehicle-dynamics",
+      "yaml-config"
+    ],
+    "gold_merged_skill_indices": [
+      62711,
+      62712,
+      62713,
+      62714,
+      62715
+    ]
+  },
+  {
+    "task_index": 109,
+    "task_id": "civ6-adjacency-optimizer@rewrite_sem1",
+    "goal": "针对任务 civ6-adjacency-optimizer（域：games）产出流程化等价方案，保持语义目标不变，并以 civ6lib, hex-grid-spatial, map-optimization-strategy 为核心执行能力。",
+    "gold_local_skill_indices": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "gold_local_skill_names": [
+      "civ6lib",
+      "hex-grid-spatial",
+      "map-optimization-strategy",
+      "sqlite-map-parser"
+    ],
+    "gold_merged_skill_indices": [
+      62716,
+      62717,
+      62718,
+      62719
+    ]
+  },
+  {
+    "task_index": 110,
+    "task_id": "crystallographic-wyckoff-position-analysis@rewrite_sem1",
+    "goal": "针对任务 crystallographic-wyckoff-position-analysis（域：materials_science）产出流程化等价方案，保持语义目标不变，并以 pymatgen, sympy 为核心执行能力。",
+    "gold_local_skill_indices": [
+      9,
+      10
+    ],
+    "gold_local_skill_names": [
+      "pymatgen",
+      "sympy"
+    ],
+    "gold_merged_skill_indices": [
+      62720,
+      62721
+    ]
+  },
+  {
+    "task_index": 111,
+    "task_id": "dapt-intrusion-detection@rewrite_sem1",
+    "goal": "针对任务 dapt-intrusion-detection（域：security）产出流程化等价方案，保持语义目标不变，并以 pcap-analysis, threat-detection 为核心执行能力。",
+    "gold_local_skill_indices": [
+      11,
+      12
+    ],
+    "gold_local_skill_names": [
+      "pcap-analysis",
+      "threat-detection"
+    ],
+    "gold_merged_skill_indices": [
+      62722,
+      62723
+    ]
+  },
+  {
+    "task_index": 112,
+    "task_id": "dynamic-object-aware-egomotion@rewrite_sem1",
+    "goal": "针对任务 dynamic-object-aware-egomotion（域：video-analysis）产出流程化等价方案，保持语义目标不变，并以 dyn-object-masks, egomotion-estimation, output-validation 为核心执行能力。",
+    "gold_local_skill_indices": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "gold_local_skill_names": [
+      "dyn-object-masks",
+      "egomotion-estimation",
+      "output-validation",
+      "sampling-and-indexing"
+    ],
+    "gold_merged_skill_indices": [
+      62724,
+      62725,
+      62726,
+      62727
+    ]
+  },
+  {
+    "task_index": 113,
+    "task_id": "earthquake-phase-association@rewrite_sem1",
+    "goal": "针对任务 earthquake-phase-association（域：seismology）产出流程化等价方案，保持语义目标不变，并以 gamma-phase-associator, obspy-data-api, seisbench-model-api 为核心执行能力。",
+    "gold_local_skill_indices": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "gold_local_skill_names": [
+      "gamma-phase-associator",
+      "obspy-data-api",
+      "seisbench-model-api",
+      "seismic-picker-selection"
+    ],
+    "gold_merged_skill_indices": [
+      62728,
+      62729,
+      62730,
+      62731
+    ]
+  },
+  {
+    "task_index": 114,
+    "task_id": "energy-ac-optimal-power-flow@rewrite_sem1",
+    "goal": "针对任务 energy-ac-optimal-power-flow（域：energy）产出流程化等价方案，保持语义目标不变，并以 ac-branch-pi-model, casadi-ipopt-nlp, power-flow-data 为核心执行能力。",
+    "gold_local_skill_indices": [
+      21,
+      22,
+      23
+    ],
+    "gold_local_skill_names": [
+      "ac-branch-pi-model",
+      "casadi-ipopt-nlp",
+      "power-flow-data"
+    ],
+    "gold_merged_skill_indices": [
+      62732,
+      62733,
+      62734
+    ]
+  },
+  {
+    "task_index": 115,
+    "task_id": "energy-market-pricing@rewrite_sem1",
+    "goal": "针对任务 energy-market-pricing（域：energy）产出流程化等价方案，保持语义目标不变，并以 dc-power-flow, economic-dispatch, locational-marginal-prices 为核心执行能力。",
+    "gold_local_skill_indices": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "gold_local_skill_names": [
+      "dc-power-flow",
+      "economic-dispatch",
+      "locational-marginal-prices",
+      "power-flow-data"
+    ],
+    "gold_merged_skill_indices": [
+      62735,
+      62736,
+      62737,
+      62738
+    ]
+  },
+  {
+    "task_index": 116,
+    "task_id": "exceltable-in-ppt@rewrite_sem1",
+    "goal": "针对任务 exceltable-in-ppt（域：office-operation）产出流程化等价方案，保持语义目标不变，并以 pptx, xlsx 为核心执行能力。",
+    "gold_local_skill_indices": [
+      28,
+      29
+    ],
+    "gold_local_skill_names": [
+      "pptx",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62739,
+      62740
+    ]
+  },
+  {
+    "task_index": 117,
+    "task_id": "exoplanet-detection-period@rewrite_sem1",
+    "goal": "针对任务 exoplanet-detection-period（域：astronomy）产出流程化等价方案，保持语义目标不变，并以 box-least-squares, exoplanet-workflows, light-curve-preprocessing 为核心执行能力。",
+    "gold_local_skill_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "gold_local_skill_names": [
+      "box-least-squares",
+      "exoplanet-workflows",
+      "light-curve-preprocessing",
+      "lomb-scargle-periodogram",
+      "transit-least-squares"
+    ],
+    "gold_merged_skill_indices": [
+      62741,
+      62742,
+      62743,
+      62744,
+      62745
+    ]
+  },
+  {
+    "task_index": 118,
+    "task_id": "exoplanet-detection-period@rewrite_sem2",
+    "goal": "针对任务 exoplanet-detection-period（域：astronomy）产出约束优先的等价方案，保持语义目标不变，并以 box-least-squares, exoplanet-workflows, light-curve-preprocessing 为核心执行能力。",
+    "gold_local_skill_indices": [
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "gold_local_skill_names": [
+      "box-least-squares",
+      "exoplanet-workflows",
+      "light-curve-preprocessing",
+      "lomb-scargle-periodogram",
+      "transit-least-squares"
+    ],
+    "gold_merged_skill_indices": [
+      62741,
+      62742,
+      62743,
+      62744,
+      62745
+    ]
+  },
+  {
+    "task_index": 119,
+    "task_id": "financial-modeling-qa@rewrite_sem1",
+    "goal": "针对任务 financial-modeling-qa（域：financial-modeling）产出流程化等价方案，保持语义目标不变，并以 pdf, xlsx 为核心执行能力。",
+    "gold_local_skill_indices": [
+      35,
+      36
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62746,
+      62747
+    ]
+  },
+  {
+    "task_index": 120,
+    "task_id": "find-topk-similiar-chemicals@rewrite_sem1",
+    "goal": "针对任务 find-topk-similiar-chemicals（域：chemistry）产出流程化等价方案，保持语义目标不变，并以 pdf, pubchem-database, rdkit 为核心执行能力。",
+    "gold_local_skill_indices": [
+      37,
+      38,
+      39
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "pubchem-database",
+      "rdkit"
+    ],
+    "gold_merged_skill_indices": [
+      62748,
+      62749,
+      62750
+    ]
+  },
+  {
+    "task_index": 121,
+    "task_id": "fix-build-agentops@rewrite_sem1",
+    "goal": "针对任务 fix-build-agentops（域：compilation-&-build）产出流程化等价方案，保持语义目标不变，并以 analyze-ci, temporal-python-testing, testing-python 为核心执行能力。",
+    "gold_local_skill_indices": [
+      40,
+      41,
+      42,
+      43
+    ],
+    "gold_local_skill_names": [
+      "analyze-ci",
+      "temporal-python-testing",
+      "testing-python",
+      "uv-package-manager"
+    ],
+    "gold_merged_skill_indices": [
+      62751,
+      62752,
+      62753,
+      62754
+    ]
+  },
+  {
+    "task_index": 122,
+    "task_id": "fix-build-google-auto@rewrite_sem1",
+    "goal": "针对任务 fix-build-google-auto（域：compilation-&-build）产出流程化等价方案，保持语义目标不变，并以 maven-build-lifecycle, maven-dependency-management, maven-plugin-configuration 为核心执行能力。",
+    "gold_local_skill_indices": [
+      44,
+      45,
+      46
+    ],
+    "gold_local_skill_names": [
+      "maven-build-lifecycle",
+      "maven-dependency-management",
+      "maven-plugin-configuration"
+    ],
+    "gold_merged_skill_indices": [
+      62755,
+      62756,
+      62757
+    ]
+  },
+  {
+    "task_index": 123,
+    "task_id": "fix-druid-loophole-cve@rewrite_sem1",
+    "goal": "针对任务 fix-druid-loophole-cve（域：security）产出流程化等价方案，保持语义目标不变，并以 jackson-security, senior-java 为核心执行能力。",
+    "gold_local_skill_indices": [
+      47,
+      48
+    ],
+    "gold_local_skill_names": [
+      "jackson-security",
+      "senior-java"
+    ],
+    "gold_merged_skill_indices": [
+      62758,
+      62759
+    ]
+  },
+  {
+    "task_index": 124,
+    "task_id": "fix-erlang-ssh-cve@rewrite_sem1",
+    "goal": "针对任务 fix-erlang-ssh-cve（域：erlang-bugfix）产出流程化等价方案，保持语义目标不变，并以 erlang-concurrency, erlang-distribution, erlang-otp-behaviors 为核心执行能力。",
+    "gold_local_skill_indices": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "gold_local_skill_names": [
+      "erlang-concurrency",
+      "erlang-distribution",
+      "erlang-otp-behaviors",
+      "find-bugs",
+      "senior-security",
+      "ssh-penetration-testing"
+    ],
+    "gold_merged_skill_indices": [
+      62760,
+      62761,
+      62762,
+      62763,
+      62764,
+      62765
+    ]
+  },
+  {
+    "task_index": 125,
+    "task_id": "fix-erlang-ssh-cve@rewrite_sem2",
+    "goal": "针对任务 fix-erlang-ssh-cve（域：erlang-bugfix）产出约束优先的等价方案，保持语义目标不变，并以 erlang-concurrency, erlang-distribution, erlang-otp-behaviors 为核心执行能力。",
+    "gold_local_skill_indices": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "gold_local_skill_names": [
+      "erlang-concurrency",
+      "erlang-distribution",
+      "erlang-otp-behaviors",
+      "find-bugs",
+      "senior-security",
+      "ssh-penetration-testing"
+    ],
+    "gold_merged_skill_indices": [
+      62760,
+      62761,
+      62762,
+      62763,
+      62764,
+      62765
+    ]
+  },
+  {
+    "task_index": 126,
+    "task_id": "fix-visual-stability@rewrite_sem1",
+    "goal": "针对任务 fix-visual-stability（域：web-performance）产出流程化等价方案，保持语义目标不变，并以 browser-testing, react-best-practices, web-interface-guidelines 为核心执行能力。",
+    "gold_local_skill_indices": [
+      55,
+      56,
+      57
+    ],
+    "gold_local_skill_names": [
+      "browser-testing",
+      "react-best-practices",
+      "web-interface-guidelines"
+    ],
+    "gold_merged_skill_indices": [
+      62766,
+      62767,
+      62768
+    ]
+  },
+  {
+    "task_index": 127,
+    "task_id": "flink-query@rewrite_sem1",
+    "goal": "针对任务 flink-query（域：flink）产出流程化等价方案，保持语义目标不变，并以 pdf, senior-data-engineer 为核心执行能力。",
+    "gold_local_skill_indices": [
+      58,
+      59
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "senior-data-engineer"
+    ],
+    "gold_merged_skill_indices": [
+      62769,
+      62770
+    ]
+  },
+  {
+    "task_index": 128,
+    "task_id": "flood-risk-analysis@rewrite_sem1",
+    "goal": "针对任务 flood-risk-analysis（域：data-processing）产出流程化等价方案，保持语义目标不变，并以 flood-detection, nws-flood-thresholds, usgs-data-download 为核心执行能力。",
+    "gold_local_skill_indices": [
+      60,
+      61,
+      62
+    ],
+    "gold_local_skill_names": [
+      "flood-detection",
+      "nws-flood-thresholds",
+      "usgs-data-download"
+    ],
+    "gold_merged_skill_indices": [
+      62771,
+      62772,
+      62773
+    ]
+  },
+  {
+    "task_index": 129,
+    "task_id": "glm-lake-mendota@rewrite_sem1",
+    "goal": "针对任务 glm-lake-mendota（域：environmental-modeling）产出流程化等价方案，保持语义目标不变，并以 glm-basics, glm-calibration, glm-output 为核心执行能力。",
+    "gold_local_skill_indices": [
+      63,
+      64,
+      65
+    ],
+    "gold_local_skill_names": [
+      "glm-basics",
+      "glm-calibration",
+      "glm-output"
+    ],
+    "gold_merged_skill_indices": [
+      62774,
+      62775,
+      62776
+    ]
+  },
+  {
+    "task_index": 130,
+    "task_id": "gravitational-wave-detection@rewrite_sem1",
+    "goal": "针对任务 gravitational-wave-detection（域：astronomy）产出流程化等价方案，保持语义目标不变，并以 conditioning, matched-filtering 为核心执行能力。",
+    "gold_local_skill_indices": [
+      66,
+      67
+    ],
+    "gold_local_skill_names": [
+      "conditioning",
+      "matched-filtering"
+    ],
+    "gold_merged_skill_indices": [
+      62777,
+      62778
+    ]
+  },
+  {
+    "task_index": 131,
+    "task_id": "grid-dispatch-operator@rewrite_sem1",
+    "goal": "针对任务 grid-dispatch-operator（域：energy）产出流程化等价方案，保持语义目标不变，并以 dc-power-flow, economic-dispatch, power-flow-data 为核心执行能力。",
+    "gold_local_skill_indices": [
+      68,
+      69,
+      70
+    ],
+    "gold_local_skill_names": [
+      "dc-power-flow",
+      "economic-dispatch",
+      "power-flow-data"
+    ],
+    "gold_merged_skill_indices": [
+      62779,
+      62780,
+      62781
+    ]
+  },
+  {
+    "task_index": 132,
+    "task_id": "hvac-control@rewrite_sem1",
+    "goal": "针对任务 hvac-control（域：control-systems）产出流程化等价方案，保持语义目标不变，并以 excitation-signal-design, first-order-model-fitting, imc-tuning-rules 为核心执行能力。",
+    "gold_local_skill_indices": [
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "gold_local_skill_names": [
+      "excitation-signal-design",
+      "first-order-model-fitting",
+      "imc-tuning-rules",
+      "safety-interlocks",
+      "scipy-curve-fit"
+    ],
+    "gold_merged_skill_indices": [
+      62782,
+      62783,
+      62784,
+      62785,
+      62786
+    ]
+  },
+  {
+    "task_index": 133,
+    "task_id": "hvac-control@rewrite_sem2",
+    "goal": "针对任务 hvac-control（域：control-systems）产出约束优先的等价方案，保持语义目标不变，并以 excitation-signal-design, first-order-model-fitting, imc-tuning-rules 为核心执行能力。",
+    "gold_local_skill_indices": [
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "gold_local_skill_names": [
+      "excitation-signal-design",
+      "first-order-model-fitting",
+      "imc-tuning-rules",
+      "safety-interlocks",
+      "scipy-curve-fit"
+    ],
+    "gold_merged_skill_indices": [
+      62782,
+      62783,
+      62784,
+      62785,
+      62786
+    ]
+  },
+  {
+    "task_index": 134,
+    "task_id": "invoice-fraud-detection@rewrite_sem1",
+    "goal": "针对任务 invoice-fraud-detection（域：data-validation）产出流程化等价方案，保持语义目标不变，并以 fuzzy-match, pdf, xlsx 为核心执行能力。",
+    "gold_local_skill_indices": [
+      76,
+      77,
+      78
+    ],
+    "gold_local_skill_names": [
+      "fuzzy-match",
+      "pdf",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62787,
+      62788,
+      62789
+    ]
+  },
+  {
+    "task_index": 135,
+    "task_id": "jpg-ocr-stat@rewrite_sem1",
+    "goal": "针对任务 jpg-ocr-stat（域：data-statistics）产出流程化等价方案，保持语义目标不变，并以 image-ocr, openai-vision, pdf 为核心执行能力。",
+    "gold_local_skill_indices": [
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "gold_local_skill_names": [
+      "image-ocr",
+      "openai-vision",
+      "pdf",
+      "video-frame-extraction",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62790,
+      62791,
+      62792,
+      62793,
+      62794
+    ]
+  },
+  {
+    "task_index": 136,
+    "task_id": "jpg-ocr-stat@rewrite_sem2",
+    "goal": "针对任务 jpg-ocr-stat（域：data-statistics）产出约束优先的等价方案，保持语义目标不变，并以 image-ocr, openai-vision, pdf 为核心执行能力。",
+    "gold_local_skill_indices": [
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "gold_local_skill_names": [
+      "image-ocr",
+      "openai-vision",
+      "pdf",
+      "video-frame-extraction",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62790,
+      62791,
+      62792,
+      62793,
+      62794
+    ]
+  },
+  {
+    "task_index": 137,
+    "task_id": "lake-warming-attribution@rewrite_sem1",
+    "goal": "针对任务 lake-warming-attribution（域：data-processing）产出流程化等价方案，保持语义目标不变，并以 contribution-analysis, meteorology-driver-classification, pca-decomposition 为核心执行能力。",
+    "gold_local_skill_indices": [
+      84,
+      85,
+      86,
+      87
+    ],
+    "gold_local_skill_names": [
+      "contribution-analysis",
+      "meteorology-driver-classification",
+      "pca-decomposition",
+      "trend-analysis"
+    ],
+    "gold_merged_skill_indices": [
+      62795,
+      62796,
+      62797,
+      62798
+    ]
+  },
+  {
+    "task_index": 138,
+    "task_id": "latex-formula-extraction@rewrite_sem1",
+    "goal": "针对任务 latex-formula-extraction（域：latex-extraction）产出流程化等价方案，保持语义目标不变，并以 marker, pdf 为核心执行能力。",
+    "gold_local_skill_indices": [
+      88,
+      89
+    ],
+    "gold_local_skill_names": [
+      "marker",
+      "pdf"
+    ],
+    "gold_merged_skill_indices": [
+      62799,
+      62800
+    ]
+  },
+  {
+    "task_index": 139,
+    "task_id": "lean4-proof@rewrite_sem1",
+    "goal": "针对任务 lean4-proof（域：formal-method）产出流程化等价方案，保持语义目标不变，并以 lean4-memories, lean4-theorem-proving 为核心执行能力。",
+    "gold_local_skill_indices": [
+      90,
+      91
+    ],
+    "gold_local_skill_names": [
+      "lean4-memories",
+      "lean4-theorem-proving"
+    ],
+    "gold_merged_skill_indices": [
+      62801,
+      62802
+    ]
+  },
+  {
+    "task_index": 140,
+    "task_id": "manufacturing-equipment-maintenance@rewrite_sem1",
+    "goal": "针对任务 manufacturing-equipment-maintenance（域：manufacturing）产出流程化等价方案，保持语义目标不变，并以 reflow-profile-compliance-toolkit, reflow_machine_maintenance_guidance 为核心执行能力。",
+    "gold_local_skill_indices": [
+      92,
+      93
+    ],
+    "gold_local_skill_names": [
+      "reflow-profile-compliance-toolkit",
+      "reflow_machine_maintenance_guidance"
+    ],
+    "gold_merged_skill_indices": [
+      62803,
+      62804
+    ]
+  },
+  {
+    "task_index": 141,
+    "task_id": "mario-coin-counting@rewrite_sem1",
+    "goal": "针对任务 mario-coin-counting（域：image-processing）产出流程化等价方案，保持语义目标不变，并以 ffmpeg-keyframe-extraction, image_editing, object_counter 为核心执行能力。",
+    "gold_local_skill_indices": [
+      94,
+      95,
+      96
+    ],
+    "gold_local_skill_names": [
+      "ffmpeg-keyframe-extraction",
+      "image_editing",
+      "object_counter"
+    ],
+    "gold_merged_skill_indices": [
+      62805,
+      62806,
+      62807
+    ]
+  },
+  {
+    "task_index": 142,
+    "task_id": "mars-clouds-clustering@rewrite_sem1",
+    "goal": "针对任务 mars-clouds-clustering（域：data-science）产出流程化等价方案，保持语义目标不变，并以 custom-distance-metrics, parallel-processing, pareto-optimization 为核心执行能力。",
+    "gold_local_skill_indices": [
+      97,
+      98,
+      99
+    ],
+    "gold_local_skill_names": [
+      "custom-distance-metrics",
+      "parallel-processing",
+      "pareto-optimization"
+    ],
+    "gold_merged_skill_indices": [
+      62808,
+      62809,
+      62810
+    ]
+  },
+  {
+    "task_index": 143,
+    "task_id": "mhc-layer-impl@rewrite_sem1",
+    "goal": "针对任务 mhc-layer-impl（域：ml-implementation）产出流程化等价方案，保持语义目标不变，并以 mhc-algorithm, modal-gpu, nanogpt-training 为核心执行能力。",
+    "gold_local_skill_indices": [
+      100,
+      101,
+      102
+    ],
+    "gold_local_skill_names": [
+      "mhc-algorithm",
+      "modal-gpu",
+      "nanogpt-training"
+    ],
+    "gold_merged_skill_indices": [
+      62811,
+      62812,
+      62813
+    ]
+  },
+  {
+    "task_index": 144,
+    "task_id": "multilingual-video-dubbing@rewrite_sem1",
+    "goal": "针对任务 multilingual-video-dubbing（域：multimodal-video-dubbing）产出流程化等价方案，保持语义目标不变，并以 FFmpeg Audio Processing, FFmpeg Format Conversion, FFmpeg Media Info 为核心执行能力。",
+    "gold_local_skill_indices": [
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ],
+    "gold_local_skill_names": [
+      "FFmpeg Audio Processing",
+      "FFmpeg Format Conversion",
+      "FFmpeg Media Info",
+      "FFmpeg Video Editing",
+      "FFmpeg Video Filters",
+      "TTS Audio Mastering"
+    ],
+    "gold_merged_skill_indices": [
+      62814,
+      62815,
+      62816,
+      62817,
+      62818,
+      62819
+    ]
+  },
+  {
+    "task_index": 145,
+    "task_id": "multilingual-video-dubbing@rewrite_sem2",
+    "goal": "针对任务 multilingual-video-dubbing（域：multimodal-video-dubbing）产出约束优先的等价方案，保持语义目标不变，并以 FFmpeg Audio Processing, FFmpeg Format Conversion, FFmpeg Media Info 为核心执行能力。",
+    "gold_local_skill_indices": [
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ],
+    "gold_local_skill_names": [
+      "FFmpeg Audio Processing",
+      "FFmpeg Format Conversion",
+      "FFmpeg Media Info",
+      "FFmpeg Video Editing",
+      "FFmpeg Video Filters",
+      "TTS Audio Mastering"
+    ],
+    "gold_merged_skill_indices": [
+      62814,
+      62815,
+      62816,
+      62817,
+      62818,
+      62819
+    ]
+  },
+  {
+    "task_index": 146,
+    "task_id": "organize-messy-files@rewrite_sem1",
+    "goal": "针对任务 organize-messy-files（域：file-management）产出流程化等价方案，保持语义目标不变，并以 docx, file-organizer, pdf 为核心执行能力。",
+    "gold_local_skill_indices": [
+      109,
+      110,
+      111,
+      112,
+      113
+    ],
+    "gold_local_skill_names": [
+      "docx",
+      "file-organizer",
+      "pdf",
+      "planning-with-files",
+      "pptx"
+    ],
+    "gold_merged_skill_indices": [
+      62820,
+      62821,
+      62822,
+      62823,
+      62824
+    ]
+  },
+  {
+    "task_index": 147,
+    "task_id": "organize-messy-files@rewrite_sem2",
+    "goal": "针对任务 organize-messy-files（域：file-management）产出约束优先的等价方案，保持语义目标不变，并以 docx, file-organizer, pdf 为核心执行能力。",
+    "gold_local_skill_indices": [
+      109,
+      110,
+      111,
+      112,
+      113
+    ],
+    "gold_local_skill_names": [
+      "docx",
+      "file-organizer",
+      "pdf",
+      "planning-with-files",
+      "pptx"
+    ],
+    "gold_merged_skill_indices": [
+      62820,
+      62821,
+      62822,
+      62823,
+      62824
+    ]
+  },
+  {
+    "task_index": 148,
+    "task_id": "paper-anonymizer@rewrite_sem1",
+    "goal": "针对任务 paper-anonymizer（域：document-editing）产出流程化等价方案，保持语义目标不变，并以 academic-pdf-redaction, pdf 为核心执行能力。",
+    "gold_local_skill_indices": [
+      114,
+      115
+    ],
+    "gold_local_skill_names": [
+      "academic-pdf-redaction",
+      "pdf"
+    ],
+    "gold_merged_skill_indices": [
+      62825,
+      62826
+    ]
+  },
+  {
+    "task_index": 149,
+    "task_id": "parallel-tfidf-search@rewrite_sem1",
+    "goal": "针对任务 parallel-tfidf-search（域：parallelization）产出流程化等价方案，保持语义目标不变，并以 memory-optimization, python-parallelization, workload-balancing 为核心执行能力。",
+    "gold_local_skill_indices": [
+      116,
+      117,
+      118
+    ],
+    "gold_local_skill_names": [
+      "memory-optimization",
+      "python-parallelization",
+      "workload-balancing"
+    ],
+    "gold_merged_skill_indices": [
+      62827,
+      62828,
+      62829
+    ]
+  },
+  {
+    "task_index": 150,
+    "task_id": "pdf-excel-diff@rewrite_sem1",
+    "goal": "针对任务 pdf-excel-diff（域：data-comparison）产出流程化等价方案，保持语义目标不变，并以 pdf, xlsx 为核心执行能力。",
+    "gold_local_skill_indices": [
+      119,
+      120
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62830,
+      62831
+    ]
+  },
+  {
+    "task_index": 151,
+    "task_id": "pedestrian-traffic-counting@rewrite_sem1",
+    "goal": "针对任务 pedestrian-traffic-counting（域：pedestrian-traffic-counting）产出流程化等价方案，保持语义目标不变，并以 gemini-count-in-video, gemini-video-understanding, gpt-multimodal 为核心执行能力。",
+    "gold_local_skill_indices": [
+      121,
+      122,
+      123,
+      124
+    ],
+    "gold_local_skill_names": [
+      "gemini-count-in-video",
+      "gemini-video-understanding",
+      "gpt-multimodal",
+      "video-frame-extraction"
+    ],
+    "gold_merged_skill_indices": [
+      62832,
+      62833,
+      62834,
+      62835
+    ]
+  },
+  {
+    "task_index": 152,
+    "task_id": "pg-essay-to-audiobook@rewrite_sem1",
+    "goal": "针对任务 pg-essay-to-audiobook（域：speech-synthesis）产出流程化等价方案，保持语义目标不变，并以 audiobook, elevenlabs-tts, gtts 为核心执行能力。",
+    "gold_local_skill_indices": [
+      125,
+      126,
+      127,
+      128
+    ],
+    "gold_local_skill_names": [
+      "audiobook",
+      "elevenlabs-tts",
+      "gtts",
+      "openai-tts"
+    ],
+    "gold_merged_skill_indices": [
+      62836,
+      62837,
+      62838,
+      62839
+    ]
+  },
+  {
+    "task_index": 153,
+    "task_id": "powerlifting-coef-calc@rewrite_sem1",
+    "goal": "针对任务 powerlifting-coef-calc（域：data-analysis）产出流程化等价方案，保持语义目标不变，并以 powerlifting, senior-data-scientist, xlsx 为核心执行能力。",
+    "gold_local_skill_indices": [
+      129,
+      130,
+      131
+    ],
+    "gold_local_skill_names": [
+      "powerlifting",
+      "senior-data-scientist",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62840,
+      62841,
+      62842
+    ]
+  },
+  {
+    "task_index": 154,
+    "task_id": "python-scala-translation@rewrite_sem1",
+    "goal": "针对任务 python-scala-translation（域：code-translation）产出流程化等价方案，保持语义目标不变，并以 python-scala-collections, python-scala-functional, python-scala-idioms 为核心执行能力。",
+    "gold_local_skill_indices": [
+      132,
+      133,
+      134,
+      135,
+      136,
+      137
+    ],
+    "gold_local_skill_names": [
+      "python-scala-collections",
+      "python-scala-functional",
+      "python-scala-idioms",
+      "python-scala-libraries",
+      "python-scala-oop",
+      "python-scala-syntax-mapping"
+    ],
+    "gold_merged_skill_indices": [
+      62843,
+      62844,
+      62845,
+      62846,
+      62847,
+      62848
+    ]
+  },
+  {
+    "task_index": 155,
+    "task_id": "python-scala-translation@rewrite_sem2",
+    "goal": "针对任务 python-scala-translation（域：code-translation）产出约束优先的等价方案，保持语义目标不变，并以 python-scala-collections, python-scala-functional, python-scala-idioms 为核心执行能力。",
+    "gold_local_skill_indices": [
+      132,
+      133,
+      134,
+      135,
+      136,
+      137
+    ],
+    "gold_local_skill_names": [
+      "python-scala-collections",
+      "python-scala-functional",
+      "python-scala-idioms",
+      "python-scala-libraries",
+      "python-scala-oop",
+      "python-scala-syntax-mapping"
+    ],
+    "gold_merged_skill_indices": [
+      62843,
+      62844,
+      62845,
+      62846,
+      62847,
+      62848
+    ]
+  },
+  {
+    "task_index": 156,
+    "task_id": "r2r-mpc-control@rewrite_sem1",
+    "goal": "针对任务 r2r-mpc-control（域：control-systems）产出流程化等价方案，保持语义目标不变，并以 finite-horizon-lqr, integral-action-design, mpc-horizon-tuning 为核心执行能力。",
+    "gold_local_skill_indices": [
+      138,
+      139,
+      140,
+      141
+    ],
+    "gold_local_skill_names": [
+      "finite-horizon-lqr",
+      "integral-action-design",
+      "mpc-horizon-tuning",
+      "state-space-linearization"
+    ],
+    "gold_merged_skill_indices": [
+      62849,
+      62850,
+      62851,
+      62852
+    ]
+  },
+  {
+    "task_index": 157,
+    "task_id": "react-performance-debugging@rewrite_sem1",
+    "goal": "针对任务 react-performance-debugging（域：web-performance）产出流程化等价方案，保持语义目标不变，并以 browser-testing, react-best-practices 为核心执行能力。",
+    "gold_local_skill_indices": [
+      142,
+      143
+    ],
+    "gold_local_skill_names": [
+      "browser-testing",
+      "react-best-practices"
+    ],
+    "gold_merged_skill_indices": [
+      62853,
+      62854
+    ]
+  },
+  {
+    "task_index": 158,
+    "task_id": "sales-pivot-analysis@rewrite_sem1",
+    "goal": "针对任务 sales-pivot-analysis（域：data-analysis）产出流程化等价方案，保持语义目标不变，并以 pdf, xlsx 为核心执行能力。",
+    "gold_local_skill_indices": [
+      144,
+      145
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62855,
+      62856
+    ]
+  },
+  {
+    "task_index": 159,
+    "task_id": "scheduling-email-assistant@rewrite_sem1",
+    "goal": "针对任务 scheduling-email-assistant（域：scheduling）产出流程化等价方案，保持语义目标不变，并以 constraint-parser, gmail-skill 为核心执行能力。",
+    "gold_local_skill_indices": [
+      146,
+      147
+    ],
+    "gold_local_skill_names": [
+      "constraint-parser",
+      "gmail-skill"
+    ],
+    "gold_merged_skill_indices": [
+      62857,
+      62858
+    ]
+  },
+  {
+    "task_index": 160,
+    "task_id": "sec-financial-report@rewrite_sem1",
+    "goal": "针对任务 sec-financial-report（域：finance）产出流程化等价方案，保持语义目标不变，并以 13f-analyzer, fuzzy-name-search 为核心执行能力。",
+    "gold_local_skill_indices": [
+      148,
+      149
+    ],
+    "gold_local_skill_names": [
+      "13f-analyzer",
+      "fuzzy-name-search"
+    ],
+    "gold_merged_skill_indices": [
+      62859,
+      62860
+    ]
+  },
+  {
+    "task_index": 161,
+    "task_id": "seismic-phase-picking@rewrite_sem1",
+    "goal": "针对任务 seismic-phase-picking（域：seismology）产出流程化等价方案，保持语义目标不变，并以 obspy-data-api, obspy-datacenter-client, seisbench-model-api 为核心执行能力。",
+    "gold_local_skill_indices": [
+      150,
+      151,
+      152,
+      153
+    ],
+    "gold_local_skill_names": [
+      "obspy-data-api",
+      "obspy-datacenter-client",
+      "seisbench-model-api",
+      "seismic-picker-selection"
+    ],
+    "gold_merged_skill_indices": [
+      62861,
+      62862,
+      62863,
+      62864
+    ]
+  },
+  {
+    "task_index": 162,
+    "task_id": "setup-fuzzing-py@rewrite_sem1",
+    "goal": "针对任务 setup-fuzzing-py（域：security）产出流程化等价方案，保持语义目标不变，并以 discover-important-function, fuzzing-python, setup-env 为核心执行能力。",
+    "gold_local_skill_indices": [
+      154,
+      155,
+      156
+    ],
+    "gold_local_skill_names": [
+      "discover-important-function",
+      "fuzzing-python",
+      "setup-env"
+    ],
+    "gold_merged_skill_indices": [
+      62865,
+      62866,
+      62867
+    ]
+  },
+  {
+    "task_index": 163,
+    "task_id": "simpo-code-reproduction@rewrite_sem1",
+    "goal": "针对任务 simpo-code-reproduction（域：code-reproduction）产出流程化等价方案，保持语义目标不变，并以 nlp-research-repo-package-installment, pdf 为核心执行能力。",
+    "gold_local_skill_indices": [
+      157,
+      158
+    ],
+    "gold_local_skill_names": [
+      "nlp-research-repo-package-installment",
+      "pdf"
+    ],
+    "gold_merged_skill_indices": [
+      62868,
+      62869
+    ]
+  },
+  {
+    "task_index": 164,
+    "task_id": "software-dependency-audit@rewrite_sem1",
+    "goal": "针对任务 software-dependency-audit（域：security）产出流程化等价方案，保持语义目标不变，并以 cvss-score-extraction, trivy-offline-vulnerability-scanning, vulnerability-csv-reporting 为核心执行能力。",
+    "gold_local_skill_indices": [
+      159,
+      160,
+      161
+    ],
+    "gold_local_skill_names": [
+      "cvss-score-extraction",
+      "trivy-offline-vulnerability-scanning",
+      "vulnerability-csv-reporting"
+    ],
+    "gold_merged_skill_indices": [
+      62870,
+      62871,
+      62872
+    ]
+  },
+  {
+    "task_index": 165,
+    "task_id": "speaker-diarization-subtitles@rewrite_sem1",
+    "goal": "针对任务 speaker-diarization-subtitles（域：audio-visual）产出流程化等价方案，保持语义目标不变，并以 Automatic Speech Recognition (ASR), Multimodal Fusion for Speaker Diarization, Speaker Clustering Methods 为核心执行能力。",
+    "gold_local_skill_indices": [
+      162,
+      163,
+      164,
+      165
+    ],
+    "gold_local_skill_names": [
+      "Automatic Speech Recognition (ASR)",
+      "Multimodal Fusion for Speaker Diarization",
+      "Speaker Clustering Methods",
+      "Voice Activity Detection (VAD)"
+    ],
+    "gold_merged_skill_indices": [
+      62873,
+      62874,
+      62875,
+      62876
+    ]
+  },
+  {
+    "task_index": 166,
+    "task_id": "spring-boot-jakarta-migration@rewrite_sem1",
+    "goal": "针对任务 spring-boot-jakarta-migration（域：legacy-systems）产出流程化等价方案，保持语义目标不变，并以 hibernate-upgrade, jakarta-namespace, restclient-migration 为核心执行能力。",
+    "gold_local_skill_indices": [
+      166,
+      167,
+      168,
+      169,
+      170
+    ],
+    "gold_local_skill_names": [
+      "hibernate-upgrade",
+      "jakarta-namespace",
+      "restclient-migration",
+      "spring-boot-migration",
+      "spring-security-6"
+    ],
+    "gold_merged_skill_indices": [
+      62877,
+      62878,
+      62879,
+      62880,
+      62881
+    ]
+  },
+  {
+    "task_index": 167,
+    "task_id": "spring-boot-jakarta-migration@rewrite_sem2",
+    "goal": "针对任务 spring-boot-jakarta-migration（域：legacy-systems）产出约束优先的等价方案，保持语义目标不变，并以 hibernate-upgrade, jakarta-namespace, restclient-migration 为核心执行能力。",
+    "gold_local_skill_indices": [
+      166,
+      167,
+      168,
+      169,
+      170
+    ],
+    "gold_local_skill_names": [
+      "hibernate-upgrade",
+      "jakarta-namespace",
+      "restclient-migration",
+      "spring-boot-migration",
+      "spring-security-6"
+    ],
+    "gold_merged_skill_indices": [
+      62877,
+      62878,
+      62879,
+      62880,
+      62881
+    ]
+  },
+  {
+    "task_index": 168,
+    "task_id": "suricata-custom-exfil@rewrite_sem1",
+    "goal": "针对任务 suricata-custom-exfil（域：security-&-ctf）产出流程化等价方案，保持语义目标不变，并以 pcap-triage-tshark, suricata-offline-evejson, suricata-rules-basics 为核心执行能力。",
+    "gold_local_skill_indices": [
+      171,
+      172,
+      173
+    ],
+    "gold_local_skill_names": [
+      "pcap-triage-tshark",
+      "suricata-offline-evejson",
+      "suricata-rules-basics"
+    ],
+    "gold_merged_skill_indices": [
+      62882,
+      62883,
+      62884
+    ]
+  },
+  {
+    "task_index": 169,
+    "task_id": "syzkaller-ppdev-syzlang@rewrite_sem1",
+    "goal": "针对任务 syzkaller-ppdev-syzlang（域：security）产出流程化等价方案，保持语义目标不变，并以 syz-extract-constants, syzkaller-build-loop, syzlang-ioctl-basics 为核心执行能力。",
+    "gold_local_skill_indices": [
+      174,
+      175,
+      176
+    ],
+    "gold_local_skill_names": [
+      "syz-extract-constants",
+      "syzkaller-build-loop",
+      "syzlang-ioctl-basics"
+    ],
+    "gold_merged_skill_indices": [
+      62885,
+      62886,
+      62887
+    ]
+  },
+  {
+    "task_index": 170,
+    "task_id": "threejs-structure-parser@rewrite_sem1",
+    "goal": "针对任务 threejs-structure-parser（域：3d-graphics）产出流程化等价方案，保持语义目标不变，并以 obj-exporter, threejs 为核心执行能力。",
+    "gold_local_skill_indices": [
+      177,
+      178
+    ],
+    "gold_local_skill_names": [
+      "obj-exporter",
+      "threejs"
+    ],
+    "gold_merged_skill_indices": [
+      62888,
+      62889
+    ]
+  },
+  {
+    "task_index": 171,
+    "task_id": "threejs-to-obj@rewrite_sem1",
+    "goal": "针对任务 threejs-to-obj（域：3d-graphics）产出流程化等价方案，保持语义目标不变，并以 obj-exporter, threejs 为核心执行能力。",
+    "gold_local_skill_indices": [
+      179,
+      180
+    ],
+    "gold_local_skill_names": [
+      "obj-exporter",
+      "threejs"
+    ],
+    "gold_merged_skill_indices": [
+      62890,
+      62891
+    ]
+  },
+  {
+    "task_index": 172,
+    "task_id": "travel-planning@rewrite_sem1",
+    "goal": "针对任务 travel-planning（域：travel-planning）产出流程化等价方案，保持语义目标不变，并以 search-accommodations, search-attractions, search-cities 为核心执行能力。",
+    "gold_local_skill_indices": [
+      181,
+      182,
+      183,
+      184,
+      185,
+      186
+    ],
+    "gold_local_skill_names": [
+      "search-accommodations",
+      "search-attractions",
+      "search-cities",
+      "search-driving-distance",
+      "search-flights",
+      "search-restaurants"
+    ],
+    "gold_merged_skill_indices": [
+      62892,
+      62893,
+      62894,
+      62895,
+      62896,
+      62897
+    ]
+  },
+  {
+    "task_index": 173,
+    "task_id": "travel-planning@rewrite_sem2",
+    "goal": "针对任务 travel-planning（域：travel-planning）产出约束优先的等价方案，保持语义目标不变，并以 search-accommodations, search-attractions, search-cities 为核心执行能力。",
+    "gold_local_skill_indices": [
+      181,
+      182,
+      183,
+      184,
+      185,
+      186
+    ],
+    "gold_local_skill_names": [
+      "search-accommodations",
+      "search-attractions",
+      "search-cities",
+      "search-driving-distance",
+      "search-flights",
+      "search-restaurants"
+    ],
+    "gold_merged_skill_indices": [
+      62892,
+      62893,
+      62894,
+      62895,
+      62896,
+      62897
+    ]
+  },
+  {
+    "task_index": 174,
+    "task_id": "trend-anomaly-causal-inference@rewrite_sem1",
+    "goal": "针对任务 trend-anomaly-causal-inference（域：data-science）产出流程化等价方案，保持语义目标不变，并以 data_cleaning, did_causal_analysis, feature_engineering 为核心执行能力。",
+    "gold_local_skill_indices": [
+      187,
+      188,
+      189,
+      190
+    ],
+    "gold_local_skill_names": [
+      "data_cleaning",
+      "did_causal_analysis",
+      "feature_engineering",
+      "time_series_anomaly_detection"
+    ],
+    "gold_merged_skill_indices": [
+      62898,
+      62899,
+      62900,
+      62901
+    ]
+  },
+  {
+    "task_index": 175,
+    "task_id": "video-filler-word-remover@rewrite_sem1",
+    "goal": "针对任务 video-filler-word-remover（域：media-processing）产出流程化等价方案，保持语义目标不变，并以 ffmpeg-video-editing, filler-word-processing, whisper-transcription 为核心执行能力。",
+    "gold_local_skill_indices": [
+      191,
+      192,
+      193
+    ],
+    "gold_local_skill_names": [
+      "ffmpeg-video-editing",
+      "filler-word-processing",
+      "whisper-transcription"
+    ],
+    "gold_merged_skill_indices": [
+      62902,
+      62903,
+      62904
+    ]
+  },
+  {
+    "task_index": 176,
+    "task_id": "video-silence-remover@rewrite_sem1",
+    "goal": "针对任务 video-silence-remover（域：media-processing）产出流程化等价方案，保持语义目标不变，并以 audio-extractor, energy-calculator, pause-detector 为核心执行能力。",
+    "gold_local_skill_indices": [
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ],
+    "gold_local_skill_names": [
+      "audio-extractor",
+      "energy-calculator",
+      "pause-detector",
+      "report-generator",
+      "segment-combiner",
+      "silence-detector",
+      "video-processor"
+    ],
+    "gold_merged_skill_indices": [
+      62905,
+      62906,
+      62907,
+      62908,
+      62909,
+      62910,
+      62911
+    ]
+  },
+  {
+    "task_index": 177,
+    "task_id": "video-silence-remover@rewrite_sem2",
+    "goal": "针对任务 video-silence-remover（域：media-processing）产出约束优先的等价方案，保持语义目标不变，并以 audio-extractor, energy-calculator, pause-detector 为核心执行能力。",
+    "gold_local_skill_indices": [
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ],
+    "gold_local_skill_names": [
+      "audio-extractor",
+      "energy-calculator",
+      "pause-detector",
+      "report-generator",
+      "segment-combiner",
+      "silence-detector",
+      "video-processor"
+    ],
+    "gold_merged_skill_indices": [
+      62905,
+      62906,
+      62907,
+      62908,
+      62909,
+      62910,
+      62911
+    ]
+  },
+  {
+    "task_index": 178,
+    "task_id": "xlsx-recover-data@rewrite_sem1",
+    "goal": "针对任务 xlsx-recover-data（域：spreadsheet）产出流程化等价方案，保持语义目标不变，并以 data-reconciliation, xlsx 为核心执行能力。",
+    "gold_local_skill_indices": [
+      201,
+      202
+    ],
+    "gold_local_skill_names": [
+      "data-reconciliation",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62912,
+      62913
+    ]
+  },
+  {
+    "task_index": 179,
+    "task_id": "adaptive-cruise-control@split_control-pipeline_1_plant-and-control@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：control-systems），聚焦阶段目标达成与中间结果交付，核心能力为 vehicle-dynamics, pid-controller。",
+    "gold_local_skill_indices": [
+      3,
+      1
+    ],
+    "gold_local_skill_names": [
+      "vehicle-dynamics",
+      "pid-controller"
+    ],
+    "gold_merged_skill_indices": [
+      62714,
+      62712
+    ]
+  },
+  {
+    "task_index": 180,
+    "task_id": "adaptive-cruise-control@split_control-pipeline_2_simulation-setup-evaluation@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：control-systems），聚焦阶段目标达成与中间结果交付，核心能力为 yaml-config, csv-processing, simulation-metrics。",
+    "gold_local_skill_indices": [
+      4,
+      0,
+      2
+    ],
+    "gold_local_skill_names": [
+      "yaml-config",
+      "csv-processing",
+      "simulation-metrics"
+    ],
+    "gold_merged_skill_indices": [
+      62715,
+      62711,
+      62713
+    ]
+  },
+  {
+    "task_index": 181,
+    "task_id": "civ6-adjacency-optimizer@split_civ6-planning_1_map-parsing-modeling@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：games），聚焦阶段目标达成与中间结果交付，核心能力为 sqlite-map-parser, hex-grid-spatial。",
+    "gold_local_skill_indices": [
+      8,
+      6
+    ],
+    "gold_local_skill_names": [
+      "sqlite-map-parser",
+      "hex-grid-spatial"
+    ],
+    "gold_merged_skill_indices": [
+      62719,
+      62717
+    ]
+  },
+  {
+    "task_index": 182,
+    "task_id": "civ6-adjacency-optimizer@split_civ6-planning_2_placement-optimization@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：games），聚焦阶段目标达成与中间结果交付，核心能力为 civ6lib, map-optimization-strategy。",
+    "gold_local_skill_indices": [
+      5,
+      7
+    ],
+    "gold_local_skill_names": [
+      "civ6lib",
+      "map-optimization-strategy"
+    ],
+    "gold_merged_skill_indices": [
+      62716,
+      62718
+    ]
+  },
+  {
+    "task_index": 183,
+    "task_id": "dynamic-object-aware-egomotion@split_vision-motion_1_dynamic-segmentation@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：video-analysis），聚焦阶段目标达成与中间结果交付，核心能力为 dyn-object-masks, sampling-and-indexing。",
+    "gold_local_skill_indices": [
+      13,
+      16
+    ],
+    "gold_local_skill_names": [
+      "dyn-object-masks",
+      "sampling-and-indexing"
+    ],
+    "gold_merged_skill_indices": [
+      62724,
+      62727
+    ]
+  },
+  {
+    "task_index": 184,
+    "task_id": "dynamic-object-aware-egomotion@split_vision-motion_2_motion-estimation-validation@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：video-analysis），聚焦阶段目标达成与中间结果交付，核心能力为 egomotion-estimation, output-validation。",
+    "gold_local_skill_indices": [
+      14,
+      15
+    ],
+    "gold_local_skill_names": [
+      "egomotion-estimation",
+      "output-validation"
+    ],
+    "gold_merged_skill_indices": [
+      62725,
+      62726
+    ]
+  },
+  {
+    "task_index": 185,
+    "task_id": "earthquake-phase-association@split_seismic-association_1_signal-ingestion-picker@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：seismology），聚焦阶段目标达成与中间结果交付，核心能力为 obspy-data-api, seismic-picker-selection。",
+    "gold_local_skill_indices": [
+      18,
+      20
+    ],
+    "gold_local_skill_names": [
+      "obspy-data-api",
+      "seismic-picker-selection"
+    ],
+    "gold_merged_skill_indices": [
+      62729,
+      62731
+    ]
+  },
+  {
+    "task_index": 186,
+    "task_id": "earthquake-phase-association@split_seismic-association_2_association-modeling@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：seismology），聚焦阶段目标达成与中间结果交付，核心能力为 seisbench-model-api, gamma-phase-associator。",
+    "gold_local_skill_indices": [
+      19,
+      17
+    ],
+    "gold_local_skill_names": [
+      "seisbench-model-api",
+      "gamma-phase-associator"
+    ],
+    "gold_merged_skill_indices": [
+      62730,
+      62728
+    ]
+  },
+  {
+    "task_index": 187,
+    "task_id": "energy-market-pricing@split_grid-pricing_1_powerflow-dispatch@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：energy），聚焦阶段目标达成与中间结果交付，核心能力为 power-flow-data, dc-power-flow。",
+    "gold_local_skill_indices": [
+      27,
+      24
+    ],
+    "gold_local_skill_names": [
+      "power-flow-data",
+      "dc-power-flow"
+    ],
+    "gold_merged_skill_indices": [
+      62738,
+      62735
+    ]
+  },
+  {
+    "task_index": 188,
+    "task_id": "energy-market-pricing@split_grid-pricing_2_market-pricing@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：energy），聚焦阶段目标达成与中间结果交付，核心能力为 economic-dispatch, locational-marginal-prices。",
+    "gold_local_skill_indices": [
+      25,
+      26
+    ],
+    "gold_local_skill_names": [
+      "economic-dispatch",
+      "locational-marginal-prices"
+    ],
+    "gold_merged_skill_indices": [
+      62736,
+      62737
+    ]
+  },
+  {
+    "task_index": 189,
+    "task_id": "exoplanet-detection-period@split_exoplanet-period_1_preprocess-workflow@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：astronomy），聚焦阶段目标达成与中间结果交付，核心能力为 light-curve-preprocessing, exoplanet-workflows。",
+    "gold_local_skill_indices": [
+      32,
+      31
+    ],
+    "gold_local_skill_names": [
+      "light-curve-preprocessing",
+      "exoplanet-workflows"
+    ],
+    "gold_merged_skill_indices": [
+      62743,
+      62742
+    ]
+  },
+  {
+    "task_index": 190,
+    "task_id": "exoplanet-detection-period@split_exoplanet-period_2_period-search@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：astronomy），聚焦阶段目标达成与中间结果交付，核心能力为 lomb-scargle-periodogram, box-least-squares, transit-least-squares。",
+    "gold_local_skill_indices": [
+      33,
+      30,
+      34
+    ],
+    "gold_local_skill_names": [
+      "lomb-scargle-periodogram",
+      "box-least-squares",
+      "transit-least-squares"
+    ],
+    "gold_merged_skill_indices": [
+      62744,
+      62741,
+      62745
+    ]
+  },
+  {
+    "task_index": 191,
+    "task_id": "fix-build-agentops@split_ci-fuzz_1_build-test-loop@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：compilation-&-build），聚焦阶段目标达成与中间结果交付，核心能力为 uv-package-manager, testing-python。",
+    "gold_local_skill_indices": [
+      43,
+      42
+    ],
+    "gold_local_skill_names": [
+      "uv-package-manager",
+      "testing-python"
+    ],
+    "gold_merged_skill_indices": [
+      62754,
+      62753
+    ]
+  },
+  {
+    "task_index": 192,
+    "task_id": "fix-build-agentops@split_ci-fuzz_2_ci-analysis@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：compilation-&-build），聚焦阶段目标达成与中间结果交付，核心能力为 analyze-ci, temporal-python-testing。",
+    "gold_local_skill_indices": [
+      40,
+      41
+    ],
+    "gold_local_skill_names": [
+      "analyze-ci",
+      "temporal-python-testing"
+    ],
+    "gold_merged_skill_indices": [
+      62751,
+      62752
+    ]
+  },
+  {
+    "task_index": 193,
+    "task_id": "fix-erlang-ssh-cve@split_erlang-security_1_runtime-protocol-core@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：erlang-bugfix），聚焦阶段目标达成与中间结果交付，核心能力为 erlang-concurrency, erlang-distribution, erlang-otp-behaviors。",
+    "gold_local_skill_indices": [
+      49,
+      50,
+      51
+    ],
+    "gold_local_skill_names": [
+      "erlang-concurrency",
+      "erlang-distribution",
+      "erlang-otp-behaviors"
+    ],
+    "gold_merged_skill_indices": [
+      62760,
+      62761,
+      62762
+    ]
+  },
+  {
+    "task_index": 194,
+    "task_id": "fix-erlang-ssh-cve@split_erlang-security_2_security-hardening@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：erlang-bugfix），聚焦阶段目标达成与中间结果交付，核心能力为 find-bugs, senior-security, ssh-penetration-testing。",
+    "gold_local_skill_indices": [
+      52,
+      53,
+      54
+    ],
+    "gold_local_skill_names": [
+      "find-bugs",
+      "senior-security",
+      "ssh-penetration-testing"
+    ],
+    "gold_merged_skill_indices": [
+      62763,
+      62764,
+      62765
+    ]
+  },
+  {
+    "task_index": 195,
+    "task_id": "multilingual-video-dubbing@split_video-dubbing_1_video-edit-render@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：multimodal-video-dubbing），聚焦阶段目标达成与中间结果交付，核心能力为 FFmpeg Media Info, FFmpeg Format Conversion, FFmpeg Video Editing。",
+    "gold_local_skill_indices": [
+      105,
+      104,
+      106
+    ],
+    "gold_local_skill_names": [
+      "FFmpeg Media Info",
+      "FFmpeg Format Conversion",
+      "FFmpeg Video Editing"
+    ],
+    "gold_merged_skill_indices": [
+      62816,
+      62815,
+      62817
+    ]
+  },
+  {
+    "task_index": 196,
+    "task_id": "multilingual-video-dubbing@split_video-dubbing_2_audio-localization-master@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：multimodal-video-dubbing），聚焦阶段目标达成与中间结果交付，核心能力为 FFmpeg Video Filters, TTS Audio Mastering, FFmpeg Audio Processing。",
+    "gold_local_skill_indices": [
+      107,
+      108,
+      103
+    ],
+    "gold_local_skill_names": [
+      "FFmpeg Video Filters",
+      "TTS Audio Mastering",
+      "FFmpeg Audio Processing"
+    ],
+    "gold_merged_skill_indices": [
+      62818,
+      62819,
+      62814
+    ]
+  },
+  {
+    "task_index": 197,
+    "task_id": "organize-messy-files@split_document-organization_1_content-ingestion@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：file-management），聚焦阶段目标达成与中间结果交付，核心能力为 pdf, docx, pptx。",
+    "gold_local_skill_indices": [
+      111,
+      109,
+      113
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "docx",
+      "pptx"
+    ],
+    "gold_merged_skill_indices": [
+      62822,
+      62820,
+      62824
+    ]
+  },
+  {
+    "task_index": 198,
+    "task_id": "organize-messy-files@split_document-organization_2_planning-and-execution@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：file-management），聚焦阶段目标达成与中间结果交付，核心能力为 planning-with-files, file-organizer。",
+    "gold_local_skill_indices": [
+      112,
+      110
+    ],
+    "gold_local_skill_names": [
+      "planning-with-files",
+      "file-organizer"
+    ],
+    "gold_merged_skill_indices": [
+      62823,
+      62821
+    ]
+  },
+  {
+    "task_index": 199,
+    "task_id": "pedestrian-traffic-counting@split_pedestrian-counting_1_video-understanding@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：pedestrian-traffic-counting），聚焦阶段目标达成与中间结果交付，核心能力为 gemini-video-understanding, video-frame-extraction。",
+    "gold_local_skill_indices": [
+      122,
+      124
+    ],
+    "gold_local_skill_names": [
+      "gemini-video-understanding",
+      "video-frame-extraction"
+    ],
+    "gold_merged_skill_indices": [
+      62833,
+      62835
+    ]
+  },
+  {
+    "task_index": 200,
+    "task_id": "pedestrian-traffic-counting@split_pedestrian-counting_2_counting-and-multimodal-check@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：pedestrian-traffic-counting），聚焦阶段目标达成与中间结果交付，核心能力为 gemini-count-in-video, gpt-multimodal。",
+    "gold_local_skill_indices": [
+      121,
+      123
+    ],
+    "gold_local_skill_names": [
+      "gemini-count-in-video",
+      "gpt-multimodal"
+    ],
+    "gold_merged_skill_indices": [
+      62832,
+      62834
+    ]
+  },
+  {
+    "task_index": 201,
+    "task_id": "python-scala-translation@split_code-translation_1_syntax-structure-mapping@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：code-translation），聚焦阶段目标达成与中间结果交付，核心能力为 python-scala-syntax-mapping, python-scala-collections, python-scala-oop。",
+    "gold_local_skill_indices": [
+      137,
+      132,
+      136
+    ],
+    "gold_local_skill_names": [
+      "python-scala-syntax-mapping",
+      "python-scala-collections",
+      "python-scala-oop"
+    ],
+    "gold_merged_skill_indices": [
+      62848,
+      62843,
+      62847
+    ]
+  },
+  {
+    "task_index": 202,
+    "task_id": "python-scala-translation@split_code-translation_2_idioms-functional-library@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：code-translation），聚焦阶段目标达成与中间结果交付，核心能力为 python-scala-functional, python-scala-idioms, python-scala-libraries。",
+    "gold_local_skill_indices": [
+      133,
+      134,
+      135
+    ],
+    "gold_local_skill_names": [
+      "python-scala-functional",
+      "python-scala-idioms",
+      "python-scala-libraries"
+    ],
+    "gold_merged_skill_indices": [
+      62844,
+      62845,
+      62846
+    ]
+  },
+  {
+    "task_index": 203,
+    "task_id": "seismic-phase-picking@split_seismic-picking_1_data-access-prep@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：seismology），聚焦阶段目标达成与中间结果交付，核心能力为 obspy-data-api, obspy-datacenter-client。",
+    "gold_local_skill_indices": [
+      150,
+      151
+    ],
+    "gold_local_skill_names": [
+      "obspy-data-api",
+      "obspy-datacenter-client"
+    ],
+    "gold_merged_skill_indices": [
+      62861,
+      62862
+    ]
+  },
+  {
+    "task_index": 204,
+    "task_id": "seismic-phase-picking@split_seismic-picking_2_model-picking-validation@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：seismology），聚焦阶段目标达成与中间结果交付，核心能力为 seisbench-model-api, seismic-picker-selection。",
+    "gold_local_skill_indices": [
+      152,
+      153
+    ],
+    "gold_local_skill_names": [
+      "seisbench-model-api",
+      "seismic-picker-selection"
+    ],
+    "gold_merged_skill_indices": [
+      62863,
+      62864
+    ]
+  },
+  {
+    "task_index": 205,
+    "task_id": "spring-boot-jakarta-migration@split_spring-migration_1_namespace-framework@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：legacy-systems），聚焦阶段目标达成与中间结果交付，核心能力为 jakarta-namespace, spring-boot-migration, hibernate-upgrade。",
+    "gold_local_skill_indices": [
+      167,
+      169,
+      166
+    ],
+    "gold_local_skill_names": [
+      "jakarta-namespace",
+      "spring-boot-migration",
+      "hibernate-upgrade"
+    ],
+    "gold_merged_skill_indices": [
+      62878,
+      62880,
+      62877
+    ]
+  },
+  {
+    "task_index": 206,
+    "task_id": "spring-boot-jakarta-migration@split_spring-migration_2_client-security@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：legacy-systems），聚焦阶段目标达成与中间结果交付，核心能力为 restclient-migration, spring-security-6。",
+    "gold_local_skill_indices": [
+      168,
+      170
+    ],
+    "gold_local_skill_names": [
+      "restclient-migration",
+      "spring-security-6"
+    ],
+    "gold_merged_skill_indices": [
+      62879,
+      62881
+    ]
+  },
+  {
+    "task_index": 207,
+    "task_id": "travel-planning@split_travel-orchestration_1_destination-activity@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：travel-planning），聚焦阶段目标达成与中间结果交付，核心能力为 search-cities, search-attractions, search-restaurants。",
+    "gold_local_skill_indices": [
+      183,
+      182,
+      186
+    ],
+    "gold_local_skill_names": [
+      "search-cities",
+      "search-attractions",
+      "search-restaurants"
+    ],
+    "gold_merged_skill_indices": [
+      62894,
+      62893,
+      62897
+    ]
+  },
+  {
+    "task_index": 208,
+    "task_id": "travel-planning@split_travel-orchestration_2_booking-routing@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：travel-planning），聚焦阶段目标达成与中间结果交付，核心能力为 search-flights, search-accommodations, search-driving-distance。",
+    "gold_local_skill_indices": [
+      185,
+      181,
+      184
+    ],
+    "gold_local_skill_names": [
+      "search-flights",
+      "search-accommodations",
+      "search-driving-distance"
+    ],
+    "gold_merged_skill_indices": [
+      62896,
+      62892,
+      62895
+    ]
+  },
+  {
+    "task_index": 209,
+    "task_id": "trend-anomaly-causal-inference@split_trend-causal_1_data-feature-engineering@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：data-science），聚焦阶段目标达成与中间结果交付，核心能力为 data_cleaning, feature_engineering。",
+    "gold_local_skill_indices": [
+      187,
+      189
+    ],
+    "gold_local_skill_names": [
+      "data_cleaning",
+      "feature_engineering"
+    ],
+    "gold_merged_skill_indices": [
+      62898,
+      62900
+    ]
+  },
+  {
+    "task_index": 210,
+    "task_id": "trend-anomaly-causal-inference@split_trend-causal_2_anomaly-causal-inference@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：data-science），聚焦阶段目标达成与中间结果交付，核心能力为 time_series_anomaly_detection, did_causal_analysis。",
+    "gold_local_skill_indices": [
+      190,
+      188
+    ],
+    "gold_local_skill_names": [
+      "time_series_anomaly_detection",
+      "did_causal_analysis"
+    ],
+    "gold_merged_skill_indices": [
+      62901,
+      62899
+    ]
+  },
+  {
+    "task_index": 211,
+    "task_id": "video-silence-remover@split_speech-cleanup_1_silence-analysis@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：media-processing），聚焦阶段目标达成与中间结果交付，核心能力为 audio-extractor, energy-calculator, pause-detector。",
+    "gold_local_skill_indices": [
+      194,
+      195,
+      196,
+      199
+    ],
+    "gold_local_skill_names": [
+      "audio-extractor",
+      "energy-calculator",
+      "pause-detector",
+      "silence-detector"
+    ],
+    "gold_merged_skill_indices": [
+      62905,
+      62906,
+      62907,
+      62910
+    ]
+  },
+  {
+    "task_index": 212,
+    "task_id": "video-silence-remover@split_speech-cleanup_2_timeline-render-report@rewrite_sem1",
+    "goal": "面向子阶段任务给出可执行方案（域：media-processing），聚焦阶段目标达成与中间结果交付，核心能力为 segment-combiner, video-processor, report-generator。",
+    "gold_local_skill_indices": [
+      198,
+      200,
+      197
+    ],
+    "gold_local_skill_names": [
+      "segment-combiner",
+      "video-processor",
+      "report-generator"
+    ],
+    "gold_merged_skill_indices": [
+      62909,
+      62911,
+      62908
+    ]
+  },
+  {
+    "task_index": 213,
+    "task_id": "seismic-event-detection-pipeline@merge_v1@rewrite_sem1",
+    "goal": "面向融合任务给出协同执行方案（域：seismology），确保多阶段目标在单流程内闭环，核心能力为 gamma-phase-associator, obspy-data-api, seisbench-model-api。",
+    "gold_local_skill_indices": [
+      17,
+      18,
+      19,
+      20,
+      150,
+      151,
+      152,
+      153
+    ],
+    "gold_local_skill_names": [
+      "gamma-phase-associator",
+      "obspy-data-api",
+      "seisbench-model-api",
+      "seismic-picker-selection",
+      "obspy-data-api",
+      "obspy-datacenter-client",
+      "seisbench-model-api",
+      "seismic-picker-selection"
+    ],
+    "gold_merged_skill_indices": [
+      62728,
+      62729,
+      62730,
+      62731,
+      62861,
+      62862,
+      62863,
+      62864
+    ]
+  },
+  {
+    "task_index": 214,
+    "task_id": "urban-video-motion-and-counting@merge_v1@rewrite_sem1",
+    "goal": "面向融合任务给出协同执行方案（域：video-analysis+pedestrian-traffic-counting），确保多阶段目标在单流程内闭环，核心能力为 dyn-object-masks, egomotion-estimation, output-validation。",
+    "gold_local_skill_indices": [
+      13,
+      14,
+      15,
+      16,
+      121,
+      122,
+      123,
+      124
+    ],
+    "gold_local_skill_names": [
+      "dyn-object-masks",
+      "egomotion-estimation",
+      "output-validation",
+      "sampling-and-indexing",
+      "gemini-count-in-video",
+      "gemini-video-understanding",
+      "gpt-multimodal",
+      "video-frame-extraction"
+    ],
+    "gold_merged_skill_indices": [
+      62724,
+      62725,
+      62726,
+      62727,
+      62832,
+      62833,
+      62834,
+      62835
+    ]
+  },
+  {
+    "task_index": 215,
+    "task_id": "grid-operation-and-pricing-optimization@merge_v1@rewrite_sem1",
+    "goal": "面向融合任务给出协同执行方案（域：energy），确保多阶段目标在单流程内闭环，核心能力为 ac-branch-pi-model, casadi-ipopt-nlp, power-flow-data。",
+    "gold_local_skill_indices": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "gold_local_skill_names": [
+      "ac-branch-pi-model",
+      "casadi-ipopt-nlp",
+      "power-flow-data",
+      "dc-power-flow",
+      "economic-dispatch",
+      "locational-marginal-prices",
+      "power-flow-data"
+    ],
+    "gold_merged_skill_indices": [
+      62732,
+      62733,
+      62734,
+      62735,
+      62736,
+      62737,
+      62738
+    ]
+  },
+  {
+    "task_index": 216,
+    "task_id": "multilingual-speaker-aware-localization@merge_v1@rewrite_sem1",
+    "goal": "面向融合任务给出协同执行方案（域：multimodal-video-dubbing+audio-visual），确保多阶段目标在单流程内闭环，核心能力为 FFmpeg Audio Processing, FFmpeg Format Conversion, FFmpeg Media Info。",
+    "gold_local_skill_indices": [
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      162,
+      163,
+      164,
+      165
+    ],
+    "gold_local_skill_names": [
+      "FFmpeg Audio Processing",
+      "FFmpeg Format Conversion",
+      "FFmpeg Media Info",
+      "FFmpeg Video Editing",
+      "FFmpeg Video Filters",
+      "TTS Audio Mastering",
+      "Automatic Speech Recognition (ASR)",
+      "Multimodal Fusion for Speaker Diarization",
+      "Speaker Clustering Methods",
+      "Voice Activity Detection (VAD)"
+    ],
+    "gold_merged_skill_indices": [
+      62814,
+      62815,
+      62816,
+      62817,
+      62818,
+      62819,
+      62873,
+      62874,
+      62875,
+      62876
+    ]
+  },
+  {
+    "task_index": 217,
+    "task_id": "spoken-video-cleanup-pipeline@merge_v1@rewrite_sem1",
+    "goal": "面向融合任务给出协同执行方案（域：media-processing），确保多阶段目标在单流程内闭环，核心能力为 audio-extractor, energy-calculator, pause-detector。",
+    "gold_local_skill_indices": [
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      191,
+      192,
+      193
+    ],
+    "gold_local_skill_names": [
+      "audio-extractor",
+      "energy-calculator",
+      "pause-detector",
+      "report-generator",
+      "segment-combiner",
+      "silence-detector",
+      "video-processor",
+      "ffmpeg-video-editing",
+      "filler-word-processing",
+      "whisper-transcription"
+    ],
+    "gold_merged_skill_indices": [
+      62905,
+      62906,
+      62907,
+      62908,
+      62909,
+      62910,
+      62911,
+      62902,
+      62903,
+      62904
+    ]
+  },
+  {
+    "task_index": 218,
+    "task_id": "network-exfiltration-detection-workflow@merge_v1@rewrite_sem1",
+    "goal": "面向融合任务给出协同执行方案（域：security-&-ctf+security），确保多阶段目标在单流程内闭环，核心能力为 pcap-triage-tshark, suricata-offline-evejson, suricata-rules-basics。",
+    "gold_local_skill_indices": [
+      171,
+      172,
+      173,
+      11,
+      12
+    ],
+    "gold_local_skill_names": [
+      "pcap-triage-tshark",
+      "suricata-offline-evejson",
+      "suricata-rules-basics",
+      "pcap-analysis",
+      "threat-detection"
+    ],
+    "gold_merged_skill_indices": [
+      62882,
+      62883,
+      62884,
+      62722,
+      62723
+    ]
+  },
+  {
+    "task_index": 219,
+    "task_id": "tabular-data-reconciliation-recovery@merge_v1@rewrite_sem1",
+    "goal": "面向融合任务给出协同执行方案（域：data-comparison+spreadsheet），确保多阶段目标在单流程内闭环，核心能力为 pdf, xlsx, data-reconciliation。",
+    "gold_local_skill_indices": [
+      119,
+      120,
+      201,
+      202
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "xlsx",
+      "data-reconciliation",
+      "xlsx"
+    ],
+    "gold_merged_skill_indices": [
+      62830,
+      62831,
+      62912,
+      62913
+    ]
+  },
+  {
+    "task_index": 220,
+    "task_id": "financial-document-analysis-and-qa@merge_v1@rewrite_sem1",
+    "goal": "面向融合任务给出协同执行方案（域：financial-modeling+finance），确保多阶段目标在单流程内闭环，核心能力为 pdf, xlsx, 13f-analyzer。",
+    "gold_local_skill_indices": [
+      35,
+      36,
+      148,
+      149
+    ],
+    "gold_local_skill_names": [
+      "pdf",
+      "xlsx",
+      "13f-analyzer",
+      "fuzzy-name-search"
+    ],
+    "gold_merged_skill_indices": [
+      62746,
+      62747,
+      62859,
+      62860
+    ]
+  },
+  {
+    "task_index": 221,
+    "task_id": "frontend-performance-and-stability-hardening@merge_v1@rewrite_sem1",
+    "goal": "面向融合任务给出协同执行方案（域：web-performance），确保多阶段目标在单流程内闭环，核心能力为 browser-testing, react-best-practices, browser-testing。",
+    "gold_local_skill_indices": [
+      142,
+      143,
+      55,
+      56,
+      57
+    ],
+    "gold_local_skill_names": [
+      "browser-testing",
+      "react-best-practices",
+      "browser-testing",
+      "react-best-practices",
+      "web-interface-guidelines"
+    ],
+    "gold_merged_skill_indices": [
+      62853,
+      62854,
+      62766,
+      62767,
+      62768
+    ]
+  },
+  {
+    "task_index": 222,
+    "task_id": "threejs-structure-export-pipeline@merge_v1@rewrite_sem1",
+    "goal": "面向融合任务给出协同执行方案（域：3d-graphics），确保多阶段目标在单流程内闭环，核心能力为 obj-exporter, threejs, obj-exporter。",
+    "gold_local_skill_indices": [
+      177,
+      178,
+      179,
+      180
+    ],
+    "gold_local_skill_names": [
+      "obj-exporter",
+      "threejs",
+      "obj-exporter",
+      "threejs"
+    ],
+    "gold_merged_skill_indices": [
+      62888,
+      62889,
+      62890,
+      62891
+    ]
+  },
+  {
+    "task_index": 223,
+    "task_id": "python-ci-and-fuzzing-hardening@merge_v1@rewrite_sem1",
+    "goal": "面向融合任务给出协同执行方案（域：compilation-&-build+security），确保多阶段目标在单流程内闭环，核心能力为 analyze-ci, temporal-python-testing, testing-python。",
+    "gold_local_skill_indices": [
+      40,
+      41,
+      42,
+      43,
+      154,
+      155,
+      156
+    ],
+    "gold_local_skill_names": [
+      "analyze-ci",
+      "temporal-python-testing",
+      "testing-python",
+      "uv-package-manager",
+      "discover-important-function",
+      "fuzzing-python",
+      "setup-env"
+    ],
+    "gold_merged_skill_indices": [
+      62751,
+      62752,
+      62753,
+      62754,
+      62865,
+      62866,
+      62867
+    ]
+  },
+  {
+    "task_index": 224,
+    "task_id": "travel-scheduling-assistant@merge_v1@rewrite_sem1",
+    "goal": "面向融合任务给出协同执行方案（域：travel-planning+scheduling），确保多阶段目标在单流程内闭环，核心能力为 search-accommodations, search-attractions, search-cities。",
+    "gold_local_skill_indices": [
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      146,
+      147
+    ],
+    "gold_local_skill_names": [
+      "search-accommodations",
+      "search-attractions",
+      "search-cities",
+      "search-driving-distance",
+      "search-flights",
+      "search-restaurants",
+      "constraint-parser",
+      "gmail-skill"
+    ],
+    "gold_merged_skill_indices": [
+      62892,
+      62893,
+      62894,
+      62895,
+      62896,
+      62897,
+      62857,
+      62858
+    ]
+  }
+]

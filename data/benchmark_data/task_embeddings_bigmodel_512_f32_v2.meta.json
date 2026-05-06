@@ -1,0 +1,1586 @@
+{
+  "provider": "bigmodel",
+  "model": "embedding-3",
+  "dimensions": 512,
+  "dtype": "float32",
+  "count": 225,
+  "input_file": "data\\tasks_all_metadata_for_embedding_v2.json",
+  "output_npy": "data\\task_embeddings_bigmodel_512_f32_v2.npy",
+  "items": [
+    {
+      "id": 1,
+      "task_id": "adaptive-cruise-control",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 2,
+      "task_id": "civ6-adjacency-optimizer",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 3,
+      "task_id": "crystallographic-wyckoff-position-analysis",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 4,
+      "task_id": "dapt-intrusion-detection",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 5,
+      "task_id": "dynamic-object-aware-egomotion",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 6,
+      "task_id": "earthquake-phase-association",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 7,
+      "task_id": "energy-ac-optimal-power-flow",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 8,
+      "task_id": "energy-market-pricing",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 9,
+      "task_id": "exceltable-in-ppt",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 10,
+      "task_id": "exoplanet-detection-period",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 11,
+      "task_id": "financial-modeling-qa",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 12,
+      "task_id": "find-topk-similiar-chemicals",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 13,
+      "task_id": "fix-build-agentops",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 14,
+      "task_id": "fix-build-google-auto",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 15,
+      "task_id": "fix-druid-loophole-cve",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 16,
+      "task_id": "fix-erlang-ssh-cve",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 17,
+      "task_id": "fix-visual-stability",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 18,
+      "task_id": "flink-query",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 19,
+      "task_id": "flood-risk-analysis",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 20,
+      "task_id": "glm-lake-mendota",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 21,
+      "task_id": "gravitational-wave-detection",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 22,
+      "task_id": "grid-dispatch-operator",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 23,
+      "task_id": "hvac-control",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 24,
+      "task_id": "invoice-fraud-detection",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 25,
+      "task_id": "jpg-ocr-stat",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 26,
+      "task_id": "lake-warming-attribution",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 27,
+      "task_id": "latex-formula-extraction",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 28,
+      "task_id": "lean4-proof",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 29,
+      "task_id": "manufacturing-equipment-maintenance",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 30,
+      "task_id": "mario-coin-counting",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 31,
+      "task_id": "mars-clouds-clustering",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 32,
+      "task_id": "mhc-layer-impl",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 33,
+      "task_id": "multilingual-video-dubbing",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 34,
+      "task_id": "organize-messy-files",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 35,
+      "task_id": "paper-anonymizer",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 36,
+      "task_id": "parallel-tfidf-search",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 37,
+      "task_id": "pdf-excel-diff",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 38,
+      "task_id": "pedestrian-traffic-counting",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 39,
+      "task_id": "pg-essay-to-audiobook",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 40,
+      "task_id": "powerlifting-coef-calc",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 41,
+      "task_id": "python-scala-translation",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 42,
+      "task_id": "r2r-mpc-control",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 43,
+      "task_id": "react-performance-debugging",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 44,
+      "task_id": "sales-pivot-analysis",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 45,
+      "task_id": "scheduling-email-assistant",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 46,
+      "task_id": "sec-financial-report",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 47,
+      "task_id": "seismic-phase-picking",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 48,
+      "task_id": "setup-fuzzing-py",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 49,
+      "task_id": "simpo-code-reproduction",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 50,
+      "task_id": "software-dependency-audit",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 51,
+      "task_id": "speaker-diarization-subtitles",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 52,
+      "task_id": "spring-boot-jakarta-migration",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 53,
+      "task_id": "suricata-custom-exfil",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 54,
+      "task_id": "syzkaller-ppdev-syzlang",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 55,
+      "task_id": "threejs-structure-parser",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 56,
+      "task_id": "threejs-to-obj",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 57,
+      "task_id": "travel-planning",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 58,
+      "task_id": "trend-anomaly-causal-inference",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 59,
+      "task_id": "video-filler-word-remover",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 60,
+      "task_id": "video-silence-remover",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 61,
+      "task_id": "xlsx-recover-data",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 62,
+      "task_id": "adaptive-cruise-control@split_control-pipeline_1_plant-and-control",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 63,
+      "task_id": "adaptive-cruise-control@split_control-pipeline_2_simulation-setup-evaluation",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 64,
+      "task_id": "civ6-adjacency-optimizer@split_civ6-planning_1_map-parsing-modeling",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 65,
+      "task_id": "civ6-adjacency-optimizer@split_civ6-planning_2_placement-optimization",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 66,
+      "task_id": "dynamic-object-aware-egomotion@split_vision-motion_1_dynamic-segmentation",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 67,
+      "task_id": "dynamic-object-aware-egomotion@split_vision-motion_2_motion-estimation-validation",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 68,
+      "task_id": "earthquake-phase-association@split_seismic-association_1_signal-ingestion-picker",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 69,
+      "task_id": "earthquake-phase-association@split_seismic-association_2_association-modeling",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 70,
+      "task_id": "energy-market-pricing@split_grid-pricing_1_powerflow-dispatch",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 71,
+      "task_id": "energy-market-pricing@split_grid-pricing_2_market-pricing",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 72,
+      "task_id": "exoplanet-detection-period@split_exoplanet-period_1_preprocess-workflow",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 73,
+      "task_id": "exoplanet-detection-period@split_exoplanet-period_2_period-search",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 74,
+      "task_id": "fix-build-agentops@split_ci-fuzz_1_build-test-loop",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 75,
+      "task_id": "fix-build-agentops@split_ci-fuzz_2_ci-analysis",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 76,
+      "task_id": "fix-erlang-ssh-cve@split_erlang-security_1_runtime-protocol-core",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 77,
+      "task_id": "fix-erlang-ssh-cve@split_erlang-security_2_security-hardening",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 78,
+      "task_id": "multilingual-video-dubbing@split_video-dubbing_1_video-edit-render",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 79,
+      "task_id": "multilingual-video-dubbing@split_video-dubbing_2_audio-localization-master",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 80,
+      "task_id": "organize-messy-files@split_document-organization_1_content-ingestion",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 81,
+      "task_id": "organize-messy-files@split_document-organization_2_planning-and-execution",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 82,
+      "task_id": "pedestrian-traffic-counting@split_pedestrian-counting_1_video-understanding",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 83,
+      "task_id": "pedestrian-traffic-counting@split_pedestrian-counting_2_counting-and-multimodal-check",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 84,
+      "task_id": "python-scala-translation@split_code-translation_1_syntax-structure-mapping",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 85,
+      "task_id": "python-scala-translation@split_code-translation_2_idioms-functional-library",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 86,
+      "task_id": "seismic-phase-picking@split_seismic-picking_1_data-access-prep",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 87,
+      "task_id": "seismic-phase-picking@split_seismic-picking_2_model-picking-validation",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 88,
+      "task_id": "spring-boot-jakarta-migration@split_spring-migration_1_namespace-framework",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 89,
+      "task_id": "spring-boot-jakarta-migration@split_spring-migration_2_client-security",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 90,
+      "task_id": "travel-planning@split_travel-orchestration_1_destination-activity",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 91,
+      "task_id": "travel-planning@split_travel-orchestration_2_booking-routing",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 92,
+      "task_id": "trend-anomaly-causal-inference@split_trend-causal_1_data-feature-engineering",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 93,
+      "task_id": "trend-anomaly-causal-inference@split_trend-causal_2_anomaly-causal-inference",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 94,
+      "task_id": "video-silence-remover@split_speech-cleanup_1_silence-analysis",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 95,
+      "task_id": "video-silence-remover@split_speech-cleanup_2_timeline-render-report",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 96,
+      "task_id": "seismic-event-detection-pipeline@merge_v1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 97,
+      "task_id": "urban-video-motion-and-counting@merge_v1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 98,
+      "task_id": "grid-operation-and-pricing-optimization@merge_v1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 99,
+      "task_id": "multilingual-speaker-aware-localization@merge_v1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 100,
+      "task_id": "spoken-video-cleanup-pipeline@merge_v1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 101,
+      "task_id": "network-exfiltration-detection-workflow@merge_v1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 102,
+      "task_id": "tabular-data-reconciliation-recovery@merge_v1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 103,
+      "task_id": "financial-document-analysis-and-qa@merge_v1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 104,
+      "task_id": "frontend-performance-and-stability-hardening@merge_v1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 105,
+      "task_id": "threejs-structure-export-pipeline@merge_v1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 106,
+      "task_id": "python-ci-and-fuzzing-hardening@merge_v1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 107,
+      "task_id": "travel-scheduling-assistant@merge_v1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 108,
+      "task_id": "adaptive-cruise-control@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 109,
+      "task_id": "adaptive-cruise-control@rewrite_sem2",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 110,
+      "task_id": "civ6-adjacency-optimizer@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 111,
+      "task_id": "crystallographic-wyckoff-position-analysis@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 112,
+      "task_id": "dapt-intrusion-detection@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 113,
+      "task_id": "dynamic-object-aware-egomotion@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 114,
+      "task_id": "earthquake-phase-association@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 115,
+      "task_id": "energy-ac-optimal-power-flow@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 116,
+      "task_id": "energy-market-pricing@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 117,
+      "task_id": "exceltable-in-ppt@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 118,
+      "task_id": "exoplanet-detection-period@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 119,
+      "task_id": "exoplanet-detection-period@rewrite_sem2",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 120,
+      "task_id": "financial-modeling-qa@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 121,
+      "task_id": "find-topk-similiar-chemicals@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 122,
+      "task_id": "fix-build-agentops@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 123,
+      "task_id": "fix-build-google-auto@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 124,
+      "task_id": "fix-druid-loophole-cve@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 125,
+      "task_id": "fix-erlang-ssh-cve@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 126,
+      "task_id": "fix-erlang-ssh-cve@rewrite_sem2",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 127,
+      "task_id": "fix-visual-stability@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 128,
+      "task_id": "flink-query@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 129,
+      "task_id": "flood-risk-analysis@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 130,
+      "task_id": "glm-lake-mendota@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 131,
+      "task_id": "gravitational-wave-detection@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 132,
+      "task_id": "grid-dispatch-operator@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 133,
+      "task_id": "hvac-control@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 134,
+      "task_id": "hvac-control@rewrite_sem2",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 135,
+      "task_id": "invoice-fraud-detection@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 136,
+      "task_id": "jpg-ocr-stat@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 137,
+      "task_id": "jpg-ocr-stat@rewrite_sem2",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 138,
+      "task_id": "lake-warming-attribution@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 139,
+      "task_id": "latex-formula-extraction@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 140,
+      "task_id": "lean4-proof@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 141,
+      "task_id": "manufacturing-equipment-maintenance@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 142,
+      "task_id": "mario-coin-counting@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 143,
+      "task_id": "mars-clouds-clustering@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 144,
+      "task_id": "mhc-layer-impl@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 145,
+      "task_id": "multilingual-video-dubbing@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 146,
+      "task_id": "multilingual-video-dubbing@rewrite_sem2",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 147,
+      "task_id": "organize-messy-files@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 148,
+      "task_id": "organize-messy-files@rewrite_sem2",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 149,
+      "task_id": "paper-anonymizer@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 150,
+      "task_id": "parallel-tfidf-search@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 151,
+      "task_id": "pdf-excel-diff@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 152,
+      "task_id": "pedestrian-traffic-counting@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 153,
+      "task_id": "pg-essay-to-audiobook@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 154,
+      "task_id": "powerlifting-coef-calc@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 155,
+      "task_id": "python-scala-translation@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 156,
+      "task_id": "python-scala-translation@rewrite_sem2",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 157,
+      "task_id": "r2r-mpc-control@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 158,
+      "task_id": "react-performance-debugging@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 159,
+      "task_id": "sales-pivot-analysis@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 160,
+      "task_id": "scheduling-email-assistant@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 161,
+      "task_id": "sec-financial-report@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 162,
+      "task_id": "seismic-phase-picking@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 163,
+      "task_id": "setup-fuzzing-py@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 164,
+      "task_id": "simpo-code-reproduction@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 165,
+      "task_id": "software-dependency-audit@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 166,
+      "task_id": "speaker-diarization-subtitles@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 167,
+      "task_id": "spring-boot-jakarta-migration@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 168,
+      "task_id": "spring-boot-jakarta-migration@rewrite_sem2",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 169,
+      "task_id": "suricata-custom-exfil@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 170,
+      "task_id": "syzkaller-ppdev-syzlang@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 171,
+      "task_id": "threejs-structure-parser@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 172,
+      "task_id": "threejs-to-obj@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 173,
+      "task_id": "travel-planning@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 174,
+      "task_id": "travel-planning@rewrite_sem2",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 175,
+      "task_id": "trend-anomaly-causal-inference@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 176,
+      "task_id": "video-filler-word-remover@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 177,
+      "task_id": "video-silence-remover@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 178,
+      "task_id": "video-silence-remover@rewrite_sem2",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 179,
+      "task_id": "xlsx-recover-data@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 180,
+      "task_id": "adaptive-cruise-control@split_control-pipeline_1_plant-and-control@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 181,
+      "task_id": "adaptive-cruise-control@split_control-pipeline_2_simulation-setup-evaluation@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 182,
+      "task_id": "civ6-adjacency-optimizer@split_civ6-planning_1_map-parsing-modeling@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 183,
+      "task_id": "civ6-adjacency-optimizer@split_civ6-planning_2_placement-optimization@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 184,
+      "task_id": "dynamic-object-aware-egomotion@split_vision-motion_1_dynamic-segmentation@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 185,
+      "task_id": "dynamic-object-aware-egomotion@split_vision-motion_2_motion-estimation-validation@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 186,
+      "task_id": "earthquake-phase-association@split_seismic-association_1_signal-ingestion-picker@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 187,
+      "task_id": "earthquake-phase-association@split_seismic-association_2_association-modeling@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 188,
+      "task_id": "energy-market-pricing@split_grid-pricing_1_powerflow-dispatch@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 189,
+      "task_id": "energy-market-pricing@split_grid-pricing_2_market-pricing@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 190,
+      "task_id": "exoplanet-detection-period@split_exoplanet-period_1_preprocess-workflow@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 191,
+      "task_id": "exoplanet-detection-period@split_exoplanet-period_2_period-search@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 192,
+      "task_id": "fix-build-agentops@split_ci-fuzz_1_build-test-loop@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 193,
+      "task_id": "fix-build-agentops@split_ci-fuzz_2_ci-analysis@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 194,
+      "task_id": "fix-erlang-ssh-cve@split_erlang-security_1_runtime-protocol-core@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 195,
+      "task_id": "fix-erlang-ssh-cve@split_erlang-security_2_security-hardening@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 196,
+      "task_id": "multilingual-video-dubbing@split_video-dubbing_1_video-edit-render@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 197,
+      "task_id": "multilingual-video-dubbing@split_video-dubbing_2_audio-localization-master@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 198,
+      "task_id": "organize-messy-files@split_document-organization_1_content-ingestion@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 199,
+      "task_id": "organize-messy-files@split_document-organization_2_planning-and-execution@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 200,
+      "task_id": "pedestrian-traffic-counting@split_pedestrian-counting_1_video-understanding@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 201,
+      "task_id": "pedestrian-traffic-counting@split_pedestrian-counting_2_counting-and-multimodal-check@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 202,
+      "task_id": "python-scala-translation@split_code-translation_1_syntax-structure-mapping@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 203,
+      "task_id": "python-scala-translation@split_code-translation_2_idioms-functional-library@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 204,
+      "task_id": "seismic-phase-picking@split_seismic-picking_1_data-access-prep@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 205,
+      "task_id": "seismic-phase-picking@split_seismic-picking_2_model-picking-validation@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 206,
+      "task_id": "spring-boot-jakarta-migration@split_spring-migration_1_namespace-framework@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 207,
+      "task_id": "spring-boot-jakarta-migration@split_spring-migration_2_client-security@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 208,
+      "task_id": "travel-planning@split_travel-orchestration_1_destination-activity@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 209,
+      "task_id": "travel-planning@split_travel-orchestration_2_booking-routing@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 210,
+      "task_id": "trend-anomaly-causal-inference@split_trend-causal_1_data-feature-engineering@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 211,
+      "task_id": "trend-anomaly-causal-inference@split_trend-causal_2_anomaly-causal-inference@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 212,
+      "task_id": "video-silence-remover@split_speech-cleanup_1_silence-analysis@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 213,
+      "task_id": "video-silence-remover@split_speech-cleanup_2_timeline-render-report@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 214,
+      "task_id": "seismic-event-detection-pipeline@merge_v1@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 215,
+      "task_id": "urban-video-motion-and-counting@merge_v1@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 216,
+      "task_id": "grid-operation-and-pricing-optimization@merge_v1@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 217,
+      "task_id": "multilingual-speaker-aware-localization@merge_v1@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 218,
+      "task_id": "spoken-video-cleanup-pipeline@merge_v1@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 219,
+      "task_id": "network-exfiltration-detection-workflow@merge_v1@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 220,
+      "task_id": "tabular-data-reconciliation-recovery@merge_v1@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 221,
+      "task_id": "financial-document-analysis-and-qa@merge_v1@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 222,
+      "task_id": "frontend-performance-and-stability-hardening@merge_v1@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 223,
+      "task_id": "threejs-structure-export-pipeline@merge_v1@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 224,
+      "task_id": "python-ci-and-fuzzing-hardening@merge_v1@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    },
+    {
+      "id": 225,
+      "task_id": "travel-scheduling-assistant@merge_v1@rewrite_sem1",
+      "skill_id": null,
+      "skill_name": null,
+      "name": null
+    }
+  ]
+}

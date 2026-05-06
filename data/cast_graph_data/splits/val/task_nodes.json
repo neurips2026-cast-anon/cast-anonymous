@@ -1,0 +1,134 @@
+[
+  {
+    "task_index": 1,
+    "task_id": "civ6-adjacency-optimizer",
+    "domain": "games",
+    "id": 2
+  },
+  {
+    "task_index": 11,
+    "task_id": "find-topk-similiar-chemicals",
+    "domain": "chemistry",
+    "id": 12
+  },
+  {
+    "task_index": 12,
+    "task_id": "fix-build-agentops",
+    "domain": "compilation-&-build",
+    "id": 13
+  },
+  {
+    "task_index": 17,
+    "task_id": "flink-query",
+    "domain": "flink",
+    "id": 18
+  },
+  {
+    "task_index": 35,
+    "task_id": "parallel-tfidf-search",
+    "domain": "parallelization",
+    "id": 36
+  },
+  {
+    "task_index": 44,
+    "task_id": "scheduling-email-assistant",
+    "domain": "scheduling",
+    "id": 45
+  },
+  {
+    "task_index": 63,
+    "task_id": "civ6-adjacency-optimizer@split_civ6-planning_1_map-parsing-modeling",
+    "domain": "games",
+    "id": 64
+  },
+  {
+    "task_index": 64,
+    "task_id": "civ6-adjacency-optimizer@split_civ6-planning_2_placement-optimization",
+    "domain": "games",
+    "id": 65
+  },
+  {
+    "task_index": 73,
+    "task_id": "fix-build-agentops@split_ci-fuzz_1_build-test-loop",
+    "domain": "compilation-&-build",
+    "id": 74
+  },
+  {
+    "task_index": 74,
+    "task_id": "fix-build-agentops@split_ci-fuzz_2_ci-analysis",
+    "domain": "compilation-&-build",
+    "id": 75
+  },
+  {
+    "task_index": 100,
+    "task_id": "network-exfiltration-detection-workflow@merge_v1",
+    "domain": "security-&-ctf+security",
+    "id": 101
+  },
+  {
+    "task_index": 109,
+    "task_id": "civ6-adjacency-optimizer@rewrite_sem1",
+    "domain": "games",
+    "id": 110
+  },
+  {
+    "task_index": 120,
+    "task_id": "find-topk-similiar-chemicals@rewrite_sem1",
+    "domain": "chemistry",
+    "id": 121
+  },
+  {
+    "task_index": 121,
+    "task_id": "fix-build-agentops@rewrite_sem1",
+    "domain": "compilation-&-build",
+    "id": 122
+  },
+  {
+    "task_index": 127,
+    "task_id": "flink-query@rewrite_sem1",
+    "domain": "flink",
+    "id": 128
+  },
+  {
+    "task_index": 149,
+    "task_id": "parallel-tfidf-search@rewrite_sem1",
+    "domain": "parallelization",
+    "id": 150
+  },
+  {
+    "task_index": 159,
+    "task_id": "scheduling-email-assistant@rewrite_sem1",
+    "domain": "scheduling",
+    "id": 160
+  },
+  {
+    "task_index": 181,
+    "task_id": "civ6-adjacency-optimizer@split_civ6-planning_1_map-parsing-modeling@rewrite_sem1",
+    "domain": "games",
+    "id": 182
+  },
+  {
+    "task_index": 182,
+    "task_id": "civ6-adjacency-optimizer@split_civ6-planning_2_placement-optimization@rewrite_sem1",
+    "domain": "games",
+    "id": 183
+  },
+  {
+    "task_index": 191,
+    "task_id": "fix-build-agentops@split_ci-fuzz_1_build-test-loop@rewrite_sem1",
+    "domain": "compilation-&-build",
+    "id": 192
+  },
+  {
+    "task_index": 192,
+    "task_id": "fix-build-agentops@split_ci-fuzz_2_ci-analysis@rewrite_sem1",
+    "domain": "compilation-&-build",
+    "id": 193
+  },
+  {
+    "task_index": 218,
+    "task_id": "network-exfiltration-detection-workflow@merge_v1@rewrite_sem1",
+    "domain": "security-&-ctf+security",
+    "id": 219
+  }
+]

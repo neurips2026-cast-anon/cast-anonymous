@@ -1,0 +1,1298 @@
+[
+  {
+    "task": "adaptive-rejection-sampler",
+    "selected_skill_indices": [
+      62727,
+      62807,
+      62865
+    ],
+    "selected_skill_names": [
+      "sampling-and-indexing",
+      "object_counter",
+      "discover-important-function"
+    ],
+    "skills": [
+      {
+        "index": 62727,
+        "name": "sampling-and-indexing",
+        "description": "Standardize video sampling and frame indexing so interval instructions and mask frames stay aligned with a valid key/index scheme.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62807,
+        "name": "object_counter",
+        "description": "Count occurrences of an object in the image using computer vision algorithm.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62865,
+        "name": "discover-important-function",
+        "description": "When given a project codebase, this skill observes the important functions in the codebase for future action.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "chess-best-move",
+    "selected_skill_indices": [
+      35569,
+      35658
+    ],
+    "selected_skill_names": [
+      "chess-best-move",
+      "chess-best-move"
+    ],
+    "skills": [
+      {
+        "index": 35569,
+        "name": "chess-best-move",
+        "description": "Guide for analyzing chess board images to find the best move(s). This skill should be used when tasks involve analyzing chess positions from images, detecting piece positions, identifying winning moves, or solving chess puzzles. Applies to tasks requiring image-based chess board analysis and move calculation.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 35658,
+        "name": "chess-best-move",
+        "description": "Guide for analyzing chess positions from images and determining optimal moves. This skill should be used when asked to find the best move, checkmate, or tactical solution from a chess board image. It provides structured approaches for image-based chess analysis, piece detection calibration, position validation, and move verification.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "cobol-modernization",
+    "selected_skill_indices": [
+      26004,
+      35620,
+      44966,
+      49727,
+      62847
+    ],
+    "selected_skill_names": [
+      "cpython-codebase",
+      "polyglot-c-py",
+      "write-script-python3",
+      "py-env-setup",
+      "python-scala-oop"
+    ],
+    "skills": [
+      {
+        "index": 26004,
+        "name": "cpython-codebase",
+        "description": "Use this skill when working in the CPython repository. It provides essential context about the CPython codebase structure, recommended tools, source code navigation, and best practices for maintaining engineering notebooks while working on Python runtime and standard library development.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 35620,
+        "name": "polyglot-c-py",
+        "description": "Guidance for creating polyglot files that are valid in both Python and C. This skill applies when tasked with writing code that must be parseable and executable by both the Python interpreter and C compiler. Covers polyglot syntax techniques, testing strategies, and critical cleanup requirements.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 44966,
+        "name": "write-script-python3",
+        "description": "MUST use when writing Python scripts.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 49727,
+        "name": "py-env-setup",
+        "description": "Host-specific Python execution guidance for OpenClaw on this machine. Prefer $PYTHON over python/python3 in PATH, because OpenClaw exec runs in a non-interactive shell and may not inherit interactive shell initialization.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62847,
+        "name": "python-scala-oop",
+        "description": "Guide for translating Python classes, inheritance, and object-oriented patterns to Scala. Use when converting Python code with classes, dataclasses, abstract classes, inheritance, properties, static methods, class methods, or design patterns.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "code-from-image",
+    "selected_skill_indices": [
+      62790,
+      62806
+    ],
+    "selected_skill_names": [
+      "image-ocr",
+      "image_editing"
+    ],
+    "skills": [
+      {
+        "index": 62790,
+        "name": "image-ocr",
+        "description": "Extract text content from images using Tesseract OCR via Python",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62806,
+        "name": "image_editing",
+        "description": "Comprehensive command-line tools for modifying and manipulating images, such as resize, blur, crop, flip, and many more.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "count-dataset-tokens",
+    "selected_skill_indices": [
+      35576,
+      57408
+    ],
+    "selected_skill_names": [
+      "count-dataset-tokens",
+      "nlp-text-analysis-and-tf-idf-calculation"
+    ],
+    "skills": [
+      {
+        "index": 35576,
+        "name": "count-dataset-tokens",
+        "description": "Guidance for counting tokens in datasets, particularly from HuggingFace or similar sources. This skill should be used when tasks involve counting tokens in datasets, understanding dataset schemas, filtering by categories/domains, or working with tokenizers. It helps avoid common pitfalls like incomplete field identification and ambiguous terminology interpretation.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 57408,
+        "name": "nlp-text-analysis-and-tf-idf-calculation",
+        "description": "Perform a specific NLP pipeline including normalization, POS tagging, NER, tokenization, and lemmatization, followed by a strict TF-IDF calculation using the log(N/df) formula with detailed tabular outputs.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "custom-memory-heap-crash",
+    "selected_skill_indices": [
+      7541,
+      13638,
+      15181,
+      27577
+    ],
+    "selected_skill_names": [
+      "dev-coding-debug",
+      "debug",
+      "debugger-detective",
+      "debug-asan-build"
+    ],
+    "skills": [
+      {
+        "index": 7541,
+        "name": "dev-coding-debug",
+        "description": "Systematic debugging workflow enforcing 'The Iron Law': No fixes without root cause investigation first.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 13638,
+        "name": "debug",
+        "description": "Runtime debugging workflow with log collection. Use when fixing bugs that require runtime evidence. Starts a log server, instruments code, collects logs during reproduction, and analyzes them to fix issues. Invoke with project path argument.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 15181,
+        "name": "debugger-detective",
+        "description": "⚡ PRIMARY TOOL for: 'why is X broken', 'find bug source', 'root cause analysis', 'trace error', 'debug issue', 'find where X fails'. Uses claudemem v0.3.0 AST with context command for call chain analysis. GREP/FIND/GLOB ARE FORBIDDEN.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 27577,
+        "name": "debug-asan-build",
+        "description": "Build and test this repo with the CMake preset debug-asan (AddressSanitizer). Use when asked how to configure, build, run, or test with ASAN/debug builds in this project.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "db-wal-recovery",
+    "selected_skill_indices": [
+      44977,
+      55619,
+      62912
+    ],
+    "selected_skill_names": [
+      "write-script-postgresql",
+      "database-query",
+      "data-reconciliation"
+    ],
+    "skills": [
+      {
+        "index": 44977,
+        "name": "write-script-postgresql",
+        "description": "MUST use when writing PostgreSQL queries.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 55619,
+        "name": "database-query",
+        "description": "Execute read-only SQL queries against SQLite, PostgreSQL, or MySQL databases and return results as JSON.",
+        "permission_risk_level": "B",
+        "token_cost_level": "B"
+      },
+      {
+        "index": 62912,
+        "name": "data-reconciliation",
+        "description": "Techniques for recovering missing values from financial and tabular data using mathematical constraints.",
+        "permission_risk_level": "A",
+        "token_cost_level": "B"
+      }
+    ]
+  },
+  {
+    "task": "extract-elf",
+    "selected_skill_indices": [
+      15808,
+      21849,
+      61786,
+      62807
+    ],
+    "selected_skill_names": [
+      "extract-blockchain-media",
+      "bg3se-macos-ghidra",
+      "verified-pseudocode-extractor",
+      "object_counter"
+    ],
+    "skills": [
+      {
+        "index": 15808,
+        "name": "extract-blockchain-media",
+        "description": "Extract media files (images, videos, documents) from BSV blockchain transactions using the txex CLI tool. Retrieves inscribed ordinals and embedded files.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 21849,
+        "name": "bg3se-macos-ghidra",
+        "description": "Develop the BG3 Script Extender macOS port using Ghidra for reverse engineering. Use this skill when:(1) Working on bg3se-macos port development or debugging(2) Using Ghidra to discover offsets, function addresses, or data structures in BG3(3) Implementing new Lua APIs (Ext.*, Osi.*) for macOS Script Extender(4) Porting Windows BG3SE features to macOS ARM64(5) Understanding ECS architecture, Osiris integration, or stats system(6) Analyzing ARM64 assembly or calling conventions for game hooks(7) Writing or modifying Ghidra Python scripts for BG3 analysis",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 61786,
+        "name": "verified-pseudocode-extractor",
+        "description": "Extract language-agnostic pseudocode from formally verified programs (Isabelle/HOL, Coq) while preserving verified control flow, data dependencies, and algorithmic logic. Use when: (1) Users have verified code and need readable pseudocode, (2) Documenting verified algorithms for broader audiences, (3) Translating verified implementations to other languages, (4) Creating algorithm specifications from verified code, (5) Preserving verification guarantees in pseudocode form, or (6) Abstracting proof-heavy code to essential logic. Maintains semantic faithfulness to verified implementation.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62807,
+        "name": "object_counter",
+        "description": "Count occurrences of an object in the image using computer vision algorithm.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "extract-moves-from-video",
+    "selected_skill_indices": [
+      62799,
+      62800
+    ],
+    "selected_skill_names": [
+      "marker",
+      "pdf"
+    ],
+    "skills": [
+      {
+        "index": 62799,
+        "name": "marker",
+        "description": "Convert PDF documents to Markdown using marker_single. Use when Claude needs to extract text content from PDFs while preserving LaTeX formulas, equations, and document structure. Ideal for academic papers and technical documents containing mathematical notation.",
+        "permission_risk_level": "A",
+        "token_cost_level": "B"
+      },
+      {
+        "index": 62800,
+        "name": "pdf",
+        "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+        "permission_risk_level": "A",
+        "token_cost_level": "B"
+      }
+    ]
+  },
+  {
+    "task": "fix-code-vulnerability",
+    "selected_skill_indices": [
+      62763,
+      62872
+    ],
+    "selected_skill_names": [
+      "find-bugs",
+      "vulnerability-csv-reporting"
+    ],
+    "skills": [
+      {
+        "index": 62763,
+        "name": "find-bugs",
+        "description": "Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62872,
+        "name": "vulnerability-csv-reporting",
+        "description": "Generate structured CSV security audit reports from vulnerability data with proper filtering and formatting. This skill covers CSV schema design for security reports, using Python csv.DictWriter, severity-based filtering, and field mapping from JSON to tabular format.",
+        "permission_risk_level": "B",
+        "token_cost_level": "B"
+      }
+    ]
+  },
+  {
+    "task": "fix-git",
+    "selected_skill_indices": [
+      13021,
+      17971,
+      46862,
+      52240,
+      54352
+    ],
+    "selected_skill_names": [
+      "github-multi-repo",
+      "template-update",
+      "gh-issues",
+      "maestrodjango-verification",
+      "git-master"
+    ],
+    "skills": [
+      {
+        "index": 13021,
+        "name": "github-multi-repo",
+        "description": "Coordinate changes across multiple GitHub repositories with traceable automation",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 17971,
+        "name": "template-update",
+        "description": "Updates template files in metasaver-marketplace as the source of truth before applying changes elsewhere. Use when standardizing configs across repos - updates template FIRST, then uses it for remediation. For config skills and domain skills with templates.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 46862,
+        "name": "gh-issues",
+        "description": "Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then monitor and address PR review comments. Usage: /gh-issues [owner/repo] [--label bug] [--limit 5] [--milestone v1.0] [--assignee @me] [--fork user/repo] [--watch] [--interval 5] [--reviews-only] [--cron] [--dry-run] [--model glm-5] [--notify-channel -1002381931352]",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 52240,
+        "name": "maestrodjango-verification",
+        "description": "Verification loop for Django: migrations, linting, tests with coverage, security scans, and deployment readiness. Use during maestro:review before Django releases or PRs.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 54352,
+        "name": "git-master",
+        "description": "Git expert for atomic commits, rebasing, and history management",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "gcode-to-text",
+    "selected_skill_indices": [
+      35592,
+      58665
+    ],
+    "selected_skill_names": [
+      "gcode-to-text",
+      "gcode-to-text"
+    ],
+    "skills": [
+      {
+        "index": 35592,
+        "name": "gcode-to-text",
+        "description": "Extracts hidden or encoded text from GCODE files by analyzing toolpath geometry and coordinate data. This skill should be used when tasks involve decoding text from 3D printing files, recovering embossed or engraved text from GCODE, or CTF-style challenges involving GCODE analysis. Applies to any task requiring geometric reconstruction of text from CNC or 3D printer movement commands.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 58665,
+        "name": "gcode-to-text",
+        "description": "Extracts hidden or encoded text from GCODE files by analyzing toolpath geometry and coordinate data. This skill should be used when tasks involve decoding text from 3D printing files, recovering embossed or engraved text from GCODE, or CTF-style challenges involving GCODE analysis. Applies to any task requiring geometric reconstruction of text from CNC or 3D printer movement commands.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "large-scale-text-editing",
+    "selected_skill_indices": [
+      62711,
+      62867
+    ],
+    "selected_skill_names": [
+      "csv-processing",
+      "setup-env"
+    ],
+    "skills": [
+      {
+        "index": 62711,
+        "name": "csv-processing",
+        "description": "Use this skill when reading sensor data from CSV files, writing simulation results to CSV, processing time-series data with pandas, or handling missing values in datasets.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62867,
+        "name": "setup-env",
+        "description": "When given a Python project codebase, this skill helps the agent to set up virtual environments, install dependencies, and run scripts.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "log-summary-date-ranges",
+    "selected_skill_indices": [
+      23477,
+      26274,
+      29607
+    ],
+    "selected_skill_names": [
+      "logs-analysis",
+      "execution-logger",
+      "aggregating-event-datasets"
+    ],
+    "skills": [
+      {
+        "index": 23477,
+        "name": "logs-analysis",
+        "description": "Analyze system and application log data from sosreport archives, extracting error patterns, kernel panics, OOM events, service failures, and application crashes from journald logs and traditional log files within the sosreport directory structure to identify root causes of system failures and issues",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 26274,
+        "name": "execution-logger",
+        "description": "Record structured per-execution audit logs to ~/.config/opencode/logs/<agent>/<timestamp>-<slug>.json",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 29607,
+        "name": "aggregating-event-datasets",
+        "description": "Aggregate and summarize event datasets (logs) using OPAL statsby. Use when you need to count, sum, or calculate statistics across log events. Covers make_col for derived columns, statsby for aggregation, group_by for grouping, aggregation functions (count, sum, avg, percentile), and topk for top N results. Returns single summary row per group across entire time range. For time-series trends, see time-series-analysis skill.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "modernize-scientific-stack",
+    "selected_skill_indices": [
+      62845,
+      62846,
+      62847,
+      62867,
+      62868
+    ],
+    "selected_skill_names": [
+      "python-scala-idioms",
+      "python-scala-libraries",
+      "python-scala-oop",
+      "setup-env",
+      "nlp-research-repo-package-installment"
+    ],
+    "skills": [
+      {
+        "index": 62845,
+        "name": "python-scala-idioms",
+        "description": "Guide for writing idiomatic Scala when translating from Python. Use when the goal is not just syntactic translation but producing clean, idiomatic Scala code. Covers immutability, expression-based style, sealed hierarchies, and common Scala conventions.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62846,
+        "name": "python-scala-libraries",
+        "description": "Guide for mapping common Python libraries and idioms to Scala equivalents. Use when converting Python code that uses standard library modules (json, datetime, os, re, logging) or needs equivalent Scala libraries for HTTP, testing, or async operations.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62847,
+        "name": "python-scala-oop",
+        "description": "Guide for translating Python classes, inheritance, and object-oriented patterns to Scala. Use when converting Python code with classes, dataclasses, abstract classes, inheritance, properties, static methods, class methods, or design patterns.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62867,
+        "name": "setup-env",
+        "description": "When given a Python project codebase, this skill helps the agent to set up virtual environments, install dependencies, and run scripts.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62868,
+        "name": "nlp-research-repo-package-installment",
+        "description": "Align Python version and repo-declared dependencies (requirements.txt / environment.yml) before installing packages for NLP research code reproduction.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "multi-source-data-merger",
+    "selected_skill_indices": [
+      26461,
+      35702,
+      41292,
+      51928,
+      56318
+    ],
+    "selected_skill_names": [
+      "data-cleaning-pipeline",
+      "multi-source-data-merger",
+      "mongodb-aggregation-pipeline",
+      "nodejs-configuration-merger",
+      "excel-data-merge-transformation-pipeline"
+    ],
+    "skills": [
+      {
+        "index": 26461,
+        "name": "data-cleaning-pipeline",
+        "description": "Build robust processes for data cleaning, missing value imputation, outlier handling, and data transformation for data preprocessing, data quality, and data pipeline automation",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 35702,
+        "name": "multi-source-data-merger",
+        "description": "This skill provides guidance for merging data from multiple heterogeneous sources (CSV, JSON, Parquet, XML, etc.) into unified output formats with conflict detection and resolution. Use when tasks involve combining data from different file formats, field mapping between schemas, priority-based conflict resolution, or generating merged datasets with conflict reports.",
+        "permission_risk_level": "A",
+        "token_cost_level": "B"
+      },
+      {
+        "index": 41292,
+        "name": "mongodb-aggregation-pipeline",
+        "description": "Master MongoDB aggregation pipeline for complex data transformations. Learn pipeline stages, grouping, filtering, and data transformation. Use when analyzing data, creating reports, or transforming documents.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 51928,
+        "name": "nodejs-configuration-merger",
+        "description": "Deep merge configuration objects with prototype-safe handling, environment variable interpolation, and schema validation.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 56318,
+        "name": "excel-data-merge-transformation-pipeline",
+        "description": "Generates a Python script to merge and transform Excel files using specific GL and employee mappings, including removing trailing rows, splitting strings, and calculating balances.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "nginx-request-logging",
+    "selected_skill_indices": [
+      35614,
+      35703
+    ],
+    "selected_skill_names": [
+      "nginx-request-logging",
+      "nginx-request-logging"
+    ],
+    "skills": [
+      {
+        "index": 35614,
+        "name": "nginx-request-logging",
+        "description": "Guide for configuring Nginx web server with custom request logging, rate limiting, and error pages. This skill should be used when tasks involve Nginx installation, configuration, custom log formats, rate limiting setup, or custom error page creation.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 35703,
+        "name": "nginx-request-logging",
+        "description": "Guidance for configuring Nginx web servers with custom logging, rate limiting, and static content serving. This skill should be used when tasks involve setting up Nginx server blocks, configuring custom log formats, implementing rate limiting, or serving static files on specific ports.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "password-recovery",
+    "selected_skill_indices": [
+      13130,
+      28200,
+      34990,
+      53593,
+      58642
+    ],
+    "selected_skill_names": [
+      "reverse-engineering-quick-triage",
+      "ctf-pwn",
+      "failsafe-shatter-recalibrate",
+      "ctf-pwn",
+      "extract-ctf-writeup"
+    ],
+    "skills": [
+      {
+        "index": 13130,
+        "name": "reverse-engineering-quick-triage",
+        "description": "Extended quick triage for rapid IOC and capability extraction with stricter timeboxes and safety rails.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 28200,
+        "name": "ctf-pwn",
+        "description": "Solve CTF binary exploitation challenges by discovering and exploiting memory corruption vulnerabilities to read flags. Use for buffer overflows, format strings, heap exploits, ROP challenges, or any pwn/exploitation task.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 34990,
+        "name": "failsafe-shatter-recalibrate",
+        "description": "Execute emergency protocol reset when critical system integrity is compromised.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 53593,
+        "name": "ctf-pwn",
+        "description": "Provides binary exploitation (pwn) techniques for CTF challenges. Use when exploiting buffer overflows, format strings, heap vulnerabilities (House of Orange, Spirit, Lore, Apple 2, Einherjar, tcache stashing unlink), race conditions, kernel bugs, ROP chains, ret2libc, ret2dlresolve, shellcode, GOT overwrite, use-after-free, seccomp bypass, FSOP, stack pivot, sandbox escape, Windows SEH overwrite, VirtualAlloc ROP, SeDebugPrivilege escalation, or Linux kernel exploitation (modprobe_path, tty_struct, userfaultfd, KASLR bypass, SLUB heap spray).",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 58642,
+        "name": "extract-ctf-writeup",
+        "description": "You are a seasoned cyber security veteran.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "polyglot-c-py",
+    "selected_skill_indices": [
+      35620,
+      35709
+    ],
+    "selected_skill_names": [
+      "polyglot-c-py",
+      "polyglot-c-py"
+    ],
+    "skills": [
+      {
+        "index": 35620,
+        "name": "polyglot-c-py",
+        "description": "Guidance for creating polyglot files that are valid in both Python and C. This skill applies when tasked with writing code that must be parseable and executable by both the Python interpreter and C compiler. Covers polyglot syntax techniques, testing strategies, and critical cleanup requirements.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 35709,
+        "name": "polyglot-c-py",
+        "description": "This skill provides guidance for creating polyglot files that are valid in both C and Python. It should be used when tasks require writing code that compiles and runs correctly as both a C program and a Python script, producing identical or specified output from each interpreter/compiler.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "pytorch-model-cli",
+    "selected_skill_indices": [
+      62791,
+      62807,
+      62834
+    ],
+    "selected_skill_names": [
+      "openai-vision",
+      "object_counter",
+      "gpt-multimodal"
+    ],
+    "skills": [
+      {
+        "index": 62791,
+        "name": "openai-vision",
+        "description": "Analyze images and multi-frame sequences using OpenAI GPT vision models",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62807,
+        "name": "object_counter",
+        "description": "Count occurrences of an object in the image using computer vision algorithm.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62834,
+        "name": "gpt-multimodal",
+        "description": "Analyze images and multi-frame sequences using OpenAI GPT series",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "regex-log",
+    "selected_skill_indices": [
+      35632,
+      35633
+    ],
+    "selected_skill_names": [
+      "regex-chess",
+      "regex-log"
+    ],
+    "skills": [
+      {
+        "index": 35632,
+        "name": "regex-chess",
+        "description": "Guidance for generating legal chess moves using only regex pattern matching and substitution. This skill applies when implementing chess move generators constrained to regex-only solutions, FEN notation parsing/manipulation, or similar pattern-matching-based board game logic. Use this skill for tasks requiring regex-based state transformations on structured string representations.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 35633,
+        "name": "regex-log",
+        "description": "Guidance for constructing complex regular expressions that extract and validate data from log files. This skill applies when building regex patterns to parse log entries with requirements like IP address validation, date extraction, boundary conditions, and selecting specific occurrences (first/last). Use this skill when the task involves creating regex for log parsing with multiple validation constraints.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "sparql-university",
+    "selected_skill_indices": [
+      62847,
+      62859,
+      62893,
+      62894
+    ],
+    "selected_skill_names": [
+      "python-scala-oop",
+      "13f-analyzer",
+      "search-attractions",
+      "search-cities"
+    ],
+    "skills": [
+      {
+        "index": 62847,
+        "name": "python-scala-oop",
+        "description": "Guide for translating Python classes, inheritance, and object-oriented patterns to Scala. Use when converting Python code with classes, dataclasses, abstract classes, inheritance, properties, static methods, class methods, or design patterns.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62859,
+        "name": "13f-analyzer",
+        "description": "Perform various data analysis on SEC 13-F and obtain some insights of fund activities such as number of holdings, AUM, and change of holdings between two quarters.",
+        "permission_risk_level": "A",
+        "token_cost_level": "B"
+      },
+      {
+        "index": 62893,
+        "name": "search-attractions",
+        "description": "Retrieve attractions by city from the bundled dataset. Use this skill when surfacing points of interest or building sightseeing suggestions for a destination.",
+        "permission_risk_level": "A",
+        "token_cost_level": "B"
+      },
+      {
+        "index": 62894,
+        "name": "search-cities",
+        "description": "List cities for a given state using the bundled background data. Use this skill to validate state inputs or expand destination choices before flight/restaurant/attraction/driving/accommodation lookups.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "sqlite-db-truncate",
+    "selected_skill_indices": [
+      7322,
+      18299,
+      35294,
+      55607,
+      62912
+    ],
+    "selected_skill_names": [
+      "error-recovery",
+      "recover-from-error",
+      "database-backup",
+      "db-backup",
+      "data-reconciliation"
+    ],
+    "skills": [
+      {
+        "index": 7322,
+        "name": "error-recovery",
+        "description": "Use when encountering failures - assess severity, preserve evidence, execute rollback decision tree, and verify post-recovery state",
+        "permission_risk_level": "A",
+        "token_cost_level": "B"
+      },
+      {
+        "index": 18299,
+        "name": "recover-from-error",
+        "description": "Diagnose task protocol errors and provide targeted recovery procedures",
+        "permission_risk_level": "A",
+        "token_cost_level": "B"
+      },
+      {
+        "index": 35294,
+        "name": "database-backup",
+        "description": "Backup database before tests, migrations, or other database operations",
+        "permission_risk_level": "B",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 55607,
+        "name": "db-backup",
+        "description": "Set up automated database backup, restore, and disaster recovery procedures for PostgreSQL, MySQL, MongoDB, and Redis. Use when you need to implement backup schedules, point-in-time recovery, cross-region replication, backup verification, or disaster recovery runbooks. Trigger words: database backup, pg_dump, mysqldump, mongodump, disaster recovery, point-in-time recovery, WAL archiving, backup rotation, restore database, RTO, RPO, backup verification.",
+        "permission_risk_level": "B",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62912,
+        "name": "data-reconciliation",
+        "description": "Techniques for recovering missing values from financial and tabular data using mathematical constraints.",
+        "permission_risk_level": "A",
+        "token_cost_level": "B"
+      }
+    ]
+  },
+  {
+    "task": "caffe-cifar-10",
+    "selected_skill_indices": [
+      35567,
+      45523,
+      62726,
+      62791,
+      62807
+    ],
+    "selected_skill_names": [
+      "caffe-cifar-10",
+      "machine-learning-ops-ml-pipeline",
+      "output-validation",
+      "openai-vision",
+      "object_counter"
+    ],
+    "skills": [
+      {
+        "index": 35567,
+        "name": "caffe-cifar-10",
+        "description": "Guidance for building Caffe from source and training CIFAR-10 models. This skill applies when tasks involve compiling Caffe deep learning framework, configuring Makefile.config, preparing CIFAR-10 dataset, or training CNN models with Caffe solvers. Use for legacy ML framework installation, LMDB dataset preparation, and CPU-only deep learning training tasks.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 45523,
+        "name": "machine-learning-ops-ml-pipeline",
+        "description": "Design and implement a complete ML pipeline for: $ARGUMENTS",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62726,
+        "name": "output-validation",
+        "description": "Local self-check of instructions and mask outputs (format/range/consistency) without using GT.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62791,
+        "name": "openai-vision",
+        "description": "Analyze images and multi-frame sequences using OpenAI GPT vision models",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62807,
+        "name": "object_counter",
+        "description": "Count occurrences of an object in the image using computer vision algorithm.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "cancel-async-tasks",
+    "selected_skill_indices": [
+      35568,
+      35657
+    ],
+    "selected_skill_names": [
+      "cancel-async-tasks",
+      "cancel-async-tasks"
+    ],
+    "skills": [
+      {
+        "index": 35568,
+        "name": "cancel-async-tasks",
+        "description": "Guidance for implementing proper asyncio task cancellation with signal handling in Python. This skill applies when implementing concurrent task runners that need graceful shutdown, handling KeyboardInterrupt/SIGINT in asyncio contexts, or managing task cleanup when using semaphores for concurrency limiting. Use when tasks involve asyncio.gather, CancelledError handling, or cleanup of tasks that haven't started execution.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 35657,
+        "name": "cancel-async-tasks",
+        "description": "Guidance for implementing asyncio task cancellation with proper cleanup, especially for handling keyboard interrupts (Ctrl+C). This skill should be used when tasks involve asyncio cancellation, signal handling, or graceful shutdown of concurrent Python tasks.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "configure-git-webserver",
+    "selected_skill_indices": [
+      14536,
+      15363,
+      34122,
+      37185,
+      54492
+    ],
+    "selected_skill_names": [
+      "configuring-github-actions",
+      "setup",
+      "github-repo-setup",
+      "using-git-worktree",
+      "github-copilot-starter"
+    ],
+    "skills": [
+      {
+        "index": 14536,
+        "name": "configuring-github-actions",
+        "description": "Automatically configure GitHub Actions CI/CD workflows for any repository using global templates. Use when setting up a new repository or user invokes /setup-ci.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 15363,
+        "name": "setup",
+        "description": "Complete guide to installing Git and performing basic configuration across all platforms (Windows, macOS, Linux, WSL). Use when setting up Git for the first time, installing Git on new systems, configuring user identity, setting default branch, choosing editor, verifying installation, or troubleshooting Git installation issues. Covers platform-specific installation methods, basic required configuration, and verification steps.",
+        "permission_risk_level": "A",
+        "token_cost_level": "B"
+      },
+      {
+        "index": 34122,
+        "name": "github-repo-setup",
+        "description": "Use PROACTIVELY when user needs to create a new GitHub repository or set up a project with best practices. Automates repository creation with four modes - quick public repos (~30s), enterprise-grade with security and CI/CD (~120s), open-source community standards (~90s), and private team collaboration with governance (~90s). Not for existing repo configuration or GitHub Actions workflow debugging.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 37185,
+        "name": "using-git-worktree",
+        "description": "Create isolated git worktrees at bare repo root level",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 54492,
+        "name": "github-copilot-starter",
+        "description": "Set up complete GitHub Copilot configuration for a new project based on technology stack",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "constraints-scheduling",
+    "selected_skill_indices": [
+      44731,
+      62857
+    ],
+    "selected_skill_names": [
+      "constraint-parser",
+      "constraint-parser"
+    ],
+    "skills": [
+      {
+        "index": 44731,
+        "name": "constraint-parser",
+        "description": "Parse scheduling constraints from a email text.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62857,
+        "name": "constraint-parser",
+        "description": "Parse scheduling constraints from a email text.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "feal-differential-cryptanalysis",
+    "selected_skill_indices": [
+      35585,
+      58619
+    ],
+    "selected_skill_names": [
+      "feal-differential-cryptanalysis",
+      "crypto-solver-skill"
+    ],
+    "skills": [
+      {
+        "index": 35585,
+        "name": "feal-differential-cryptanalysis",
+        "description": "Guidance for implementing differential cryptanalysis attacks on FEAL (Fast Data Encipherment Algorithm) and similar block ciphers. This skill should be used when tasks involve recovering round keys, implementing differential attacks, exploiting cipher weaknesses, or performing cryptanalysis on Feistel network ciphers. Applicable to CTF challenges and educational cryptanalysis exercises.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 58619,
+        "name": "crypto-solver-skill",
+        "description": "CTF 密码学自动求解工作流（RSA/ECC/Lattice 等），配套 SageMath/Python 辅助脚本。",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "kv-store-grpc",
+    "selected_skill_indices": [
+      35688,
+      51987
+    ],
+    "selected_skill_names": [
+      "kv-store-grpc",
+      "fastapi-local-oop-background-task-system"
+    ],
+    "skills": [
+      {
+        "index": 35688,
+        "name": "kv-store-grpc",
+        "description": "Guidance for building gRPC-based key-value store services in Python. This skill should be used when tasks involve creating gRPC servers, defining protocol buffer schemas, or implementing key-value storage APIs with gRPC. Covers proto file creation, code generation, server implementation, and verification strategies.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 51987,
+        "name": "fastapi-local-oop-background-task-system",
+        "description": "Design and implement a local, object-oriented background task management system for FastAPI using SQLAlchemy for persistence. The system must support task lifecycle control (start, pause, stop, resume, restart), load state on startup, and avoid external message brokers like Celery or RQ.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "largest-eigenval",
+    "selected_skill_indices": [
+      62725,
+      62727,
+      62807,
+      62841,
+      62895
+    ],
+    "selected_skill_names": [
+      "egomotion-estimation",
+      "sampling-and-indexing",
+      "object_counter",
+      "senior-data-scientist",
+      "search-driving-distance"
+    ],
+    "skills": [
+      {
+        "index": 62725,
+        "name": "egomotion-estimation",
+        "description": "Estimate camera motion with optical flow + affine/homography, allow multi-label per frame.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62727,
+        "name": "sampling-and-indexing",
+        "description": "Standardize video sampling and frame indexing so interval instructions and mask frames stay aligned with a valid key/index scheme.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62807,
+        "name": "object_counter",
+        "description": "Count occurrences of an object in the image using computer vision algorithm.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62841,
+        "name": "senior-data-scientist",
+        "description": "World-class data science skill for statistical modeling, experimentation, causal inference, and advanced analytics. Expertise in Python (NumPy, Pandas, Scikit-learn), R, SQL, statistical methods, A/B testing, time series, and business intelligence. Includes experiment design, feature engineering, model evaluation, and stakeholder communication. Use when designing experiments, building predictive models, performing causal analysis, or driving data-driven decisions.",
+        "permission_risk_level": "B",
+        "token_cost_level": "B"
+      },
+      {
+        "index": 62895,
+        "name": "search-driving-distance",
+        "description": "Estimate driving/taxi duration, distance, and rough cost between two cities using the bundled distance matrix CSV. Use this skill when comparing ground travel options or validating itinerary legs.",
+        "permission_risk_level": "A",
+        "token_cost_level": "B"
+      }
+    ]
+  },
+  {
+    "task": "model-extraction-relu-logits",
+    "selected_skill_indices": [
+      35609,
+      35698
+    ],
+    "selected_skill_names": [
+      "model-extraction-relu-logits",
+      "model-extraction-relu-logits"
+    ],
+    "skills": [
+      {
+        "index": 35609,
+        "name": "model-extraction-relu-logits",
+        "description": "Guidance for extracting weight matrices from black-box ReLU neural networks using only input-output queries. This skill applies when tasked with recovering internal parameters (weights, biases) of a neural network that can only be queried for outputs, particularly two-layer ReLU networks. Use this skill for model extraction, model stealing, or neural network reverse engineering tasks.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 35698,
+        "name": "model-extraction-relu-logits",
+        "description": "Guidance for extracting weight matrices from black-box ReLU neural networks using only input-output queries. This skill applies when tasks involve model extraction attacks, recovering hidden layer weights from neural networks, or reverse-engineering ReLU network parameters from query access.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "mteb-retrieve",
+    "selected_skill_indices": [
+      32234,
+      32648,
+      49687,
+      57408
+    ],
+    "selected_skill_names": [
+      "data",
+      "content-similarity-checker",
+      "data-qa",
+      "nlp-text-analysis-and-tf-idf-calculation"
+    ],
+    "skills": [
+      {
+        "index": 32234,
+        "name": "data",
+        "description": "Use for running and editing notebooks efficiently via jtool/Jupyter; prefers uv for deps and headless execution.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 32648,
+        "name": "content-similarity-checker",
+        "description": "Compare document similarity using TF-IDF, cosine similarity, and Jaccard index. Use for plagiarism detection, duplicate finding, or content matching.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 49687,
+        "name": "data-qa",
+        "description": "Data Q&A skill for immediate numeric answers and conclusions. Use when users ask \"what is xx metric?\", \"which xx is best?\", \"how is xx growth rate?\" or need instant numeric answers/conclusions from data. Answers based on Python script calculation only.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 57408,
+        "name": "nlp-text-analysis-and-tf-idf-calculation",
+        "description": "Perform a specific NLP pipeline including normalization, POS tagging, NER, tokenization, and lemmatization, followed by a strict TF-IDF calculation using the log(N/df) formula with detailed tabular outputs.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "path-tracing",
+    "selected_skill_indices": [
+      62806,
+      62807
+    ],
+    "selected_skill_names": [
+      "image_editing",
+      "object_counter"
+    ],
+    "skills": [
+      {
+        "index": 62806,
+        "name": "image_editing",
+        "description": "Comprehensive command-line tools for modifying and manipulating images, such as resize, blur, crop, flip, and many more.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62807,
+        "name": "object_counter",
+        "description": "Count occurrences of an object in the image using computer vision algorithm.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  },
+  {
+    "task": "raman-fitting",
+    "selected_skill_indices": [
+      35720,
+      62726,
+      62807,
+      62857,
+      62890
+    ],
+    "selected_skill_names": [
+      "raman-fitting",
+      "output-validation",
+      "object_counter",
+      "constraint-parser",
+      "obj-exporter"
+    ],
+    "skills": [
+      {
+        "index": 35720,
+        "name": "raman-fitting",
+        "description": "This skill provides guidance for fitting peaks in Raman spectroscopy data, particularly for materials like graphene. Use this skill when tasks involve Raman spectrum analysis, peak fitting (G peak, 2D peak, D peak), or spectroscopic curve fitting using Lorentzian, Gaussian, or Voigt functions.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62726,
+        "name": "output-validation",
+        "description": "Local self-check of instructions and mask outputs (format/range/consistency) without using GT.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62807,
+        "name": "object_counter",
+        "description": "Count occurrences of an object in the image using computer vision algorithm.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62857,
+        "name": "constraint-parser",
+        "description": "Parse scheduling constraints from a email text.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      },
+      {
+        "index": 62890,
+        "name": "obj-exporter",
+        "description": "Three.js OBJExporter utility for exporting 3D geometry to Wavefront OBJ format. Use when converting Three.js scenes, meshes, or geometries to OBJ files for use in other 3D software like Blender, Maya, or MeshLab.",
+        "permission_risk_level": "A",
+        "token_cost_level": "A"
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "semantic_task_weight": 0.96,
+  "semantic_attention_weight": 0.015,
+  "semantic_bundle_weight": 0.025,
+  "gain_threshold": 0.10,
+  "growth": 0.002,
+  "risk_lambda": 0.0010127307614311576,
+  "token_lambda": 0.0019149577710777521,
+  "semantic_attention_tau_match": 0.7431471943855286,
+  "semantic_attention_tau_self": 0.7431471943855286
+}

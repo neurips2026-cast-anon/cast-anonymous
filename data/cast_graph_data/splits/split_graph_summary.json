@@ -1,0 +1,38 @@
+{
+  "train": {
+    "split": "train",
+    "task_count": 180,
+    "bundle_count": 13098,
+    "task_bundle_edge_count": 13098,
+    "task_skill_edge_count": 10320,
+    "bundle_skill_edge_count": 55522,
+    "skill_node_count": 4602,
+    "positive_task_bundle_edges": 180,
+    "soft_negative_task_bundle_edges": 1041,
+    "hard_negative_task_bundle_edges": 11877
+  },
+  "val": {
+    "split": "val",
+    "task_count": 22,
+    "bundle_count": 1386,
+    "task_bundle_edge_count": 1386,
+    "task_skill_edge_count": 1168,
+    "bundle_skill_edge_count": 4487,
+    "skill_node_count": 652,
+    "positive_task_bundle_edges": 22,
+    "soft_negative_task_bundle_edges": 129,
+    "hard_negative_task_bundle_edges": 1235
+  },
+  "test": {
+    "split": "test",
+    "task_count": 23,
+    "bundle_count": 1612,
+    "task_bundle_edge_count": 1612,
+    "task_skill_edge_count": 1300,
+    "bundle_skill_edge_count": 6676,
+    "skill_node_count": 699,
+    "positive_task_bundle_edges": 23,
+    "soft_negative_task_bundle_edges": 133,
+    "hard_negative_task_bundle_edges": 1456
+  }
+}

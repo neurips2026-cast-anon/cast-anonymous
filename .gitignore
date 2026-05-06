@@ -1,0 +1,6 @@
+
+# Large data files excluded from GitHub release
+data/benchmark_data/bundle_input/skills_embedding.npy
+data/benchmark_data/benchmark_merged_skill_embeddings.npy
+data/task_folders/sec-financial-report/environment/13f-2025-q2.zip
+data/task_folders/sec-financial-report/environment/13f-2025-q3.zip

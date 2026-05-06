@@ -1,0 +1,48 @@
+{
+  "target_count": 15871,
+  "dedup_total_records": 15871,
+  "raw_counts": {
+    "missing_skill_negative_bundles_225.json": 1200,
+    "zero_interaction_non_gold_bundles_225.json": 1125,
+    "relative_top20_risk_cost_replace_bundles_225.json": 1389,
+    "relative_top20_conflict_redundancy_bundles_225.json": 738,
+    "relative_top20_multi_replace_dedup_bundles_225.json": 1500,
+    "relative_top20_replace_bundles_225.json": 793,
+    "relative_top20_all_replace_dedup_bundles_225.json": 19460
+  },
+  "raw_label_counts": {
+    "missing_skill_negative_bundle": 1200,
+    "zero_interaction_non_gold_bundle": 1125,
+    "relative_top20_higher_cost_bundle": 704,
+    "relative_top20_higher_risk_bundle": 685,
+    "relative_top20_redundancy_bundle": 520,
+    "relative_top20_conflict_bundle": 218,
+    "relative_top20_multi_replace_bundle": 1500,
+    "relative_top20_replace_bundle": 793,
+    "relative_top20_all_replace_bundle": 19460
+  },
+  "primary_label_counts_after_dedup": {
+    "relative_top20_all_replace_bundle": 9336,
+    "zero_interaction_non_gold_bundle": 1125,
+    "relative_top20_higher_cost_bundle": 704,
+    "relative_top20_higher_risk_bundle": 597,
+    "relative_top20_replace_bundle": 671,
+    "missing_skill_negative_bundle": 1200,
+    "relative_top20_redundancy_bundle": 520,
+    "relative_top20_multi_replace_bundle": 1500,
+    "relative_top20_conflict_bundle": 218
+  },
+  "unique_skill_count_in_negative_bundles": 5384,
+  "merge_priority": [
+    "missing_skill_negative_bundles_225.json",
+    "zero_interaction_non_gold_bundles_225.json",
+    "relative_top20_risk_cost_replace_bundles_225.json",
+    "relative_top20_conflict_redundancy_bundles_225.json",
+    "relative_top20_multi_replace_dedup_bundles_225.json",
+    "relative_top20_replace_bundles_225.json",
+    "relative_top20_all_replace_dedup_bundles_225.json"
+  ],
+  "excluded_labels": [
+    "absolutely_negative_bundle"
+  ]
+}

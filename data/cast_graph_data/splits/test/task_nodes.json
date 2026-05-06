@@ -1,0 +1,140 @@
+[
+  {
+    "task_index": 3,
+    "task_id": "dapt-intrusion-detection",
+    "domain": "security",
+    "id": 4
+  },
+  {
+    "task_index": 4,
+    "task_id": "dynamic-object-aware-egomotion",
+    "domain": "video-analysis",
+    "id": 5
+  },
+  {
+    "task_index": 28,
+    "task_id": "manufacturing-equipment-maintenance",
+    "domain": "manufacturing",
+    "id": 29
+  },
+  {
+    "task_index": 32,
+    "task_id": "multilingual-video-dubbing",
+    "domain": "multimodal-video-dubbing",
+    "id": 33
+  },
+  {
+    "task_index": 34,
+    "task_id": "paper-anonymizer",
+    "domain": "document-editing",
+    "id": 35
+  },
+  {
+    "task_index": 45,
+    "task_id": "sec-financial-report",
+    "domain": "finance",
+    "id": 46
+  },
+  {
+    "task_index": 65,
+    "task_id": "dynamic-object-aware-egomotion@split_vision-motion_1_dynamic-segmentation",
+    "domain": "video-analysis",
+    "id": 66
+  },
+  {
+    "task_index": 66,
+    "task_id": "dynamic-object-aware-egomotion@split_vision-motion_2_motion-estimation-validation",
+    "domain": "video-analysis",
+    "id": 67
+  },
+  {
+    "task_index": 77,
+    "task_id": "multilingual-video-dubbing@split_video-dubbing_1_video-edit-render",
+    "domain": "multimodal-video-dubbing",
+    "id": 78
+  },
+  {
+    "task_index": 78,
+    "task_id": "multilingual-video-dubbing@split_video-dubbing_2_audio-localization-master",
+    "domain": "multimodal-video-dubbing",
+    "id": 79
+  },
+  {
+    "task_index": 96,
+    "task_id": "urban-video-motion-and-counting@merge_v1",
+    "domain": "video-analysis+pedestrian-traffic-counting",
+    "id": 97
+  },
+  {
+    "task_index": 111,
+    "task_id": "dapt-intrusion-detection@rewrite_sem1",
+    "domain": "security",
+    "id": 112
+  },
+  {
+    "task_index": 112,
+    "task_id": "dynamic-object-aware-egomotion@rewrite_sem1",
+    "domain": "video-analysis",
+    "id": 113
+  },
+  {
+    "task_index": 140,
+    "task_id": "manufacturing-equipment-maintenance@rewrite_sem1",
+    "domain": "manufacturing",
+    "id": 141
+  },
+  {
+    "task_index": 144,
+    "task_id": "multilingual-video-dubbing@rewrite_sem1",
+    "domain": "multimodal-video-dubbing",
+    "id": 145
+  },
+  {
+    "task_index": 145,
+    "task_id": "multilingual-video-dubbing@rewrite_sem2",
+    "domain": "multimodal-video-dubbing",
+    "id": 146
+  },
+  {
+    "task_index": 148,
+    "task_id": "paper-anonymizer@rewrite_sem1",
+    "domain": "document-editing",
+    "id": 149
+  },
+  {
+    "task_index": 160,
+    "task_id": "sec-financial-report@rewrite_sem1",
+    "domain": "finance",
+    "id": 161
+  },
+  {
+    "task_index": 183,
+    "task_id": "dynamic-object-aware-egomotion@split_vision-motion_1_dynamic-segmentation@rewrite_sem1",
+    "domain": "video-analysis",
+    "id": 184
+  },
+  {
+    "task_index": 184,
+    "task_id": "dynamic-object-aware-egomotion@split_vision-motion_2_motion-estimation-validation@rewrite_sem1",
+    "domain": "video-analysis",
+    "id": 185
+  },
+  {
+    "task_index": 195,
+    "task_id": "multilingual-video-dubbing@split_video-dubbing_1_video-edit-render@rewrite_sem1",
+    "domain": "multimodal-video-dubbing",
+    "id": 196
+  },
+  {
+    "task_index": 196,
+    "task_id": "multilingual-video-dubbing@split_video-dubbing_2_audio-localization-master@rewrite_sem1",
+    "domain": "multimodal-video-dubbing",
+    "id": 197
+  },
+  {
+    "task_index": 214,
+    "task_id": "urban-video-motion-and-counting@merge_v1@rewrite_sem1",
+    "domain": "video-analysis+pedestrian-traffic-counting",
+    "id": 215
+  }
+]

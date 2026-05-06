@@ -1,0 +1,12 @@
+{
+  "split": "val",
+  "task_count": 22,
+  "bundle_count": 1386,
+  "task_bundle_edge_count": 1386,
+  "task_skill_edge_count": 1168,
+  "bundle_skill_edge_count": 4487,
+  "skill_node_count": 652,
+  "positive_task_bundle_edges": 22,
+  "soft_negative_task_bundle_edges": 129,
+  "hard_negative_task_bundle_edges": 1235
+}
