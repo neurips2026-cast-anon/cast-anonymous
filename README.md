@@ -44,7 +44,3 @@ Large embedding files are managed by Git LFS and must be downloaded with `git lf
 ## Anonymity
 
 This repository is anonymized for double-blind review. Author names, affiliations, institution-specific paths, and non-anonymous project identifiers are omitted.
-
-## License and Asset Information
-
-License and asset-source information is provided in `LICENSES.md`.
